@@ -215,7 +215,7 @@ haste.prototype.loadDocument = function(key) {
       _this.$code.html(ret.value);
       _this.setTitle(ret.key);
       _this.fullKey();
-      _this.$textarea.val('').hide();
+      _this.$input.val('').hide();
       _this.$box.show().focus();
       _this.addLineNumbers(ret.lineCount);
     }
@@ -237,7 +237,7 @@ haste.prototype.duplicateDocument = function() {
 // Lock the current document
 haste.prototype.lockDocument = function() {
   var _this = this;
-  this.doc.save(this.$textarea.val(), function(err, ret) {
+  this.doc.save(this.$input.val(), function(err, ret) {
     if (err) {
       _this.showMessage(err.message, 'error');
     }
@@ -250,7 +250,7 @@ haste.prototype.lockDocument = function() {
       }
       window.history.pushState(null, _this.appName + '-' + ret.key, file);
       _this.fullKey();
-      _this.$textarea.val('').hide();
+      _this.$input.val('').hide();
       _this.$box.show().focus();
       _this.addLineNumbers(ret.lineCount);
     }
@@ -268,7 +268,7 @@ haste.prototype.configureButtons = function() {
         return evt.ctrlKey && (evt.keyCode === 83);
       },
       action: function() {
-        if (_this.$textarea.val().replace(/^\s+|\s+$/g, '') !== '') {
+        if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
           _this.lockDocument();
         }
       }
