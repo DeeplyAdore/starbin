@@ -364,7 +364,7 @@ haste.prototype.configureShortcuts = function() {
 ///// Tab behavior in the textarea - 2 spaces per tab
 $(function() {
 
-  $('textarea').keydown(function(evt) {
+  $('input').keydown(function(evt) {
     if (evt.keyCode === 9) {
       evt.preventDefault();
       var myValue = '  ';
