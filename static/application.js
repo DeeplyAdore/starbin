@@ -91,7 +91,7 @@ haste_document.prototype.save = function(data, callback) {
 
 var haste = function(appName, options) {
   this.appName = appName;
-  this.$textarea = $('textarea');
+  this.$input = $('input');
   this.$box = $('#box');
   this.$code = $('#box code');
   this.$linenos = $('#linenos');
