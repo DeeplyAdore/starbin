@@ -154,7 +154,7 @@ haste.prototype.newDocument = function(hideHistory) {
   }
   this.setTitle();
   this.lightKey();
-  this.$textarea.val('').show('fast', function() {
+  this.$input.val('').show('fast', function() {
     this.focus();
   });
   this.removeLineNumbers();
@@ -230,7 +230,7 @@ haste.prototype.duplicateDocument = function() {
   if (this.doc.locked) {
     var currentData = this.doc.data;
     this.newDocument();
-    this.$textarea.val(currentData);
+    this.$input.val(currentData);
   }
 };
 
