@@ -49,7 +49,7 @@ export const onRequestPost: PagesFunction<Environment> = async ({ request, env }
   const content = await request.text();
   const id = generateId(env.DOCUMENT_KEY_SIZE);
 
-  await env.STORAGE.put(`documents:${id}`, content, { expirationTtl: env.DOCUMENT_EXPIRE_TTL });
+  await env.STORAGE.put(`documents:${id}`, content);
 
   const domain = new URL(request.url).hostname;
 
