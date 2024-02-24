@@ -245,7 +245,7 @@ haste.prototype.configureButtons = function() {
   var _this = this;
   this.buttons = [
     {
-      $where: $('.save'),
+      $where: $('#submitButton'),
       label: 'Save',
       shortcutDescription: 'control + s',
       shortcut: function(evt) {
