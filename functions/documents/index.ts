@@ -26,7 +26,7 @@ import { Environment, HTTPError } from "../..";
 
 function generateId(size: number): string {
   let id = "";
-  const keyspace = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const keyspace = "abcdefghijkmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ0123456789";
 
   for (let idx = 0; idx < size; idx++) {
     id += keyspace.charAt(Math.random() * keyspace.length);
