@@ -50,6 +50,14 @@ element.style.display = "none";
         
       };
 
+      function requested() {
+
+var element = document.querySelector('#requested');
+
+element.style.display = "block";
+
+      };
+
     </script>
   </head>
 
@@ -69,9 +77,9 @@ element.style.display = "none";
     <input placeholder="Email address"></input>
     <p style="color:#FFFFFF;">By clicking Request Membership, you agree to our Terms of Use and Privacy Policy.</p>
       <div id="box2">
-        <button class="save function button-picture">Request Membership</button>
+        <button class="save function button-picture"onClick="requested();">Request Membership</button>
       </div>
-
+<p id="requested"style="display:none;">Your membership request will be considered. Not all requests are approved.<span style="font-weight:bold;">If you are awarded membership, you will receive an email with your invitation.</span></p>
 </div>
     
   </body>
