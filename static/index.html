@@ -37,6 +37,15 @@
         app = new haste("starbin", { twitter: false });
         handlePop({ target: window });
       });
+
+      function toggle() {
+
+var element = document.querySelector('#mRequest');
+
+element.style.display = "block";
+        
+      };
+
     </script>
   </head>
 
@@ -46,10 +55,10 @@
   
 <h1 style="color:#FFFFFF;padding-bottom:2rem;">LooksForWomen.com features daily fashion inspirations and access to rare items.</h1>
     <h2 style="color:#FFFFFF;">Membership by invitation only.</h2>
-<button>Request Membership</button>
+<button onClick="toggle();">Request Membership</button>
 </div>
 
-    <div style="margin:3rem 6rem;background-color:#000000;">
+    <div id="mRequest"style="display:none;margin:3rem 6rem;background-color:#000000;">
   
 <h1 style="color:#FFFFFF;padding-bottom:2rem;">Request access to LooksForWomen.com</h1>
     <h2 style="color:#FFFFFF;">EMAIL</h2>
