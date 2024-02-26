@@ -1,4 +1,38 @@
 <!DOCTYPE html><html lang="en-US">
+  <script>
+
+
+function toggle() {
+
+var foot = document.querySelector('#foot');
+
+foot.style.position = "relative";
+
+var elems = document.querySelectorAll('#main-content');
+
+var index = 0, length = elems.length;
+
+for ( ; index < length; index++) {
+
+elems[index].style.display = "block";
+
+}
+
+var visibleElems = document.querySelectorAll('#visible');
+
+index = 0;
+
+length = visibleElems.length;
+
+for ( ; index < length; index++) {
+
+visibleElems[index].style.display = "none";
+
+}
+
+
+}
+</script>
 
 
 
