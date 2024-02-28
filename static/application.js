@@ -155,7 +155,6 @@ haste.prototype.newDocument = function(hideHistory) {
   this.setTitle();
   this.lightKey();
   this.$input.val('').show('fast', function() {
-    this.focus();
   });
   this.removeLineNumbers();
 };
