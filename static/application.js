@@ -1,5 +1,29 @@
 /* global $, hljs, window, document */
 
+//var countTextsHere = document.querySelectorAll('#countText');
+//var countTextsHereIndex = 0;
+
+///// represents the paste application
+
+var haste = function(appName, options) {
+  this.appName = appName;
+  this.$input = $('input');
+  this.$box = $('#box');
+  this.$code = $('#box code');
+  this.$linenos = $('#linenos');
+  this.$items = document.getElementById("item");    // The links
+  
+  this.$countsText = $('#countText');    // The texts
+  this.options = options;
+  this.configureShortcuts();
+  this.configureButtons();
+  this.fillCountTexts();
+  // If twitter is disabled, hide the button
+  if (!options.twitter) {
+    $('#box2 .twitter').hide();
+  }
+};
+
 ///// represents a single document
 
 var haste_document = function() {
@@ -16,38 +40,48 @@ haste_document.prototype.htmlEscape = function(s) {
 };
 
 // Get this document from the server and lock it here
-haste_document.prototype.load = function(key, callback, lang) {
+haste_document.prototype.load = function(key, callback) {
+console.log("Y3");
+  console.log(key);
+  currentKey = encodeURIComponent(key.firstElementChild.href)
+  console.log(currentKey);
   var _this = this;
-  $.ajax('/documents/' + key, {
+  $.ajax('/counts/' + currentKey, {
     type: 'get',
+    data: {            
+       key: currentKey
+    },
     dataType: 'json',
+    contentType: 'text/plain; charset=utf-8',
     success: function(res) {
       _this.locked = true;
-      _this.key = key;
+      _this.key = currentKey;
       _this.data = res.data;
       try {
+        console.log("Y4");
         var high;
         if (lang === 'txt') {
           high = { value: _this.htmlEscape(res.data) };
-        }
-        else if (lang) {
-          high = hljs.highlight(lang, res.data);
         }
         else {
           high = hljs.highlightAuto(res.data);
         }
       } catch(err) {
         // failed highlight, fall back on auto
-        high = hljs.highlightAuto(res.data);
+        console.log("error");
+        high = res;
       }
+      console.log(_this.data);
+      console.log(res);
+      key.lastElementChild.innerText = res + " views";
+      //countTextsHereIndex++;
       callback({
-        value: high.value,
-        key: key,
-        language: high.language || lang,
-        lineCount: res.data.split('\n').length
+        value: res,
+        key: key
       });
     },
     error: function() {
+      console.log("N2");
       callback(false);
     }
   });
@@ -87,21 +121,41 @@ haste_document.prototype.save = function(data, callback) {
   });
 };
 
-///// represents the paste application
-
-var haste = function(appName, options) {
-  this.appName = appName;
-  this.$input = $('input');
-  this.$box = $('#box');
-  this.$code = $('#box code');
-  this.$linenos = $('#linenos');
-  this.options = options;
-  this.configureShortcuts();
-  this.configureButtons();
-  // If twitter is disabled, hide the button
-  if (!options.twitter) {
-    $('#box2 .twitter').hide();
+// Save this document to the server and lock it here
+haste_document.prototype.saveCount = function(callback) {
+  if (this.locked) {
+    return false;
   }
+  var data = encodeURIComponent(event.target.href);
+  this.data = data;
+  var _this = this;
+  $.ajax('/counts/' + data, {
+    type: 'post',
+    data: {
+      data: data
+    },
+    dataType: 'json',
+    contentType: 'text/plain; charset=utf-8',
+    success: function(res) {
+      _this.locked = true;
+      _this.key = res.key;
+      var high = hljs.highlightAuto(data);
+      callback(null, {
+        value: high.value,
+        key: res.key,
+        language: high.language,
+        lineCount: data.split('\n').length
+      });
+    },
+    error: function(res) {
+      try {
+        callback($.parseJSON(res.responseText));
+      }
+      catch (e) {
+        callback({message: 'Something went wrong!'});
+      }
+    }
+  });
 };
 
 // Set the page title - include the appName
@@ -256,6 +310,88 @@ haste.prototype.lockDocument = function() {
   });
 };
 
+// NEW FUNC FOR GET
+// Lock the current document
+haste.prototype.lockTheDoc = function(currentKey) {
+console.log("Y2");
+  var _this = this;
+  _this.doc = new haste_document();
+
+console.log(currentKey);
+  this.doc.load(currentKey, function(err, ret) {
+    //if (err) {
+    //  console.log(err);
+    //  console.log(err.message);
+    //  console.log(ret);
+    //  _this.showMessage(err.message, 'error');
+    //}
+    //else
+      if (ret) {
+      console.log("Y1");
+      _this.setTitle(ret.key);
+      var file = '/' + ret.key;
+      if (ret.language) {
+        file += '.' + _this.lookupExtensionByType(ret.language);
+      }
+      window.history.pushState(null, _this.appName + '-' + ret.key, file);
+      _this.fullKey();
+      _this.$input.val('').hide();
+      _this.$box.show().focus();
+      _this.addLineNumbers(ret.lineCount);
+    }
+  });
+};
+
+// NEW FUNC FOR POST
+// Lock the current document
+haste.prototype.lockTheDocForPost = function() {
+console.log("Y2");
+  var _this = this;
+  _this.doc = new haste_document();
+
+  window.open(event.target.href, '_blank');
+  this.doc.saveCount(function(err, ret) {
+    //if (err) {
+    //  console.log(err);
+    //  console.log(err.message);
+    //  console.log(ret);
+    //  _this.showMessage(err.message, 'error');
+    //}
+    //else
+    console.log(res);
+    console.log(res.data);
+      if (ret) {
+      console.log("Y1");
+      console.log(_this.$countsText.innerText);
+      _this.$countsText.innerText = ret.value;
+      _this.setTitle(ret.key);
+      var file = '/' + ret.key;
+      if (ret.language) {
+        file += '.' + _this.lookupExtensionByType(ret.language);
+      }
+      window.history.pushState(null, _this.appName + '-' + ret.key, file);
+      _this.fullKey();
+      _this.$input.val('').hide();
+      _this.$box.show().focus();
+      _this.addLineNumbers(ret.lineCount);
+    }
+  });
+};
+
+haste.prototype.fillCountTexts = function() {
+  var _this = this;
+
+var elems = document.querySelectorAll('.p');
+
+var index = 0, length = elems.length;
+
+for ( ; index < length; index++) {
+console.log(elems[index]);
+_this.lockTheDoc(elems[index]);
+
+}
+};
+
 haste.prototype.configureButtons = function() {
   var _this = this;
   this.buttons = [
@@ -270,6 +406,19 @@ haste.prototype.configureButtons = function() {
         if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
           _this.lockDocument();
         }
+      }
+    },
+    {
+      $where: $('#itemList .item'),
+      label: 'Count',
+      shortcut: function(evt) {
+        return evt.ctrlKey && evt.shiftKey && evt.keyCode === 78;
+      },
+      shortcutDescription: 'control + shift + n',
+      action: function() {
+        console.log("clicked");
+        console.log(event.target.href);
+          _this.lockTheDocForPost();
       }
     },
     {
@@ -327,6 +476,7 @@ haste.prototype.configureButton = function(options) {
   options.$where.click(function(evt) {
     evt.preventDefault();
     if (!options.clickDisabled && $(this).hasClass('enabled')) {
+      console.log(`configured`);
       options.action();
     }
   });
@@ -395,3 +545,180 @@ $(function() {
   });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//(a separate Cloudflare worker should create the database changes whenever a new commit is made)
+
+//post href as key with value 0
+
+
+
+
+
+
+
+
+
+// 1st, retrieve current count of each instance when there is a clickCount element.
+
+// this should be amongst configureButtons
+
+
+
+//haste.prototype.setCounts = function() {
+
+//var _this = this;
+
+//var elems = document.querySelectorAll('#item');
+
+//var index = 0, length = elems.length;
+
+//for ( ; index < length; index++) {
+
+// Cloudflare KV key has max length of 512 bytes.
+// This code should be fixed to be less than 512 bytes yet all be valid characters (not sliced in the middle of the last character).
+
+//var countKeyBefore = elems[index].href;
+
+//var countKey = countKeyBefore.substring(0, 256);
+
+
+
+// get and put here
+// make a new lockDocument and copy .save just to have a simple get?
+//var countValue
+
+//elems[index].innerText = countValue;
+
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//click link with #count
+
+//parameter includes href
+//event.target.href
+
+
+//if href value lookup as key in viewsDatabase is not found {
+
+//just put 0
+
+//} else {
+
+//get value for key href
+
+//++
+
+//post
+
+//}
+
+//(would "open in new tab" count?)
+
+
+
+
+// Counter push
+haste.prototype.lockDocumentNew = function() {
+  var _this = this;
+  this.doc.save(event.target.href, function(err, ret) {
+    if (err) {
+      _this.showMessage(err.message, 'error');
+    }
+    else if (ret) {
+      _this.$code.html(ret.value);
+      _this.setTitle(ret.key);
+      var file = '/' + ret.key;
+      if (ret.language) {
+        file += '.' + _this.lookupExtensionByType(ret.language);
+      }
+      window.history.pushState(null, _this.appName + '-' + ret.key, file);
+      _this.fullKey();
+      _this.$input.val('').hide();
+      _this.$box.show().focus();
+      _this.addLineNumbers(ret.lineCount);
+    }
+  });
+};
+
+
+
+
+// Save this document to the server and lock it here
+haste_document.prototype.saveNew = function(data, callback) {
+  if (this.locked) {
+    return false;
+  }
+  this.data = data;
+  var _this = this;
+  $.ajax('/documents', {
+    type: 'post',
+    data: data,
+    dataType: 'json',
+    contentType: 'text/plain; charset=utf-8',
+    success: function(res) {
+      _this.locked = true;
+      _this.key = res.key;
+      var high = hljs.highlightAuto(data);
+      callback(null, {
+        value: high.value,
+        key: res.key,
+        language: high.language,
+        lineCount: data.split('\n').length
+      });
+    },
+    error: function(res) {
+      try {
+        callback($.parseJSON(res.responseText));
+      }
+      catch (e) {
+        callback({message: 'Something went wrong!'});
+      }
+    }
+  });
+};
+
+
+
+
+
+
+
+
