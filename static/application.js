@@ -73,7 +73,7 @@ console.log("Y3");
       }
       console.log(_this.data);
       console.log(res);
-      key.lastElementChild.innerText = res + " views";
+      key.lastElementChild.innerText = res;
       //countTextsHereIndex++;
       callback({
         value: res,
