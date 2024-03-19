@@ -79,7 +79,9 @@ element.style.display = "block";
 
       shareBtn.addEventListener('click', () => {
         navigator.share(shareData)
-      });
+.then(() => console.log('Shared successfully'))
+.catch((error) => console.error('Sharing failed:', error)); 
+});
 
     </script>
   </head>
