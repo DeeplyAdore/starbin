@@ -181,7 +181,7 @@ element.style.display = "block";
 <button id="shareBtn">Share This!</button> 
 <script>
 
-const buttons = document.querySelectorAll('#shareBtn'); buttons.forEach(a => { button.addEventListener('click', async () => { 	if(!navigator.share) return; 	let data = { 		text:"www.looksforwomen.com", 		title:"www.looksforwomen.com", 		url:"https://www.looksforwomen.com" 	}; 	try { 		let result = await navigator.share(data);	 		console.log(result); 	} catch(e) { 		console.error(e); 	} })});
+document.querySelectorAll('#shareBtn').forEach(box => box.addEventListener('click', async () => { 	if(!navigator.share) return; 	let data = { 		text:"www.looksforwomen.com", 		title:"www.looksforwomen.com", 		url:"https://www.looksforwomen.com" 	}; 	try { 		let result = await navigator.share(data);	 		console.log(result); 	} catch(e) { 		console.error(e); 	} }); )
 
 </script>
 </body>
