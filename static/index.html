@@ -69,6 +69,8 @@ element.style.display = "block";
 
       };
 
+let shareData = { title: 'MDN', text: 'Learn web development on MDN!', url: 'https://developer.mozilla.org', } const btn = document.getElementById("share"); btn.addEventListener('click', () => { navigator.share(shareData) .then(() => console.log('MDN shared successfully') ) .catch((e) => console.log('Error') ) });
+
     </script>
   </head>
 
