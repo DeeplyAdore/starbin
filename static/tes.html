@@ -29,11 +29,43 @@
 <style data-emotion="css 3ioj3p">.css-3ioj3p{contain:layout;display:grid;grid-area:content;grid-gap:5.5rem;grid-template-columns:repeat(1, 1fr);}</style><div class="css-3ioj3p e1tz1z2e1">
 
 
-<style>.box{display:flex;justify-content: space-between;flex-shrink:1;border-radius:6px;width:3rem;height:auto;max-width:1.45rem;margin:auto auto;padding-top:.9rem;}</style>
-<div class="box">
-  <div><img loading="eager"decoding="sync"src="s1.jpeg"/></div>
-  <div><img loading="eager"decoding="sync"src="s2.jpg"/></div>
-  <div><img loading="eager"decoding="sync"src="s3.jpeg"/></div>
+<style>
+
+.story-section{
+    display:flex;
+    padding:1rem;
+}
+
+.story-section .story{
+    width:120px;
+    height:200px;
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    cursor: pointer;
+    margin:0px 5px;
+    box-shadow: 0 0 5px 5px #ddd;
+    background:#fff;
+}
+
+.story-section .story > img{
+    height:100%;
+    transition:.3s ease-in;
+}
+
+.story-section .story:hover > img{
+    transform:scale(1.05);
+}
+</style>
+
+<div class="story-section">
+
+<style>.box{display:flex;justify-content: space-between;border-radius:6px;width:3rem;height:auto;max-width:1.45rem;margin:auto auto;}</style>
+<div class="story"><img loading="eager"decoding="sync"src="s1.jpeg"/></div>
+  <div class="story"><img loading="eager"decoding="sync"src="s2.jpg"/></div>
+  <div class="story"><img loading="eager"decoding="sync"src="s3.jpeg"/></div>
+</div>
+
 </div>
 
 
