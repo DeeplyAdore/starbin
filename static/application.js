@@ -349,7 +349,20 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-  window.open(event.target.href, '_top');
+
+var link = "";
+
+switch(String(event.target.href)) {
+  case "https://www.looksforwomen.com/p/1498327":
+    link = "https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-burgundy-medium-classic-single-flap-bag-mosaic-embellished-with-gold-hardware-p898435";
+    break;
+  default:
+    link = String(event.target.href);
+}
+
+
+
+  window.open(link, '_top');
   this.doc.saveCount(function(err, ret) {
     //if (err) {
     //  console.log(err);
