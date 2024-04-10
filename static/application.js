@@ -349,7 +349,7 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-  window.open(event.target.href, '_top');
+  window.open(event.target.href, '_blank');
   this.doc.saveCount(function(err, ret) {
     //if (err) {
     //  console.log(err);
