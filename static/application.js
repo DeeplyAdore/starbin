@@ -363,7 +363,6 @@ console.log("Y2");
       if (ret) {
       console.log("Y1");
       console.log(_this.$countsText.innerText);
-      _this.$countsText.innerText = ret.value;
       _this.setTitle(ret.key);
       var file = '/' + ret.key;
       if (ret.language) {
