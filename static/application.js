@@ -125,6 +125,50 @@ haste_document.prototype.saveCount = function(callback) {
   if (this.locked) {
     return false;
   }
+const urlParams = new URLSearchParams(window.location.search);
+
+var myParam = urlParams.get('q');
+
+if myParam !== null {
+
+const myParamSubzone = urlParams.get('s');
+
+if myParamSubzone !== null {
+
+myParam = myParam + " " + myParamSubzone;
+
+}
+
+  $.ajax('/zones/' + myParam, {
+    type: 'post',
+    data: {
+      data: myParam
+    },
+    dataType: 'json',
+    contentType: 'text/plain; charset=utf-8',
+    success: function(res) {
+      _this.locked = true;
+      _this.key = res.key;
+      var high = hljs.highlightAuto(data);
+      callback(null, {
+        value: high.value,
+        key: res.key,
+        language: high.language,
+        lineCount: data.split('\n').length
+      });
+    },
+    error: function(res) {
+      try {
+        callback($.parseJSON(res.responseText));
+      }
+      catch (e) {
+        callback({message: 'Something went wrong!'});
+      }
+    }
+  });
+
+}
+
   var data = encodeURIComponent(event.target.href);
   this.data = data;
   var _this = this;
