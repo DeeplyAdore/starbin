@@ -126,17 +126,19 @@ haste_document.prototype.saveCount = function(callback) {
     return false;
   }
 
+const urlParams = new URLSearchParams(window.location.search);
+
 var myParam = urlParams.get('q');
 
 console.log(myParam);
 
-if myParam !== null {
+if (myParam !== null) {
 
 const myParamSubzone = urlParams.get('s');
 
 console.log(myParamSubzone);
 
-if myParamSubzone !== null {
+if (myParamSubzone !== null) {
 
 myParam = myParam + " " + myParamSubzone;
 
