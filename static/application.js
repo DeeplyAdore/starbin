@@ -128,9 +128,13 @@ haste_document.prototype.saveCount = function(callback) {
 
 var myParam = urlParams.get('q');
 
+console.log(myParam);
+
 if myParam !== null {
 
 const myParamSubzone = urlParams.get('s');
+
+console.log(myParamSubzone);
 
 if myParamSubzone !== null {
 
