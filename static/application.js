@@ -125,7 +125,6 @@ haste_document.prototype.saveCount = function(callback) {
   if (this.locked) {
     return false;
   }
-const urlParams = new URLSearchParams(window.location.search);
 
 var myParam = urlParams.get('q');
 
