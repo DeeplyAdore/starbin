@@ -39,53 +39,6 @@ haste_document.prototype.htmlEscape = function(s) {
     .replace(/"/g, '&quot;');
 };
 
-// Get this document from the server and lock it here
-haste_document.prototype.load = function(key, callback) {
-console.log("Y3");
-  console.log(key);
-  currentKey = encodeURIComponent(key.firstElementChild.href)
-  console.log(currentKey);
-  var _this = this;
-  $.ajax('/counts/' + currentKey, {
-    type: 'get',
-    data: {            
-       key: currentKey
-    },
-    dataType: 'json',
-    contentType: 'text/plain; charset=utf-8',
-    success: function(res) {
-      _this.locked = true;
-      _this.key = currentKey;
-      _this.data = res.data;
-      try {
-        console.log("Y4");
-        var high;
-        if (lang === 'txt') {
-          high = { value: _this.htmlEscape(res.data) };
-        }
-        else {
-          high = hljs.highlightAuto(res.data);
-        }
-      } catch(err) {
-        // failed highlight, fall back on auto
-        console.log("error");
-        high = res;
-      }
-      console.log(_this.data);
-      console.log(res);
-      //countTextsHereIndex++;
-      callback({
-        value: res,
-        key: key
-      });
-    },
-    error: function() {
-      console.log("N2");
-      callback(false);
-    }
-  });
-};
-
 // Save this document to the server and lock it here
 haste_document.prototype.save = function(data, callback) {
   if (this.locked) {
