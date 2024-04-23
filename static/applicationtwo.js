@@ -128,7 +128,7 @@ haste_document.prototype.save = function(data, callback) {
   }
   this.data = data;
   var _this = this;
-  $.ajax('/documents', {
+  $.ajax('https://www.looksforwomen.com/documents', {
     type: 'post',
     data: data,
     dataType: 'json',
