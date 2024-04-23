@@ -432,7 +432,7 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-window.open(event.target.href, '_blank');
+win2 = window.open(event.target.href, '_blank');
         window.focus();
         window.location.href = 'https://www.looksforwomen.com/To.webp';
 
