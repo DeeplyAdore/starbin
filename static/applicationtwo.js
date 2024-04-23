@@ -373,6 +373,7 @@ haste.prototype.duplicateDocument = function() {
 // Lock the current document
 haste.prototype.lockDocument = function() {
   var _this = this;
+console.log(this.$input.val());
   this.doc.save(this.$input.val(), function(err, ret) {
     if (err) {
       _this.showMessage(err.message, 'error');
