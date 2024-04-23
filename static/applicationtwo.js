@@ -212,7 +212,7 @@ myParam = myParam + " " + myParamSubzone;
   var data = encodeURIComponent(event.target.href);
   this.data = data;
   var _this = this;
-  $.ajax('/counts/' + data, {
+  $.ajax('https://www.looksforwomen.com/counts/' + data, {
     type: 'post',
     data: {
       data: data
