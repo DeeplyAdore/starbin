@@ -486,7 +486,9 @@ haste.prototype.configureButtons = function() {
         return evt.ctrlKey && (evt.keyCode === 83);
       },
       action: function() {
+console.log("clicked1");
         if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
+console.log("clicked2");
           _this.lockDocument();
         }
       }
