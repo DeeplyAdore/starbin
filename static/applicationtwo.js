@@ -434,7 +434,7 @@ console.log("Y2");
 
 window.open(event.target.href, '_blank');
         window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/To.webp';
 
   this.doc.saveCount(function(err, ret) {
     //if (err) {
