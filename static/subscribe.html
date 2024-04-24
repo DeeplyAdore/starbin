@@ -61,10 +61,10 @@ var element = document.querySelector('#requested');
 
 console.log(emailInputVar.value);
 
-if (emailInputVar.value != "") {
-element.innerText = "You are now subscribed.";
-} else {
+if (emailInputVar.value == "" || !emailInputVar.value.includes("@")) {
 element.innerText = "Please enter your email.";
+} else {
+element.innerText = "You are now subscribed.";
 }
 element.style.display = "block";
 
