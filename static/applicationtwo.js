@@ -374,7 +374,6 @@ haste.prototype.duplicateDocument = function() {
 haste.prototype.lockDocument = function() {
   var _this = this;
 console.log(this.$input.val());
-if (this.$input.val() == "" || !this.$input.val().includes("@")) {
   this.doc.save(this.$input.val(), function(err, ret) {
     if (err) {
       _this.showMessage(err.message, 'error');
@@ -393,7 +392,6 @@ if (this.$input.val() == "" || !this.$input.val().includes("@")) {
       _this.addLineNumbers(ret.lineCount);
     }
   });
-}
 };
 
 // NEW FUNC FOR GET
