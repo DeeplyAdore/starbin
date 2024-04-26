@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://www.looksforwomen.com/"/><title>What Woman Are You?</title><meta name="title" content="What Woman Are You?"/><meta name="description" content="Discover your look."/><meta property="og:title" content="What Woman Are You?"/><meta property="og:description" content="Discover your look."/><meta content="https://www.looksforwomen.com/" property="og:url"/>
 
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="application.js"></script>
+    <script type="text/javascript" src="applicationtwo.js"></script>
 
     <script type="text/javascript">
       var app = null;
@@ -192,6 +192,100 @@ document.querySelector('#skip').style.display = "none";
 
     <style data-emotion="css fm4x1k">.css-fm4x1k{background-color:#FFFFFF;color:#222222;font-family:CSans,NeueHaasUnica-fallback,NeueHaasUnica-robotoFallback,NeueHaasUnica-localFallback,Arial,sans-serif;line-height:1.4;position:relative;}[data-has-sponsor] .css-fm4x1k{margin-top:25vh;top:-25vh;}@media(min-width: 64rem){[data-has-sponsor] .css-fm4x1k{margin-top:auto;top:auto;}}@media print{.css-fm4x1k{display:none;}}@media(min-width: 64rem){.css-fm4x1k{margin-right:var(--sponsor-panel-width, auto);}}</style><footer id="bottom"data-interactive="Footer-1" class="footer css-fm4x1k emmc8xg0"style="right:0;left:0;bottom:0;margin-top:8.25rem;"><div class="css-183kuhw e1xh2s9r10"><style data-emotion="css 1e16p1">.css-1e16p1{display:grid;margin-top:0.5rem;}@media(min-width: 48rem){.css-1e16p1{grid-template-columns:repeat(2, 1fr);}}</style><nav data-track-type="footer-menu" role="navigation" aria-label="Footer" class="css-1e16p1 e1xh2s9r8"><style data-emotion="css 1vc4yu1">.css-1vc4yu1{padding-top:0.9375rem;}</style><p><a href="mailto:contact@looksforwomen.com" class="css-1vc4yu1 e1c1bym14">contact@looksforwomen.com</a></p><p><a rel="nofollow" href="mailto:advertise@looksforwomen.com" class="css-1vc4yu1 e1c1bym14">advertise@looksforwomen.com</a></p></nav><style data-emotion="css j307y1">.css-j307y1{margin:0.3125rem 0;}</style><p class="css-j307y1 e1xh2s9r3">©2023 Competitive LLC. All Rights Reserved.</p><div data-track-type="legal-footer-menu" class="css-lqx6q4 e1xh2s9r2"><style data-emotion="css r7fsoq">.css-r7fsoq{padding:0.625rem 0.625rem 0.625rem 0;padding-right:1.25rem;}@media (any-hover: hover){.css-r7fsoq{-webkit-transition:color 0.3s ease-in-out;transition:color 0.3s ease-in-out;}}</style><p><a target="_blank" rel="noopener" href="/terms-of-use.html" class="css-r7fsoq e1c1bym14">Terms of Use</a></p><p><a target="_blank" rel="noopener" href="/privacy-policy.html" class="css-r7fsoq e1c1bym14">Privacy Policy</a></p></div></div></footer>
 </div></div></div> 
+
+<style>
+
+.exit-intent-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.8);
+    transform: translateY(60%) scale(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.exit-intent-popup.visible {
+    transform: translateY(0) scale(1);
+}
+
+.newsletter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Popup-specific styles */
+.newsletter {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+</style>
+
+<div class="exit-intent-popup"style="display:flex;flex-wrap:wrap;justify-content:center;">
+
+  <div class="newsletter"style="width:29rem;">
+  
+    <input class="in"id="emailInput"placeholder="Email"></input>
+    <p style="font-size:.7rem;color:#797979;">By clicking OK, you agree to our <a href="https://www.looksforwomen.com/terms-of-use"style="font-size:inherit;color:#375797;">Terms of Use</a> and <a href="https://www.looksforwomen.com/privacy-policy"style="font-size:inherit;color:#375797;">Privacy Policy</a>.</p>
+      <div id="box2"style="text-align:center;">
+        <button style="font-size:1.125rem;font-family:CSansB,sans-serif;box-shadow:0 0 0 0;cursor:pointer;padding-top:.55rem;padding-bottom:.55rem;border-radius:4px;"class="save function enabled button-picture product-btn-link en6kra60 css-12p8v93 e1c1bym14"onClick="requested();">OK</button>
+      </div>
+<p id="requested"style="display:none;font-size:1rem;color:hsl(210,8%,5%);margin-bottom:0;margin-top:1.55rem;text-align:center;">You are now subscribed.</p>
+
+<span class="close">x</span>
+</div>
+
+  
+  </div>
+
+<script>
+
+const exit = e => {
+    const shouldExit =
+        [...e.target.classList].includes('exit-intent-popup') || // user clicks on mask
+        e.target.className === 'close' || // user clicks on the close icon
+        e.keyCode === 27; // user hits escape
+
+    if (shouldExit) {
+        document.querySelector('.exit-intent-popup').classList.remove('visible');
+    }
+};
+
+const mouseEvent = e => {
+    const shouldShowExitIntent = 
+        !e.toElement && 
+        !e.relatedTarget &&
+        e.clientY < 10;
+
+    if (shouldShowExitIntent) {
+        document.removeEventListener('mouseout', mouseEvent);
+        document.querySelector('.exit-intent-popup').classList.add('visible');
+    }
+};
+
+    setTimeout(() => {
+        document.addEventListener('mouseout', mouseEvent);
+        document.addEventListener('keydown', exit);
+        document.querySelector('.exit-intent-popup').addEventListener('click', exit);
+    }, 1000);
+
+</script>
+
 <script>
 
 const cbox = document.querySelectorAll('#shareBtn'); for (let i = 0; i < cbox.length; i++) { cbox[i].addEventListener('click', async () => { 	if(!navigator.share) return; 	let data = { 		text:"www.looksforwomen.com", 		title:"www.looksforwomen.com", 		url:"https://www.looksforwomen.com" 	}; 	try { 		let result = await navigator.share(data);	 		console.log(result); 	} catch(e) { 		console.error(e); 	} }); }
