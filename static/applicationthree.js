@@ -435,17 +435,26 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
-console.log(event.target.id);
-
 switch(event.target.id) {
 case "p1":
 win2 = window.open("https://ddg.gg", '_blank');
 break;
+case "p2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
+break;
+case "p3":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
+case "p4":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
+case "p5":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
 default:
-// code block
+win2 = window.open("https://ddg.gg", '_blank');
 } ;
 
-win2 = window.open(event.target.href, '_blank');
         window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 
