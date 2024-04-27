@@ -435,6 +435,15 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
+switch(event.target.id) {
+  case "p1":
+    win2 = window.open("https://ddg.gg", '_blank');
+    open the link for that pic
+    break;
+  default:
+    // code block
+} 
+
 win2 = window.open(event.target.href, '_blank');
         window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
@@ -508,7 +517,7 @@ console.log("clicked2");
       shortcutDescription: 'control + shift + n',
       action: function() {
         console.log("clicked");
-        console.log(event.target.src);
+        console.log(event.target.href);
           _this.lockTheDocForPost();
       }
     },
