@@ -435,6 +435,8 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
+console.log(event.target.id);
+
 switch(event.target.id) {
 case "p1":
 win2 = window.open("https://ddg.gg", '_blank');
