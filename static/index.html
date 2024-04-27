@@ -350,8 +350,8 @@ console.log(emailInputVar.value);
 if (emailInputVar.value == "" || !emailInputVar.value.includes("@")) {
 element.innerText = "Please enter your email.";
 } else {
-document.getElementById('lock1').style.display = "initial";
-document.getElementById('lock2').style.display = "initial";
+document.getElementById('lock1').style.display = "none";
+document.getElementById('lock2').style.display = "none";
 element.innerText = "You are now subscribed.";
 }
 element.style.display = "block";
