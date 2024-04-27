@@ -436,12 +436,11 @@ console.log("Y2");
   _this.doc = new haste_document();
 
 switch(event.target.id) {
-  case "p1":
-    win2 = window.open("https://ddg.gg", '_blank');
-    open the link for that pic
-    break;
-  default:
-    // code block
+case "p1":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
+default:
+// code block
 } ;
 
 win2 = window.open(event.target.href, '_blank');
