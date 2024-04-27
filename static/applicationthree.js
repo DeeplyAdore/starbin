@@ -442,7 +442,7 @@ switch(event.target.id) {
     break;
   default:
     // code block
-} 
+} ;
 
 win2 = window.open(event.target.href, '_blank');
         window.focus();
