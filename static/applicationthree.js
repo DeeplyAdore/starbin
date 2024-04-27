@@ -472,10 +472,10 @@ break;
 case "pa6":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fcagole-mule-m70%2F13634175%2F13801866%2Fbalenciaga%2F", '_blank');
 break;
-case "popupP1":
+case "popupPic1":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-purple-quilted-leather-mini-classic-top-handle-bag-p853401", '_blank');
 break;
-case "popupP2":
+case "popupPic2":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-purple-quilted-leather-mini-classic-top-handle-bag-p853401", '_blank');
 break;
 } ;
