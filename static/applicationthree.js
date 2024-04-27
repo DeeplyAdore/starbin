@@ -451,7 +451,9 @@ break;
 case "p5":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-metalic-pink-lambskin-leather-mini-flap-bag-p968195", '_blank');
 break;
-default:
+case "p6":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fgg-supreme-dionysus-small-shoulder-bag%2F13947716%2F14115407%2Fgucci%2F", '_blank');
+case "pa1":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fgg-supreme-dionysus-small-shoulder-bag%2F13947716%2F14115407%2Fgucci%2F", '_blank');
 } ;
 
