@@ -253,7 +253,7 @@ font-family:CSans,sans-serif;
 <div class="p"id="x1"><img id="lock1"style="z-index:99;position:absolute;margin:auto;left:0;right:0;top:0;bottom:0;max-width:4rem;"src="lock.png"/><div id="popupPic1"style="filter:blur(0.2rem);"><img class="i"loading="eager"decoding="async"src="Kj.webp"width="100%"height="auto"/></div></div>
 
 
-<div class="p"id="x2"><img id="lock2"style="z-index:99;position:absolute;margin:auto;left:0;right:0;top:0;bottom:0;max-width:4rem;"src="lock.png"/><div id="popupPic2"style="filter:blur(0.2rem);"><img class="i"loading="eager"decoding="async"src="Bp.webp"width="100%"height="auto"style="filter:blur(0.2rem);"/></div></div>
+<div class="p"id="x2"><img id="lock2"style="z-index:99;position:absolute;margin:auto;left:0;right:0;top:0;bottom:0;max-width:4rem;"src="lock.png"/><div id="popupPic2"style="filter:blur(0.2rem);"><img class="i"loading="eager"decoding="async"src="Bp.webp"width="100%"height="auto"/></div></div>
 
 </div>
   
@@ -334,8 +334,10 @@ document.getElementById('lock1').style.display = "none";
 document.getElementById('lock2').style.display = "none";
 document.getElementById('popupPic1').style.filter = "none";
 document.getElementById('popupPic2').style.filter = "none";
-document.getElementById('x1').id = "popupP1 item enabled";
-document.getElementById('x2').id = "popupP2 item enabled";
+document.getElementById('x1').class = "p item enabled";
+document.getElementById('x1').id = "popupP1";
+document.getElementById('x2').class = "p item enabled";
+document.getElementById('x2').id = "popupP2";
 element.style.display = "none";
 }
 
