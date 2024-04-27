@@ -544,7 +544,7 @@ console.log("clicked2");
       }
     },
     {
-      $where: $('#itemList .item'),
+      $where: $('.item'),
       label: 'Count',
       shortcut: function(evt) {
         return evt.ctrlKey && evt.shiftKey && evt.keyCode === 78;
