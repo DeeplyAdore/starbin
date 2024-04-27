@@ -497,10 +497,10 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
 case "popupP1":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-purple-quilted-leather-mini-classic-top-handle-bag-p853401", '_top');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-roses-speedy-30-bag-p963167", '_top');
 break;
 case "popupP2":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-purple-quilted-leather-mini-classic-top-handle-bag-p853401", '_top');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-pink-lambskin-mini-flap-bag-p968236", '_top');
 break;
 } ;
 
