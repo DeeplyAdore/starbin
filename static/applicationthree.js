@@ -508,7 +508,7 @@ console.log("clicked2");
       shortcutDescription: 'control + shift + n',
       action: function() {
         console.log("clicked");
-        console.log(event.target.href);
+        console.log(event.target.src);
           _this.lockTheDocForPost();
       }
     },
