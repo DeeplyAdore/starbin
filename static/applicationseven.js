@@ -42,6 +42,38 @@ haste_document.prototype.htmlEscape = function(s) {
 
 
 
+      function skipToTwo() {
+
+document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
+
+document.querySelector('#firstPromptText').innerText = "Pick shoes to wear out with your friends:";
+
+document.querySelector('#pic1').src = "Vp.jpg";
+document.querySelector('#pic2').src = "Os.jpg";
+document.querySelector('#pic3').src = "Qk.jpg";
+document.querySelector('#pic4').src = "Bd.jpg";
+document.querySelector('#pic5').src = "Zu.jpg";
+document.querySelector('#pic6').src = "Tz.jpg";
+
+document.querySelector('#p1').id = "pa1";
+
+document.querySelector('#p2').id = "pa2";
+
+document.querySelector('#p3').id = "pa3";
+
+document.querySelector('#p4').id = "pa4";
+
+document.querySelector('#p5').id = "pa5";
+
+document.querySelector('#p6').id = "pa6";
+
+document.querySelector('#skip').style.display = "none";
+
+};
+
+
+
+
 
 
 
@@ -435,11 +467,12 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
+skipToTwo();
+
 switch(event.target.id) {
 case "p1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
 case "p2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
