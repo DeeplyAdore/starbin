@@ -474,7 +474,7 @@ break;
 case "p2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/subscr9ibe';
 break;
 case "p3":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-black-quilted-leather-jumbo-classic-double-flap-bag-p961393", '_blank');
