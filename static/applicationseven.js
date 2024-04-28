@@ -470,21 +470,27 @@ console.log("Y2");
 switch(event.target.id) {
 case "p1":
 window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "p2":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "p3":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-black-quilted-leather-jumbo-classic-double-flap-bag-p961393", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "p4":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fkate-shoulder-bag%2F14164483%2F14332174%2Fsaint-laurent%2F", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "p5":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-metalic-pink-lambskin-leather-mini-flap-bag-p968195", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "p6":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fgg-supreme-dionysus-small-shoulder-bag%2F13947716%2F14115407%2Fgucci%2F", '_blank');
+document.title = "Now Pick Shoes";
 break;
 case "pa1":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
