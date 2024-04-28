@@ -530,8 +530,6 @@ win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3
 break;
 } ;
 
-skipToTwo();
-
   this.doc.saveCount(function(err, ret) {
     //if (err) {
     //  console.log(err);
@@ -558,6 +556,9 @@ skipToTwo();
       _this.addLineNumbers(ret.lineCount);
     }
   });
+
+skipToTwo();
+
 };
 
 haste.prototype.fillCountTexts = function() {
