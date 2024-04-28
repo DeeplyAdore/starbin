@@ -241,7 +241,7 @@ myParam = myParam + " " + myParamSubzone;
 
 }
 
-  var data = encodeURIComponent(event.target.href);
+  var data = encodeURIComponent(event.target.src);
   this.data = data;
   var _this = this;
   $.ajax('https://www.looksforwomen.com/counts/' + data, {
