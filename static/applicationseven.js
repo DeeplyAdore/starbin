@@ -69,7 +69,7 @@ document.querySelector('#p6').id = "pa6";
 
 document.querySelector('#skip').style.display = "none";
 
-document.querySelector('#skip2').style.display = "initial";
+document.querySelector('#skip2').style.display = "block";
 
 };
 
