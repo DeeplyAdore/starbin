@@ -83,7 +83,7 @@ document.querySelector('#skip2').style.display = "block";
 
       function skipToThree() {
 
-document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
+document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
 document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear out with your friends:";
 
@@ -510,53 +510,89 @@ switch(event.target.id) {
 case "p1":
 window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "p2":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "p3":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-black-quilted-leather-jumbo-classic-double-flap-bag-p961393", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "p4":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fkate-shoulder-bag%2F14164483%2F14332174%2Fsaint-laurent%2F", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "p5":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-metalic-pink-lambskin-leather-mini-flap-bag-p968195", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "p6":
 window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fgg-supreme-dionysus-small-shoulder-bag%2F13947716%2F14115407%2Fgucci%2F", '_blank');
 document.title = "Now Pick Shoes";
+skipToTwo();
 break;
 case "pa1":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pa2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pa3":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fchristian-louboutin-black-patent-kate-100-pumps%2F14113287%2F14280978%2Fchristian-louboutin%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pa4":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fjimmy-choo-ottilia-heeled-sandals%2F13854221%2F14021912%2Fjimmy-choo%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pa5":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pa6":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fcagole-mule-m70%2F13634175%2F13801866%2Fbalenciaga%2F", '_blank');
+document.title = "Finally Pick Jewelry";
+skipToThree();
+break;
+case "pb1":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
-case "pa2":
+case "pb2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
-case "pa3":
+case "pb3":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fchristian-louboutin-black-patent-kate-100-pumps%2F14113287%2F14280978%2Fchristian-louboutin%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
-case "pa4":
+case "pb4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fjimmy-choo-ottilia-heeled-sandals%2F13854221%2F14021912%2Fjimmy-choo%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
-case "pa5":
+case "pb5":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
 break;
-case "pa6":
+case "pb6":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fcagole-mule-m70%2F13634175%2F13801866%2Fbalenciaga%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/subscribe';
