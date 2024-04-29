@@ -88,7 +88,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear out with your friends:";
 
 document.querySelector('#pic1').src = "Xi.webp";
-document.querySelector('#pic2').src = "Xi.webp";
+document.querySelector('#pic2').src = "Rx.webp";
 document.querySelector('#pic3').src = "Xi.webp";
 document.querySelector('#pic4').src = "Xi.webp";
 document.querySelector('#pic5').src = "Xi.webp";
