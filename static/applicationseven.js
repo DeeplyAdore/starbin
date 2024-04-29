@@ -69,6 +69,45 @@ document.querySelector('#p6').id = "pa6";
 
 document.querySelector('#skip').style.display = "none";
 
+document.querySelector('#skip2').style.display = "initial";
+
+};
+
+
+
+
+
+
+
+
+
+      function skipToThree() {
+
+document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
+
+document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear out with your friends:";
+
+document.querySelector('#pic1').src = "Xi.webp";
+document.querySelector('#pic2').src = "Xi.webp";
+document.querySelector('#pic3').src = "Xi.webp";
+document.querySelector('#pic4').src = "Xi.webp";
+document.querySelector('#pic5').src = "Xi.webp";
+document.querySelector('#pic6').src = "Xi.webp";
+
+document.querySelector('#pa1').id = "pb1";
+
+document.querySelector('#pa2').id = "pb2";
+
+document.querySelector('#pa3').id = "pb3";
+
+document.querySelector('#pa4').id = "pb4";
+
+document.querySelector('#pa5').id = "pb5";
+
+document.querySelector('#pa6').id = "pb6";
+
+document.querySelector('#skip2').style.display = "none";
+
 };
 
 
