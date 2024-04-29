@@ -570,7 +570,7 @@ break;
 case "pb1":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_blank');
