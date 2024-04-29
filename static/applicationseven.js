@@ -632,8 +632,6 @@ break;
     }
   });
 
-skipToTwo();
-
 };
 
 haste.prototype.fillCountTexts = function() {
