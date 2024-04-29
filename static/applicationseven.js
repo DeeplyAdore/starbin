@@ -575,27 +575,27 @@ break;
 case "pb2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb3":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fchristian-louboutin-black-patent-kate-100-pumps%2F14113287%2F14280978%2Fchristian-louboutin%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fjimmy-choo-ottilia-heeled-sandals%2F13854221%2F14021912%2Fjimmy-choo%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb5":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb6":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fcagole-mule-m70%2F13634175%2F13801866%2Fbalenciaga%2F", '_blank');
 window.focus();
-        window.location.href = 'https://www.looksforwomen.com/subscribe';
+        window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "popupP1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-roses-speedy-30-bag-p963167", '_top');
