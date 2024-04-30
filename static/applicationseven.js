@@ -67,6 +67,8 @@ document.querySelector('#p5').id = "pa5";
 
 document.querySelector('#p6').id = "pa6";
 
+document.querySelector('#progressBar').style.width = "66%";
+
 document.querySelector('#skip').style.display = "none";
 
 document.querySelector('#skip2').style.display = "block";
@@ -105,6 +107,8 @@ document.querySelector('#pa4').id = "pb4";
 document.querySelector('#pa5').id = "pb5";
 
 document.querySelector('#pa6').id = "pb6";
+
+document.querySelector('#progressBar').style.width = "100%";
 
 document.querySelector('#skip2').style.display = "none";
 
