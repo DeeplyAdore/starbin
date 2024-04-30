@@ -46,7 +46,7 @@ haste_document.prototype.htmlEscape = function(s) {
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
-document.querySelector('#firstPromptText').innerText = "Pick shoes to wear out with your friends:";
+document.querySelector('#firstPromptText').innerText = "Pick shoes to get as a surprise gift:";
 
 document.querySelector('#pic1').src = "Vp.jpg";
 document.querySelector('#pic2').src = "Os.jpg";
@@ -87,7 +87,7 @@ document.querySelector('#skip2').style.display = "block";
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
-document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear out with your friends:";
+document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear to the party tonight:";
 
 document.querySelector('#pic1').src = "Xi.webp";
 document.querySelector('#pic2').src = "Rx.webp";
