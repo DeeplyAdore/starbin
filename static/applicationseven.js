@@ -67,7 +67,7 @@ document.querySelector('#p5').id = "pa5";
 
 document.querySelector('#p6').id = "pa6";
 
-document.querySelector('#progressBar').style.width = "66%";
+document.querySelector('#progressBar').style.width = "66.6%";
 
 document.querySelector('#skip').style.display = "none";
 
