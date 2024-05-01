@@ -244,6 +244,8 @@ font-family:CSans,sans-serif;
 <div id="popupP2"class="p item enabled"style="pointer-events:none;"><img id="lock2"style="z-index:99;position:absolute;margin:auto;left:0;right:0;top:0;bottom:0;max-width:4rem;"src="lock.png"/><div id="popupPic2"style="pointer-events:none;filter:blur(0.2rem);"><img class="i"loading="eager"decoding="async"src="Wyw.webp"width="100%"height="auto"/></div></div>
 
 </div>
+
+<div id="emailSection">
   
     <input class="in"id="emailInput"placeholder="Email"></input>
     <p style="font-size:.7rem;color:#797979;">By clicking Unlock Now, you agree to our <a href="https://www.looksforwomen.com/terms-of-use"style="font-size:inherit;color:#375797;">Terms of Use</a> and <a href="https://www.looksforwomen.com/privacy-policy"style="font-size:inherit;color:#375797;">Privacy Policy</a>.</p>
@@ -252,6 +254,8 @@ font-family:CSans,sans-serif;
 
 <p id="requested"style="display:none;font-size:1rem;color:hsl(210,8%,5%);margin-bottom:1rem;margin-top:1rem;text-align:center;">You are now subscribed.</p>
       </div>
+
+</div>
 
 </div>
 
@@ -335,7 +339,7 @@ document.getElementById('popupP1').style.cursor = "pointer";
 document.getElementById('popupP2').classList.add("item", "enabled");
 document.getElementById('popupP2').style.pointerEvents = "initial";
 document.getElementById('popupP2').style.cursor = "pointer";
-element.style.display = "none";
+document.getElementById('emailSection').style.display = "none";
 }
 
       };
