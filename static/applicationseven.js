@@ -77,8 +77,6 @@ document.querySelector('#popupImg1').src = "Uyu.webp";
 
 document.querySelector('#popupImg2').src = "Wyw.webp";
 
-document.querySelector('#popupTitle').innerText = "Likely to be sold soon:"
-
 document.querySelector('#popup1P1').id = "popup2P1";
 
 document.querySelector('#popup1P2').id = "popup2P2";
