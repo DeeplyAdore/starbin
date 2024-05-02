@@ -50,7 +50,7 @@ document.querySelector('#firstPromptText').innerText = "Pick shoes to get as a s
 
 document.querySelector('#pic1').src = "Vp.jpg";
 document.querySelector('#pic2').src = "Os.jpg";
-document.querySelector('#pic3').src = "Qk.jpg";
+document.querySelector('#pic3').src = "Qk.webp";
 document.querySelector('#pic4').src = "Bd.jpg";
 document.querySelector('#pic5').src = "Zu.jpg";
 document.querySelector('#pic6').src = "Tz.jpg";
@@ -560,7 +560,7 @@ document.title = "Finally Pick Jewelry";
 skipToThree();
 break;
 case "pa3":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fchristian-louboutin-black-patent-kate-100-pumps%2F14113287%2F14280978%2Fchristian-louboutin%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_blank');
 document.title = "Finally Pick Jewelry";
 skipToThree();
 break;
