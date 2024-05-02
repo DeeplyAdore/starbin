@@ -73,6 +73,8 @@ document.querySelector('#skip').style.display = "none";
 
 document.querySelector('#skip2').style.display = "block";
 
+document.querySelector('#popupTitle').innerText = "Likely to be sold soon:"
+
 };
 
 
