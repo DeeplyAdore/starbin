@@ -613,7 +613,7 @@ case "popup1P1":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_top');
 break;
 case "popup1P2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_top');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_top');
 break;
 case "popup2P1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-roses-speedy-30-bag-p963167", '_top');
