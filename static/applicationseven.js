@@ -587,7 +587,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pb2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fbo-coeur-ysl%2F14153730%2F14321421%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fearrings%2F14157329%2F14325020%2Fsaint-laurent%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
