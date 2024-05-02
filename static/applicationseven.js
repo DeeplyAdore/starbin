@@ -73,7 +73,15 @@ document.querySelector('#skip').style.display = "none";
 
 document.querySelector('#skip2').style.display = "block";
 
+document.querySelector('#popupImg1').src = "Uyu.webp";
+
+document.querySelector('#popupImg2').src = "Wyw.webp";
+
 document.querySelector('#popupTitle').innerText = "Likely to be sold soon:"
+
+document.querySelector('#popup1P1').id = "popup2P1";
+
+document.querySelector('#popup1P2').id = "popup2P2";
 
 };
 
@@ -603,10 +611,16 @@ win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "popupP1":
+case "popup1P1":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_top');
+break;
+case "popup1P2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_top');
+break;
+case "popup2P1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-roses-speedy-30-bag-p963167", '_top');
 break;
-case "popupP2":
+case "popup2P2":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-pink-lambskin-mini-flap-bag-p968236", '_top');
 break;
 } ;
