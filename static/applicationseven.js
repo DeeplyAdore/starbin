@@ -518,6 +518,33 @@ console.log("Y2");
   var _this = this;
   _this.doc = new haste_document();
 
+  this.doc.saveCount(function(err, ret) {
+    //if (err) {
+    //  console.log(err);
+    //  console.log(err.message);
+    //  console.log(ret);
+    //  _this.showMessage(err.message, 'error');
+    //}
+    //else
+    console.log(res);
+    console.log(res.data);
+      if (ret) {
+      console.log("Y1");
+      console.log(_this.$countsText.innerText);
+      _this.$countsText.innerText = ret.value;
+      _this.setTitle(ret.key);
+      var file = '/' + ret.key;
+      if (ret.language) {
+        file += '.' + _this.lookupExtensionByType(ret.language);
+      }
+      window.history.pushState(null, _this.appName + '-' + ret.key, file);
+      _this.fullKey();
+      _this.$input.val('').hide();
+      _this.$box.show().focus();
+      _this.addLineNumbers(ret.lineCount);
+    }
+  });
+
 switch(event.target.id) {
 case "p1":
 window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
@@ -622,33 +649,6 @@ case "popup2P2":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-pink-lambskin-mini-flap-bag-p968236", '_top');
 break;
 } ;
-
-  this.doc.saveCount(function(err, ret) {
-    //if (err) {
-    //  console.log(err);
-    //  console.log(err.message);
-    //  console.log(ret);
-    //  _this.showMessage(err.message, 'error');
-    //}
-    //else
-    console.log(res);
-    console.log(res.data);
-      if (ret) {
-      console.log("Y1");
-      console.log(_this.$countsText.innerText);
-      _this.$countsText.innerText = ret.value;
-      _this.setTitle(ret.key);
-      var file = '/' + ret.key;
-      if (ret.language) {
-        file += '.' + _this.lookupExtensionByType(ret.language);
-      }
-      window.history.pushState(null, _this.appName + '-' + ret.key, file);
-      _this.fullKey();
-      _this.$input.val('').hide();
-      _this.$box.show().focus();
-      _this.addLineNumbers(ret.lineCount);
-    }
-  });
 
 };
 
