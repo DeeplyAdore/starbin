@@ -155,6 +155,40 @@ haste_document.prototype.save = function(data, callback) {
   });
 };
 
+// Save this document to the server and lock it here. This function is for unsubscribing.
+haste_document.prototype.saveUnsub = function(data, callback) {
+  if (this.locked) {
+    return false;
+  }
+  this.data = data;
+  var _this = this;
+  $.ajax('https://www.looksforwomen.com/unsub', {
+    type: 'post',
+    data: data,
+    dataType: 'json',
+    contentType: 'text/plain; charset=utf-8',
+    success: function(res) {
+      _this.locked = true;
+      _this.key = res.key;
+      var high = hljs.highlightAuto(data);
+      callback(null, {
+        value: high.value,
+        key: res.key,
+        language: high.language,
+        lineCount: data.split('\n').length
+      });
+    },
+    error: function(res) {
+      try {
+        callback($.parseJSON(res.responseText));
+      }
+      catch (e) {
+        callback({message: 'Something went wrong!'});
+      }
+    }
+  });
+};
+
 // Save this document to the server and lock it here
 haste_document.prototype.saveCount = function(callback) {
   if (this.locked) {
@@ -396,6 +430,32 @@ if (this.$input.val() != "" && this.$input.val().includes("@")) {
 }
 };
 
+// Lock the current document. This function is for unsubscribing.
+haste.prototype.lockDocumentUnsub = function() {
+  var _this = this;
+console.log(this.$input.val());
+if (this.$input.val() != "" && this.$input.val().includes("@")) {
+  this.doc.saveUnsub(this.$input.val(), function(err, ret) {
+    if (err) {
+      _this.showMessage(err.message, 'error');
+    }
+    else if (ret) {
+      _this.$code.html(ret.value);
+      _this.setTitle(ret.key);
+      var file = '/' + ret.key;
+      if (ret.language) {
+        file += '.' + _this.lookupExtensionByType(ret.language);
+      }
+      window.history.pushState(null, _this.appName + '-' + ret.key, file);
+      _this.fullKey();
+      _this.$input.val('').hide();
+      _this.$box.show().focus();
+      _this.addLineNumbers(ret.lineCount);
+    }
+  });
+}
+};
+
 // NEW FUNC FOR GET
 // Lock the current document
 haste.prototype.lockTheDoc = function(currentKey) {
@@ -483,17 +543,13 @@ haste.prototype.configureButtons = function() {
   var _this = this;
   this.buttons = [
     {
-      $where: $('#box2 .save'),
-      label: 'Save',
-      shortcutDescription: 'control + s',
-      shortcut: function(evt) {
-        return evt.ctrlKey && (evt.keyCode === 83);
-      },
+      $where: $('#box2 .unsub'),
+      label: 'Unsub',
       action: function() {
 console.log("clicked1");
         if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
 console.log("clicked2");
-          _this.lockDocument();
+          _this.lockDocumentUnsub();
         }
       }
     },
