@@ -562,7 +562,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p4":
-window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fkate-shoulder-bag%2F14164483%2F14332174%2Fsaint-laurent%2F", '_blank');
+window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Ftotes%2Fysl-bo-mng-le-5a7%2F14178670%2F14346361%2Fsaint-laurent%2F", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
