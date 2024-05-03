@@ -543,8 +543,27 @@ haste.prototype.configureButtons = function() {
   var _this = this;
   this.buttons = [
     {
+      $where: $('#box2 .save'),
+      label: 'Save',
+      shortcutDescription: 'control + s',
+      shortcut: function(evt) {
+        return evt.ctrlKey && (evt.keyCode === 83);
+      },
+      action: function() {
+console.log("clicked1");
+        if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
+console.log("clicked2");
+          _this.lockDocument();
+        }
+      }
+    },
+    {
       $where: $('#box2 .unsub'),
       label: 'Unsub',
+      shortcut: function(evt) {
+        return evt.ctrlKey && evt.shiftKey && evt.keyCode === 82;
+      },
+      shortcutDescription: 'control + shift + r',
       action: function() {
 console.log("clicked1");
         if (_this.$input.val().replace(/^\s+|\s+$/g, '') !== '') {
@@ -586,17 +605,6 @@ console.log("clicked2");
       shortcutDescription: 'control + d',
       action: function() {
         _this.duplicateDocument();
-      }
-    },
-    {
-      $where: $('#box2 .raw'),
-      label: 'Just Text',
-      shortcut: function(evt) {
-        return evt.ctrlKey && evt.shiftKey && evt.keyCode === 82;
-      },
-      shortcutDescription: 'control + shift + r',
-      action: function() {
-        window.location.href = '/raw/' + _this.doc.key;
       }
     },
     {
