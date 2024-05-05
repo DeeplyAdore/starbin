@@ -133,12 +133,12 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
 document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
 
-document.querySelector('#pic1').src = "Xi.webp";
-document.querySelector('#pic2').src = "Rx.webp";
-document.querySelector('#pic3').src = "Ff.webp";
-document.querySelector('#pic4').src = "Cw.webp";
-document.querySelector('#pic5').src = "Mm.webp";
-document.querySelector('#pic6').src = "Eg.webp";
+document.querySelector('#pic1').src = "Gav.webp";
+document.querySelector('#pic2').src = "Tok.webp";
+document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic4').src = "Zam.webp";
+document.querySelector('#pic5').src = "Kot.webp";
+document.querySelector('#pic6').src = "Maz.webp";
 
 document.querySelector('#pb1').id = "pc1";
 
@@ -679,32 +679,32 @@ window.focus();
 skipToFour();
 break;
 case "pc1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-yellow-gold-vintage-alhambra-stud-earrings-p965292", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-beige-quilted-caviar-leather-gst-shopper-tote-p972809", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pc2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fearrings%2F14157329%2F14325020%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pc3":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fcartier-trinity-diamond-18k-three-tone-gold-pendant-necklace-p962987", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pc4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fnecklaces%2Fmedusa-gold-brass-necklace%2F14118702%2F14286393%2Fversace%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fmini-jodie%2F13831599%2F13999290%2Fbottega-veneta%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pc5":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-rose-gold-and-diamond-vintage-alhambra-pendant-necklace-p967120", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgucci-red-matelass%25C3%25A9-velvet-small-gg-marmont-shoulder-bag-p971877", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pc6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fmetal-earrings%2F13925647%2F14093338%2Fversace%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fembellished-satin-sandals%2F14051017%2F14218708%2Fprada%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
