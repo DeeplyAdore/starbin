@@ -129,9 +129,9 @@ document.querySelector('#skip3').style.display = "block";
 
       function skipToFour() {
 
-document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
+document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
-document.querySelector('#firstPromptText').innerText = "Pick what you'd want to recieve as a surprise gift:";
+document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
 
 document.querySelector('#pic1').src = "Xi.webp";
 document.querySelector('#pic2').src = "Rx.webp";
