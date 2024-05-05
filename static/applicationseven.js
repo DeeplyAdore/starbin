@@ -567,7 +567,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p5":
-window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-metalic-pink-lambskin-leather-mini-flap-bag-p968195", '_blank');
+window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-black-leather-monogram-teddy-speedy-bandoulier%25C3%25A9-30-shoulder-bag-p974235", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
