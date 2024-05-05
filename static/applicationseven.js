@@ -46,7 +46,7 @@ haste_document.prototype.htmlEscape = function(s) {
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
-document.querySelector('#firstPromptText').innerText = "Pick shoes to get as a surprise gift:";
+document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
 
 document.querySelector('#pic1').src = "Vp.jpg";
 document.querySelector('#pic2').src = "Os.jpg";
@@ -67,7 +67,7 @@ document.querySelector('#p5').id = "pa5";
 
 document.querySelector('#p6').id = "pa6";
 
-document.querySelector('#progressBar').style.width = "66.6%";
+document.querySelector('#progressBar').style.width = "50%";
 
 document.querySelector('#skip').style.display = "none";
 
@@ -82,11 +82,6 @@ document.querySelector('#popup1P1').id = "popup2P1";
 document.querySelector('#popup1P2').id = "popup2P2";
 
 };
-
-
-
-
-
 
 
 
@@ -116,9 +111,50 @@ document.querySelector('#pa5').id = "pb5";
 
 document.querySelector('#pa6').id = "pb6";
 
-document.querySelector('#progressBar').style.width = "100%";
+document.querySelector('#progressBar').style.width = "75%";
 
 document.querySelector('#skip2').style.display = "none";
+
+document.querySelector('#skip3').style.display = "block";
+
+};
+
+
+
+
+
+
+
+
+
+      function skipToFour() {
+
+document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
+
+document.querySelector('#firstPromptText').innerText = "Pick what you'd want to recieve as a surprise gift:";
+
+document.querySelector('#pic1').src = "Xi.webp";
+document.querySelector('#pic2').src = "Rx.webp";
+document.querySelector('#pic3').src = "Ff.webp";
+document.querySelector('#pic4').src = "Cw.webp";
+document.querySelector('#pic5').src = "Mm.webp";
+document.querySelector('#pic6').src = "Eg.webp";
+
+document.querySelector('#pb1').id = "pc1";
+
+document.querySelector('#pb2').id = "pc2";
+
+document.querySelector('#pb3').id = "pc3";
+
+document.querySelector('#pb4').id = "pc4";
+
+document.querySelector('#pb5').id = "pc5";
+
+document.querySelector('#pb6').id = "pc6";
+
+document.querySelector('#progressBar').style.width = "100%";
+
+document.querySelector('#skip3').style.display = "none";
 
 };
 
@@ -610,28 +646,64 @@ case "pb1":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-yellow-gold-vintage-alhambra-stud-earrings-p965292", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
 break;
 case "pb2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fearrings%2F14157329%2F14325020%2Fsaint-laurent%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
 break;
 case "pb3":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fcartier-trinity-diamond-18k-three-tone-gold-pendant-necklace-p962987", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
 break;
 case "pb4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fnecklaces%2Fmedusa-gold-brass-necklace%2F14118702%2F14286393%2Fversace%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
 break;
 case "pb5":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-rose-gold-and-diamond-vintage-alhambra-pendant-necklace-p967120", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
 break;
 case "pb6":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fmetal-earrings%2F13925647%2F14093338%2Fversace%2F", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+skipToFour();
+break;
+case "pc1":
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-yellow-gold-vintage-alhambra-stud-earrings-p965292", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+break;
+case "pc2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fearrings%2F14157329%2F14325020%2Fsaint-laurent%2F", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+break;
+case "pc3":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fcartier-trinity-diamond-18k-three-tone-gold-pendant-necklace-p962987", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+break;
+case "pc4":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fnecklaces%2Fmedusa-gold-brass-necklace%2F14118702%2F14286393%2Fversace%2F", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+break;
+case "pc5":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-rose-gold-and-diamond-vintage-alhambra-pendant-necklace-p967120", '_blank');
+window.focus();
+        window.location.href = 'https://www.looksforwomen.com/results';
+break;
+case "pc6":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fmetal-earrings%2F13925647%2F14093338%2Fversace%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
