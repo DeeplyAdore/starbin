@@ -92,7 +92,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
 document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear to the party tonight:";
 
-document.querySelector('#pic1').src = "Xi.webp";
+document.querySelector('#pic1').src = "Xo.webp";
 document.querySelector('#pic2').src = "Rx.webp";
 document.querySelector('#pic3').src = "Ff.webp";
 document.querySelector('#pic4').src = "Cw.webp";
@@ -643,7 +643,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pb1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-yellow-gold-vintage-alhambra-stud-earrings-p965292", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-love-18k-yellow-gold-diamond-earrings-p858491", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
