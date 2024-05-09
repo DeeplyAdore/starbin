@@ -67,7 +67,7 @@ document.querySelector('#p5').id = "pa5";
 
 document.querySelector('#p6').id = "pa6";
 
-document.querySelector('#progressBar').style.width = "50%";
+document.querySelector('#progressBar').style.width = "40%";
 
 document.querySelector('#skip').style.display = "none";
 
@@ -111,7 +111,7 @@ document.querySelector('#pa5').id = "pb5";
 
 document.querySelector('#pa6').id = "pb6";
 
-document.querySelector('#progressBar').style.width = "75%";
+document.querySelector('#progressBar').style.width = "60%";
 
 document.querySelector('#skip2').style.display = "none";
 
@@ -152,7 +152,7 @@ document.querySelector('#pb5').id = "pc5";
 
 document.querySelector('#pb6').id = "pc6";
 
-document.querySelector('#progressBar').style.width = "100%";
+document.querySelector('#progressBar').style.width = "80%";
 
 document.querySelector('#skip3').style.display = "none";
 
