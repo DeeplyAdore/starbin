@@ -67,7 +67,7 @@ document.querySelector('#p5').id = "pa5";
 
 document.querySelector('#p6').id = "pa6";
 
-document.querySelector('#progressBar').style.width = "40%";
+document.querySelector('#progressBar').style.width = "33.3%";
 
 document.querySelector('#skip').style.display = "none";
 
@@ -111,7 +111,7 @@ document.querySelector('#pa5').id = "pb5";
 
 document.querySelector('#pa6').id = "pb6";
 
-document.querySelector('#progressBar').style.width = "60%";
+document.querySelector('#progressBar').style.width = "50%";
 
 document.querySelector('#skip2').style.display = "none";
 
@@ -152,7 +152,7 @@ document.querySelector('#pb5').id = "pc5";
 
 document.querySelector('#pb6').id = "pc6";
 
-document.querySelector('#progressBar').style.width = "80%";
+document.querySelector('#progressBar').style.width = "66.6%";
 
 document.querySelector('#skip3').style.display = "none";
 
@@ -188,9 +188,43 @@ document.querySelector('#pc5').id = "pd5";
 
 document.querySelector('#pc6').id = "pd6";
 
-document.querySelector('#progressBar').style.width = "100%";
+document.querySelector('#progressBar').style.width = "83.3%";
 
 document.querySelector('#skip4').style.display = "none";
+
+};
+
+
+
+
+      function skipToSix() {
+
+document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
+
+document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
+
+document.querySelector('#pic1').src = "Zp.webp";
+document.querySelector('#pic2').src = "Tok.webp";
+document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic4').src = "Wi.webp";
+document.querySelector('#pic5').src = "By.webp";
+document.querySelector('#pic6').src = "Fg.webp";
+
+document.querySelector('#pd1').id = "pe1";
+
+document.querySelector('#pd2').id = "pe2";
+
+document.querySelector('#pd3').id = "pe3";
+
+document.querySelector('#pd4').id = "pe4";
+
+document.querySelector('#pd5').id = "pe5";
+
+document.querySelector('#pd6').id = "pe6";
+
+document.querySelector('#progressBar').style.width = "100%";
+
+document.querySelector('#skip5').style.display = "none";
 
 };
 
@@ -740,30 +774,60 @@ skipToFive();
 break;
 case "pd1":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fherm%25C3%25A8s-pop-h-enamel-gold-plated-pendant-necklace-p975178", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pd2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pd3":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pd4":
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-scarf-p949065", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pd5":
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-18k-yellow-gold-and-diamond-diamants-l%25C3%25A9gers-pendant-necklace-p962763", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pd6":
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgivenchy-multicolor-floral-printed-silk-square-scarf-p864991", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToSix();
+break;
+case "pe1":
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fherm%25C3%25A8s-pop-h-enamel-gold-plated-pendant-necklace-p975178", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pd2":
+case "pe2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pd3":
+case "pe3":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pd4":
+case "pe4":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-scarf-p949065", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pd5":
+case "pe5":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-18k-yellow-gold-and-diamond-diamants-l%25C3%25A9gers-pendant-necklace-p962763", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pd6":
+case "pe6":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgivenchy-multicolor-floral-printed-silk-square-scarf-p864991", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
