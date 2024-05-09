@@ -173,7 +173,7 @@ document.querySelector('#pic1').src = "Wi.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Hx.webp";
-document.querySelector('#pic5').src = "Kot.webp";
+document.querySelector('#pic5').src = "Fg.webp";
 document.querySelector('#pic6').src = "Maz.webp";
 
 document.querySelector('#pc1').id = "pd1";
@@ -759,7 +759,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pd5":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgucci-red-matelass%25C3%25A9-velvet-small-gg-marmont-shoulder-bag-p971877", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgivenchy-multicolor-floral-printed-silk-square-scarf-p864991", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
