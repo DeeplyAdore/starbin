@@ -174,7 +174,7 @@ document.querySelector('#pic2').src = "Zp.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Je.webp";
 document.querySelector('#pic5').src = "Fg.webp";
-document.querySelector('#pic6').src = "Maz.webp";
+document.querySelector('#pic6').src = "By.webp";
 
 document.querySelector('#pc1').id = "pd1";
 
@@ -764,7 +764,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pd6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fembellished-satin-sandals%2F14051017%2F14218708%2Fprada%2F", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-18k-yellow-gold-and-diamond-diamants-l%25C3%25A9gers-pendant-necklace-p962763", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
