@@ -205,7 +205,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
 document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
 
-document.querySelector('#pic1').src = "Zp.webp";
+document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Wi.webp";
@@ -805,7 +805,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pe1":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fherm%25C3%25A8s-pop-h-enamel-gold-plated-pendant-necklace-p975178", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-navy-blue-oblique-embroidered-canvas-large-book-tote-p936151", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
