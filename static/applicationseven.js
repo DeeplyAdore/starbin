@@ -192,6 +192,8 @@ document.querySelector('#progressBar').style.width = "83.3%";
 
 document.querySelector('#skip4').style.display = "none";
 
+document.querySelector('#skip5').style.display = "block";
+
 };
 
 
