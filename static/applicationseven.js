@@ -97,7 +97,7 @@ document.querySelector('#pic2').src = "Rx.webp";
 document.querySelector('#pic3').src = "Ff.webp";
 document.querySelector('#pic4').src = "Cj.webp";
 document.querySelector('#pic5').src = "Mm.webp";
-document.querySelector('#pic6').src = "Eg.webp";
+document.querySelector('#pic6').src = "Ss.webp";
 
 document.querySelector('#pa1').id = "pb1";
 
@@ -668,7 +668,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fmetal-earrings%2F13925647%2F14093338%2Fversace%2F", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-juste-un-clou-diamond-18k-rose-gold-bracelet-16-p950332", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
