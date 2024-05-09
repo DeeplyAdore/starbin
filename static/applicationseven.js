@@ -172,7 +172,7 @@ document.querySelector('#firstPromptText').innerText = "Pick what you'd want to 
 document.querySelector('#pic1').src = "Wi.webp";
 document.querySelector('#pic2').src = "Zp.webp";
 document.querySelector('#pic3').src = "Vag.webp";
-document.querySelector('#pic4').src = "Hx.webp";
+document.querySelector('#pic4').src = "Je.webp";
 document.querySelector('#pic5').src = "Fg.webp";
 document.querySelector('#pic6').src = "Maz.webp";
 
@@ -754,7 +754,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pd4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Ftotes%2Fjackie-1961-shoulder-bag%2F14178317%2F14346008%2Fgucci%2F", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-gunmetal-tone-cc-triple-chain-clip-on-earrings-p963885", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
