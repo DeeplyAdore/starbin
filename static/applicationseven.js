@@ -95,7 +95,7 @@ document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear to 
 document.querySelector('#pic1').src = "Xo.webp";
 document.querySelector('#pic2').src = "Rx.webp";
 document.querySelector('#pic3').src = "Ff.webp";
-document.querySelector('#pic4').src = "Cw.webp";
+document.querySelector('#pic4').src = "Cj.webp";
 document.querySelector('#pic5').src = "Mm.webp";
 document.querySelector('#pic6').src = "Eg.webp";
 
@@ -658,7 +658,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fnecklaces%2Fmedusa-gold-brass-necklace%2F14118702%2F14286393%2Fversace%2F", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2FWomen%2Fcartier-18k-yellow-gold-love-bangle-bracelet-p974540", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
