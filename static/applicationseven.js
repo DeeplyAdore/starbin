@@ -583,7 +583,7 @@ console.log("Y2");
 
 switch(event.target.id) {
 case "p1":
-window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
+window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-pink-quilted-leather-jumbo-classic-double-flap-bag-p890899", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
@@ -608,7 +608,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p6":
-window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fgg-supreme-dionysus-small-shoulder-bag%2F13947716%2F14115407%2Fgucci%2F", '_blank');
+window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
