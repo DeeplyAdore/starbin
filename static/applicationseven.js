@@ -93,7 +93,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear to the party tonight:";
 
 document.querySelector('#pic1').src = "Xo.webp";
-document.querySelector('#pic2').src = "Rx.webp";
+document.querySelector('#pic2').src = "Ww.webp";
 document.querySelector('#pic3').src = "Ff.webp";
 document.querySelector('#pic4').src = "Cj.webp";
 document.querySelector('#pic5').src = "Mm.webp";
@@ -648,7 +648,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fjewelry%2Fearrings%2Fearrings%2F14157329%2F14325020%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fvan-cleef-arpels-18k-white-gold-and-diamond-vintage-alhambra-guilloch-pendant-necklace-p946607", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
