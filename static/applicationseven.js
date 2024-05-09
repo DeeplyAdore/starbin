@@ -203,7 +203,7 @@ document.querySelector('#skip5').style.display = "block";
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
-document.querySelector('#firstPromptText').innerText = "You're going on vacation! Pick your bag:";
+document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
 
 document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
