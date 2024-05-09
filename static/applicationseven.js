@@ -156,6 +156,42 @@ document.querySelector('#progressBar').style.width = "100%";
 
 document.querySelector('#skip3').style.display = "none";
 
+document.querySelector('#skip4').style.display = "block";
+
+};
+
+
+
+
+      function skipToFive() {
+
+document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
+
+document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
+
+document.querySelector('#pic1').src = "Gav.webp";
+document.querySelector('#pic2').src = "Tok.webp";
+document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic4').src = "Hx.webp";
+document.querySelector('#pic5').src = "Kot.webp";
+document.querySelector('#pic6').src = "Maz.webp";
+
+document.querySelector('#pc1').id = "pd1";
+
+document.querySelector('#pc2').id = "pd2";
+
+document.querySelector('#pc3').id = "pd3";
+
+document.querySelector('#pc4').id = "pd4";
+
+document.querySelector('#pc5').id = "pd5";
+
+document.querySelector('#pc6').id = "pd6";
+
+document.querySelector('#progressBar').style.width = "100%";
+
+document.querySelector('#skip4').style.display = "none";
+
 };
 
 
@@ -674,30 +710,60 @@ skipToFour();
 break;
 case "pc1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-beige-quilted-caviar-leather-gst-shopper-tote-p972809", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pc2":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pc3":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pc4":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Ftotes%2Fjackie-1961-shoulder-bag%2F14178317%2F14346008%2Fgucci%2F", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pc5":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgucci-red-matelass%25C3%25A9-velvet-small-gg-marmont-shoulder-bag-p971877", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pc6":
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fembellished-satin-sandals%2F14051017%2F14218708%2Fprada%2F", '_blank');
+document.title = "Finally Pick Your Gift";
+skipToFive();
+break;
+case "pd1":
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-beige-quilted-caviar-leather-gst-shopper-tote-p972809", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pc2":
+case "pd2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pc3":
+case "pd3":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pc4":
+case "pd4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Ftotes%2Fjackie-1961-shoulder-bag%2F14178317%2F14346008%2Fgucci%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pc5":
+case "pd5":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgucci-red-matelass%25C3%25A9-velvet-small-gg-marmont-shoulder-bag-p971877", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
-case "pc6":
+case "pd6":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fembellished-satin-sandals%2F14051017%2F14218708%2Fprada%2F", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
