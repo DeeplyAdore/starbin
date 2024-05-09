@@ -210,7 +210,7 @@ document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "By.webp";
-document.querySelector('#pic6').src = "Fg.webp";
+document.querySelector('#pic6').src = "Vt.webp";
 
 document.querySelector('#pd1').id = "pe1";
 
@@ -830,7 +830,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe6":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgivenchy-multicolor-floral-printed-silk-square-scarf-p864991", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-pinkwhite-embroidered-canvas-large-toile-de-jouy-book-tote-p847447", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
