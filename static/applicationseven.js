@@ -740,7 +740,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb6":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-juste-un-clou-diamond-18k-rose-gold-bracelet-16-p950332", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DJuste%2520un%2520clou", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
