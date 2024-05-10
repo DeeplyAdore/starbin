@@ -49,8 +49,8 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
 
 document.querySelector('#pic1').src = "Zp.webp";
-document.querySelector('#pic2').src = "By.webp";
-document.querySelector('#pic3').src = "Qk.webp";
+document.querySelector('#pic2').src = "Qk.webp";
+document.querySelector('#pic3').src = "By.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Zu.jpg";
 document.querySelector('#pic6').src = "Aa.webp";
@@ -690,12 +690,12 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa2":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520necklace", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa3":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520necklace", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
