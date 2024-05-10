@@ -815,12 +815,12 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe3":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-black-malletage-leather-go-14-pm-bag-p951826", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe4":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-brown-leather-large-onthego-totes-p948902", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DOnthego", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
