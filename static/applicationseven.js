@@ -51,7 +51,7 @@ document.querySelector('#firstPromptText').innerText = "It's date night! Pick sh
 document.querySelector('#pic1').src = "Vp.jpg";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qk.webp";
-document.querySelector('#pic4').src = "Bd.jpg";
+document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Zu.jpg";
 document.querySelector('#pic6').src = "Tz.jpg";
 
@@ -700,7 +700,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fjimmy-choo-ottilia-heeled-sandals%2F13854221%2F14021912%2Fjimmy-choo%2F", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520silk", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
