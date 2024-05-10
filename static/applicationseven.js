@@ -670,7 +670,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p4":
-window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fhermes-blue-swift-leather-palladium-hardware-kelly-25-retourne-bag-1-p926336", '_blank');
+window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dhermes%2520kelly", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
