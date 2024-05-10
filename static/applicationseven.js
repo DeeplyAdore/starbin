@@ -49,7 +49,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
 
 document.querySelector('#pic1').src = "Vp.jpg";
-document.querySelector('#pic2').src = "By.jpg";
+document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qk.webp";
 document.querySelector('#pic4').src = "Bd.jpg";
 document.querySelector('#pic5').src = "Zu.jpg";
