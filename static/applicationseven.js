@@ -660,7 +660,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p2":
-window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Fshoulder-bags%2Fheart-shoulder-bag%2F14130878%2F14298569%2Fgucci%2F", '_blank');
+window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2FWomen%2Fdior-black-cannage-patent-leather-medium-lady-dior-tote-p944430", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
