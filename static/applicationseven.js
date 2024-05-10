@@ -46,7 +46,7 @@ haste_document.prototype.htmlEscape = function(s) {
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
-document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
+document.querySelector('#firstPromptText').innerText = "Pick something to go with your bag:";
 
 document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Qk.webp";
@@ -131,7 +131,7 @@ document.querySelector('#skip3').style.display = "block";
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
-document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
+document.querySelector('#firstPromptText').innerText = "Pick something to go with your jewelry:";
 
 document.querySelector('#pic1').src = "Gav.webp";
 document.querySelector('#pic2').src = "Tok.webp";
@@ -167,7 +167,7 @@ document.querySelector('#skip4').style.display = "block";
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
-document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
+document.querySelector('#firstPromptText').innerText = "You are going on a trip. Choose wisely:";
 
 document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Gv.webp";
@@ -203,7 +203,7 @@ document.querySelector('#skip5').style.display = "block";
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
-document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
+document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
 document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
