@@ -655,7 +655,7 @@ console.log("Y2");
 
 switch(event.target.id) {
 case "p1":
-window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-pink-quilted-leather-jumbo-classic-double-flap-bag-p890899", '_blank');
+window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
@@ -665,7 +665,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p3":
-window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-black-quilted-leather-jumbo-classic-double-flap-bag-p961393", '_blank');
+window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
