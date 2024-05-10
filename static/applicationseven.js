@@ -730,7 +730,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb4":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fmen%2Fcartier-white-22-stainless-steel-panthere-de-cartier-w4pn0007-p904075", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520watch", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
