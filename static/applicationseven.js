@@ -715,7 +715,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pb1":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-love-18k-yellow-gold-diamond-earrings-p858491", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520love", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
@@ -725,7 +725,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb3":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fcartier-trinity-diamond-18k-three-tone-gold-pendant-necklace-p962987", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dtrinity%2520cartier", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
