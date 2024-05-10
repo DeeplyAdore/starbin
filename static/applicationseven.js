@@ -207,7 +207,7 @@ document.querySelector('#firstPromptText').innerText = "Pick what you'd want to 
 
 document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
-document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic3').src = "Ny.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Rz.jpg";
 document.querySelector('#pic6').src = "Vt.webp";
@@ -815,7 +815,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe3":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-black-malletage-leather-go-14-pm-bag-p951826", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
