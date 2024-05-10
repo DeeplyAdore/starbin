@@ -170,7 +170,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 document.querySelector('#firstPromptText').innerText = "Pick what you'd want to receive as a gift:";
 
 document.querySelector('#pic1').src = "Zp.webp";
-document.querySelector('#pic2').src = "Tok.webp";
+document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "By.webp";
@@ -780,7 +780,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pd2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DKeepall", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
