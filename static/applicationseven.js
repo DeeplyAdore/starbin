@@ -49,7 +49,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
 
 document.querySelector('#pic1').src = "Vp.jpg";
-document.querySelector('#pic2').src = "Os.jpg";
+document.querySelector('#pic2').src = "By.jpg";
 document.querySelector('#pic3').src = "Qk.webp";
 document.querySelector('#pic4').src = "Bd.jpg";
 document.querySelector('#pic5').src = "Zu.jpg";
@@ -690,7 +690,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Ffuchsia-satin-mules%2F14111707%2F14279398%2Fprada%2F", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fcartier-18k-yellow-gold-and-diamond-diamants-l%25C3%25A9gers-pendant-necklace-p962763", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
