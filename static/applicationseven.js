@@ -208,7 +208,7 @@ document.querySelector('#firstPromptText').innerText = "Pick what you'd want to 
 document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Ny.webp";
-document.querySelector('#pic4').src = "Wi.webp";
+document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "Rz.jpg";
 document.querySelector('#pic6').src = "Vt.webp";
 
@@ -820,7 +820,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe4":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-scarf-p949065", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-brown-leather-large-onthego-totes-p948902", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
