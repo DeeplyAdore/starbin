@@ -720,7 +720,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb2":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fvan-cleef-arpels-18k-white-gold-and-diamond-vintage-alhambra-guilloch-pendant-necklace-p946607", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dvan%2520cleef%2520alhambra", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
@@ -735,7 +735,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pb5":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fvan-cleef-arpels-18k-rose-gold-and-diamond-vintage-alhambra-pendant-necklace-p967120", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dvan%2520cleef%2520alhambra", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
