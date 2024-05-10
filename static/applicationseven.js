@@ -136,7 +136,7 @@ document.querySelector('#firstPromptText').innerText = "Pick what you'd want to 
 document.querySelector('#pic1').src = "Gav.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Vag.webp";
-document.querySelector('#pic4').src = "Hx.webp";
+document.querySelector('#pic4').src = "Vp.jpg";
 document.querySelector('#pic5').src = "Kot.webp";
 document.querySelector('#pic6').src = "Maz.webp";
 
@@ -760,7 +760,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pc4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fbags%2Ftotes%2Fjackie-1961-shoulder-bag%2F14178317%2F14346008%2Fgucci%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
