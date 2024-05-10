@@ -165,7 +165,7 @@ document.querySelector('#skip4').style.display = "block";
 
       function skipToFive() {
 
-document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
+document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
 document.querySelector('#firstPromptText').innerText = "You are going on a trip. Choose wisely:";
 
@@ -201,7 +201,7 @@ document.querySelector('#skip5').style.display = "block";
 
       function skipToSix() {
 
-document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
+document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
