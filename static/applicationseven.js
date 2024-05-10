@@ -680,7 +680,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p6":
-window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-damier-ebene-canvas-neverfull-mm-tote-bag-p963586", '_blank');
+window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-monogram-canvas-neverfull-mm-bag-p971919", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
