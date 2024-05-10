@@ -660,7 +660,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p2":
-window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2FWomen%2Fdior-black-cannage-patent-leather-medium-lady-dior-tote-p944430", '_blank');
+window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DLady%2520dior", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
@@ -810,7 +810,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe2":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-keepall-55-duffel-bag-p974998", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DKeepall", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
