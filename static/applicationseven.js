@@ -46,7 +46,7 @@ haste_document.prototype.htmlEscape = function(s) {
 
 document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
-document.querySelector('#firstPromptText').innerText = "Pick something to go with your bag:";
+document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
 document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Qk.webp";
