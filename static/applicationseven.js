@@ -172,7 +172,7 @@ document.querySelector('#firstPromptText').innerText = "Pick what you'd want to 
 document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
-document.querySelector('#pic4').src = "Wi.webp";
+document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "By.webp";
 document.querySelector('#pic6').src = "Fg.webp";
 
@@ -790,7 +790,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pd4":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-scarf-p949065", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DOnthego", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
