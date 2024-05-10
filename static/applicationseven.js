@@ -53,7 +53,7 @@ document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qk.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Zu.jpg";
-document.querySelector('#pic6').src = "Tz.jpg";
+document.querySelector('#pic6').src = "Aa.webp";
 
 document.querySelector('#p1').id = "pa1";
 
@@ -710,7 +710,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fcagole-mule-m70%2F13634175%2F13801866%2Fbalenciaga%2F", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520ear", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
