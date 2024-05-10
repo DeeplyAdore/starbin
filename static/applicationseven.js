@@ -48,7 +48,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "It's date night! Pick shoes to wear:";
 
-document.querySelector('#pic1').src = "Vp.jpg";
+document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qk.webp";
 document.querySelector('#pic4').src = "Wi.webp";
@@ -685,7 +685,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "pa1":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
@@ -775,7 +775,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pd1":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fherm%25C3%25A8s-pop-h-enamel-gold-plated-pendant-necklace-p975178", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
