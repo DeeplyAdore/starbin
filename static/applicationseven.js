@@ -805,7 +805,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pe1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-navy-blue-oblique-embroidered-canvas-large-book-tote-p936151", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
@@ -830,7 +830,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe6":
-win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-pinkwhite-embroidered-canvas-large-toile-de-jouy-book-tote-p847447", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
