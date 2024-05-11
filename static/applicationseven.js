@@ -135,7 +135,7 @@ document.querySelector('#firstPromptText').innerText = "Pick something to go wit
 
 document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
-document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Vp.jpg";
 document.querySelector('#pic5').src = "Kot.webp";
 document.querySelector('#pic6').src = "Maz.webp";
@@ -755,7 +755,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pc3":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dtiffany%2520smile", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
