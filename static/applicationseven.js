@@ -210,7 +210,7 @@ document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Mz.webp";
 document.querySelector('#pic5').src = "Qn.webp";
-document.querySelector('#pic6').src = "Vt.webp";
+document.querySelector('#pic6').src = "Vj.webp";
 
 document.querySelector('#pd1').id = "pe1";
 
@@ -830,7 +830,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe6":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2F%3Fq%3DSaeda", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
