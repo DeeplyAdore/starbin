@@ -137,7 +137,7 @@ document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Zu.jpg";
-document.querySelector('#pic5').src = "Kot.webp";
+document.querySelector('#pic5').src = "Tg.webp";
 document.querySelector('#pic6').src = "Maz.webp";
 
 document.querySelector('#pb1').id = "pc1";
@@ -765,7 +765,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pc5":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgucci-red-matelass%25C3%25A9-velvet-small-gg-marmont-shoulder-bag-p971877", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dhermes%2520clic%2520clac", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
