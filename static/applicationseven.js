@@ -49,7 +49,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
 document.querySelector('#pic1').src = "Zp.webp";
-document.querySelector('#pic2').src = "Qk.webp";
+document.querySelector('#pic2').src = "Qo.webp";
 document.querySelector('#pic3').src = "By.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Zu.jpg";
@@ -690,7 +690,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D120", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
