@@ -206,7 +206,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
 document.querySelector('#pic1').src = "Zp.webp";
-document.querySelector('#pic2').src = "Gv.webp";
+document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "Qn.webp";
@@ -810,7 +810,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe2":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DKeepall", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D121", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
