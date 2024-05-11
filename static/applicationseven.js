@@ -209,7 +209,7 @@ document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Ny.webp";
 document.querySelector('#pic4').src = "Ku.webp";
-document.querySelector('#pic5').src = "Rz.jpg";
+document.querySelector('#pic5').src = "Qn.webp";
 document.querySelector('#pic6').src = "Vt.webp";
 
 document.querySelector('#pd1').id = "pe1";
@@ -680,7 +680,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "p6":
-window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DNeverfull", '_blank');
+window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
 document.title = "Now Pick Shoes";
 skipToTwo();
 break;
