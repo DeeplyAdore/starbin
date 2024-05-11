@@ -133,7 +133,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 
 document.querySelector('#firstPromptText').innerText = "Pick something to go with your jewelry:";
 
-document.querySelector('#pic1').src = "Gav.webp";
+document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Vp.jpg";
@@ -745,7 +745,7 @@ document.title = "Finally Pick Your Gift";
 skipToFour();
 break;
 case "pc1":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-beige-quilted-caviar-leather-gst-shopper-tote-p972809", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DLouis%2520pochette", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
