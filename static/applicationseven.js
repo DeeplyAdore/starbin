@@ -209,8 +209,8 @@ document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Mz.webp";
-document.querySelector('#pic5').src = "Qg.webp";
-document.querySelector('#pic6').src = "Xp.webp";
+document.querySelector('#pic5').src = "Xp.webp";
+document.querySelector('#pic6').src = "Vj.webp";
 
 document.querySelector('#pd1').id = "pe1";
 
