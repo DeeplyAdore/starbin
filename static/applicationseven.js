@@ -48,7 +48,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
-document.querySelector('#pic1').src = "Zp.webp";
+document.querySelector('#pic1').src = "Tok.webp";
 document.querySelector('#pic2').src = "Qo.webp";
 document.querySelector('#pic3').src = "By.webp";
 document.querySelector('#pic4').src = "Wi.webp";
@@ -685,7 +685,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "pa1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fjimmy-choo%2F235%2Fwomen%2F%3Fcategories%3D120", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
