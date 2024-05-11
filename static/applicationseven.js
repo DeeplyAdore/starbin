@@ -53,7 +53,7 @@ document.querySelector('#pic2').src = "Qk.webp";
 document.querySelector('#pic3').src = "By.webp";
 document.querySelector('#pic4').src = "Wi.webp";
 document.querySelector('#pic5').src = "Zu.jpg";
-document.querySelector('#pic6').src = "Aa.webp";
+document.querySelector('#pic6').src = "Vag.webp";
 
 document.querySelector('#p1').id = "pa1";
 
