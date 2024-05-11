@@ -52,7 +52,7 @@ document.querySelector('#pic1').src = "Mz.webp";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qo.webp";
 document.querySelector('#pic4').src = "Wi.webp";
-document.querySelector('#pic5').src = "Zu.jpg";
+document.querySelector('#pic5').src = "Vp.jpg";
 document.querySelector('#pic6').src = "Vag.webp";
 
 document.querySelector('#p1').id = "pa1";
@@ -136,7 +136,7 @@ document.querySelector('#firstPromptText').innerText = "Pick something to go wit
 document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Hz.webp";
-document.querySelector('#pic4').src = "Vp.jpg";
+document.querySelector('#pic4').src = "Zu.jpg";
 document.querySelector('#pic5').src = "Kot.webp";
 document.querySelector('#pic6').src = "Maz.webp";
 
@@ -705,7 +705,7 @@ document.title = "Pick Your Jewelry";
 skipToThree();
 break;
 case "pa5":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
@@ -760,7 +760,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pc4":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
