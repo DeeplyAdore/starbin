@@ -207,7 +207,7 @@ document.querySelector('#firstPromptText').innerText = "What will you wear with 
 
 document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Gv.webp";
-document.querySelector('#pic3').src = "Ny.webp";
+document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "Qn.webp";
 document.querySelector('#pic6').src = "Vt.webp";
@@ -815,7 +815,7 @@ window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
 case "pe3":
-win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520ear", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
