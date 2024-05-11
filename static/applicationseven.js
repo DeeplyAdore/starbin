@@ -171,7 +171,7 @@ document.querySelector('#firstPromptText').innerText = "You are going on a trip.
 
 document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
-document.querySelector('#pic3').src = "Vag.webp";
+document.querySelector('#pic3').src = "Xg.webp";
 document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "Mv.webp";
 document.querySelector('#pic6').src = "Qn.webp";
@@ -785,7 +785,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pd3":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchanel-cc-resin-crystals-gold-tone-heart-drop-earrings-p970629", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dgucci%2520duffel", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
