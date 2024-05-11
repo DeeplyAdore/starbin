@@ -357,39 +357,11 @@ if (emailInputVar.value == "" || !emailInputVar.value.includes("@")) {
 element.innerText = "Please enter your email.";
 element.style.display = "block";
 } else {
-console.log("x1");
-document.getElementById('lock1').style.display = "none";
-console.log("x2");
-document.getElementById('lock2').style.display = "none";
-console.log("x3");
-document.getElementById("popupPic1").style.filter = "none";
-console.log("x4");
-document.getElementById('popupPic2').style.filter = "none";
 
-var numOne = document.getElementById('popup1P1');
+window.open("https://www.instyle.com/sweepstakes/entry?sweepId=ins-shopping-10ksummer2024", '_blank');
 
-if (numOne) {
-numOne.classList.add("item", "enabled");
-numOne.style.pointerEvents = "initial";
-numOne.style.cursor = "pointer";
+document.querySelector('.exit-intent-popup').classList.remove('visible');
 
-var numOne = document.getElementById('popup1P2');
-
-if (numOne) {
-numOne.classList.add("item", "enabled");
-numOne.style.pointerEvents = "initial";
-numOne.style.cursor = "pointer";
-};
-} else {
-document.getElementById('popup2P1').classList.add("item", "enabled");
-document.getElementById('popup2P1').style.pointerEvents = "initial";
-document.getElementById('popup2P1').style.cursor = "pointer";
-document.getElementById('popup2P2').classList.add("item", "enabled");
-document.getElementById('popup2P2').style.pointerEvents = "initial";
-document.getElementById('popup2P2').style.cursor = "pointer";
-};
-
-document.getElementById('emailSection').style.display = "none";
 };
 
       };
