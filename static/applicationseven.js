@@ -48,7 +48,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
-document.querySelector('#pic1').src = "Mz.webp";
+document.querySelector('#pic1').src = "On.webp";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qo.webp";
 document.querySelector('#pic4').src = "Wi.webp";
@@ -685,7 +685,7 @@ document.title = "Now Pick Shoes";
 skipToTwo();
 break;
 case "pa1":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D121", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dveneta%2520slide", '_blank');
 document.title = "Pick Your Jewelry";
 skipToThree();
 break;
