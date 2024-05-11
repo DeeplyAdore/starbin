@@ -670,7 +670,7 @@ document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p4":
-window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
+window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
 document.title = "Question 2 of 6";
 skipToTwo();
 break;
@@ -680,7 +680,7 @@ document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p6":
-window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
+window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
 document.title = "Question 2 of 6";
 skipToTwo();
 break;
