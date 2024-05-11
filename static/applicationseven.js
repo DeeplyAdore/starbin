@@ -138,7 +138,7 @@ document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Zu.jpg";
 document.querySelector('#pic5').src = "Tg.webp";
-document.querySelector('#pic6').src = "Maz.webp";
+document.querySelector('#pic6').src = "Wz.webp";
 
 document.querySelector('#pb1').id = "pc1";
 
@@ -656,152 +656,152 @@ console.log("Y2");
 switch(event.target.id) {
 case "p1":
 window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p2":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DLady%2520dior", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p3":
 window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p4":
 window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dhermes%2520kelly", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p5":
 window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DHermes%2520birkin", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "p6":
 window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DGo%252014", '_blank');
-document.title = "Now Pick Shoes";
+document.title = "Question 2 of 6";
 skipToTwo();
 break;
 case "pa1":
 win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dveneta%2520slide", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa2":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520necklace", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa3":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D120", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa4":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520silk", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa5":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa6":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520ear", '_blank');
-document.title = "Pick Your Jewelry";
+document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pb1":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dcartier%2520love", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pb2":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dvan%2520cleef%2520alhambra", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pb3":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dtrinity%2520cartier", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pb4":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dpanthere%2520de%2520cartier", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pb5":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dvan%2520cleef%2520alhambra", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pb6":
 win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DJuste%2520un%2520clou", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 4 of 6";
 skipToFour();
 break;
 case "pc1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DLouis%2520pochette", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pc2":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fmules-bing-100%2F14121015%2F14288706%2Fjimmy-choo%2F", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pc3":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dtiffany%2520smile", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pc4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pc5":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dhermes%2520clic%2520clac", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pc6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fembellished-satin-sandals%2F14051017%2F14218708%2Fprada%2F", '_blank');
-document.title = "Finally Pick Your Gift";
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fgucci%2F112%2Fwomen%2F%3Fcategories%3D121", '_blank');
+document.title = "Question 5 of 6";
 skipToFive();
 break;
 case "pd1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pd2":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DKeepall", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pd3":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dgucci%2520duffel", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pd4":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DOnthego", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pd5":
 win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520deauville", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pd6":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DNeverfull", '_blank');
-document.title = "Finally Pick Your Gift";
+document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pe1":
