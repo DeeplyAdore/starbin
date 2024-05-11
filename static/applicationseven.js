@@ -174,7 +174,7 @@ document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Ku.webp";
 document.querySelector('#pic5').src = "Mv.webp";
-document.querySelector('#pic6').src = "Fg.webp";
+document.querySelector('#pic6').src = "Qn.webp";
 
 document.querySelector('#pc1').id = "pd1";
 
@@ -800,7 +800,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pd6":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fgivenchy-multicolor-floral-printed-silk-square-scarf-p864991", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DNeverfull", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
