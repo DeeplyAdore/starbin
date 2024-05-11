@@ -169,7 +169,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
 document.querySelector('#firstPromptText').innerText = "You are going on a trip. Choose wisely:";
 
-document.querySelector('#pic1').src = "Zp.webp";
+document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Vag.webp";
 document.querySelector('#pic4').src = "Ku.webp";
@@ -205,7 +205,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
-document.querySelector('#pic1').src = "Zw.webp";
+document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Ny.webp";
 document.querySelector('#pic4').src = "Ku.webp";
@@ -775,7 +775,7 @@ document.title = "Finally Pick Your Gift";
 skipToFive();
 break;
 case "pd1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
 document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
@@ -805,7 +805,7 @@ document.title = "Finally Pick Your Gift";
 skipToSix();
 break;
 case "pe1":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520book", '_blank');
+win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
