@@ -52,8 +52,6 @@ document.querySelector('#pic1').src = "On.webp";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qo.webp";
 document.querySelector('#pic4').src = "Wi.webp";
-document.querySelector('#pic5').src = "Vp.jpg";
-document.querySelector('#pic6').src = "Vag.webp";
 
 document.querySelector('#p1').id = "pa1";
 
@@ -62,10 +60,6 @@ document.querySelector('#p2').id = "pa2";
 document.querySelector('#p3').id = "pa3";
 
 document.querySelector('#p4').id = "pa4";
-
-document.querySelector('#p5').id = "pa5";
-
-document.querySelector('#p6').id = "pa6";
 
 document.querySelector('#progressBar').style.width = "33.3%";
 
@@ -96,8 +90,6 @@ document.querySelector('#pic1').src = "Xo.webp";
 document.querySelector('#pic2').src = "Ww.webp";
 document.querySelector('#pic3').src = "Ff.webp";
 document.querySelector('#pic4').src = "Xs.webp";
-document.querySelector('#pic5').src = "Mm.webp";
-document.querySelector('#pic6').src = "Ss.webp";
 
 document.querySelector('#pa1').id = "pb1";
 
@@ -106,10 +98,6 @@ document.querySelector('#pa2').id = "pb2";
 document.querySelector('#pa3').id = "pb3";
 
 document.querySelector('#pa4').id = "pb4";
-
-document.querySelector('#pa5').id = "pb5";
-
-document.querySelector('#pa6').id = "pb6";
 
 document.querySelector('#progressBar').style.width = "50%";
 
@@ -137,8 +125,6 @@ document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Zu.jpg";
-document.querySelector('#pic5').src = "Tg.webp";
-document.querySelector('#pic6').src = "Wz.webp";
 
 document.querySelector('#pb1').id = "pc1";
 
@@ -147,10 +133,6 @@ document.querySelector('#pb2').id = "pc2";
 document.querySelector('#pb3').id = "pc3";
 
 document.querySelector('#pb4').id = "pc4";
-
-document.querySelector('#pb5').id = "pc5";
-
-document.querySelector('#pb6').id = "pc6";
 
 document.querySelector('#progressBar').style.width = "66.6%";
 
@@ -173,8 +155,6 @@ document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Xg.webp";
 document.querySelector('#pic4').src = "Ku.webp";
-document.querySelector('#pic5').src = "Mv.webp";
-document.querySelector('#pic6').src = "Qn.webp";
 
 document.querySelector('#pc1').id = "pd1";
 
@@ -183,10 +163,6 @@ document.querySelector('#pc2').id = "pd2";
 document.querySelector('#pc3').id = "pd3";
 
 document.querySelector('#pc4').id = "pd4";
-
-document.querySelector('#pc5').id = "pd5";
-
-document.querySelector('#pc6').id = "pd6";
 
 document.querySelector('#progressBar').style.width = "83.3%";
 
@@ -209,8 +185,6 @@ document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Mz.webp";
-document.querySelector('#pic5').src = "Xp.webp";
-document.querySelector('#pic6').src = "Vj.webp";
 
 document.querySelector('#pd1').id = "pe1";
 
@@ -219,10 +193,6 @@ document.querySelector('#pd2').id = "pe2";
 document.querySelector('#pd3').id = "pe3";
 
 document.querySelector('#pd4').id = "pe4";
-
-document.querySelector('#pd5').id = "pe5";
-
-document.querySelector('#pd6').id = "pe6";
 
 document.querySelector('#progressBar').style.width = "100%";
 
