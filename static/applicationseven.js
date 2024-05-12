@@ -67,14 +67,6 @@ document.querySelector('#skip').style.display = "none";
 
 document.querySelector('#skip2').style.display = "block";
 
-document.querySelector('#popupImg1').src = "Uyu.webp";
-
-document.querySelector('#popupImg2').src = "Wyw.webp";
-
-document.querySelector('#popup1P1').id = "popup2P1";
-
-document.querySelector('#popup1P2').id = "popup2P2";
-
 };
 
 
