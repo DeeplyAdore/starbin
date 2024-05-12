@@ -52,8 +52,6 @@ document.querySelector('#pic1').src = "On.webp";
 document.querySelector('#pic2').src = "By.webp";
 document.querySelector('#pic3').src = "Qo.webp";
 document.querySelector('#pic4').src = "Wi.webp";
-document.querySelector('#pic5').src = "Vp.jpg";
-document.querySelector('#pic6').src = "Vag.webp";
 
 document.querySelector('#p1').id = "pa1";
 
@@ -63,23 +61,11 @@ document.querySelector('#p3').id = "pa3";
 
 document.querySelector('#p4').id = "pa4";
 
-document.querySelector('#p5').id = "pa5";
-
-document.querySelector('#p6').id = "pa6";
-
 document.querySelector('#progressBar').style.width = "33.3%";
 
 document.querySelector('#skip').style.display = "none";
 
 document.querySelector('#skip2').style.display = "block";
-
-document.querySelector('#popupImg1').src = "Uyu.webp";
-
-document.querySelector('#popupImg2').src = "Wyw.webp";
-
-document.querySelector('#popup1P1').id = "popup2P1";
-
-document.querySelector('#popup1P2').id = "popup2P2";
 
 };
 
@@ -96,8 +82,6 @@ document.querySelector('#pic1').src = "Xo.webp";
 document.querySelector('#pic2').src = "Ww.webp";
 document.querySelector('#pic3').src = "Ff.webp";
 document.querySelector('#pic4').src = "Xs.webp";
-document.querySelector('#pic5').src = "Mm.webp";
-document.querySelector('#pic6').src = "Ss.webp";
 
 document.querySelector('#pa1').id = "pb1";
 
@@ -106,10 +90,6 @@ document.querySelector('#pa2').id = "pb2";
 document.querySelector('#pa3').id = "pb3";
 
 document.querySelector('#pa4').id = "pb4";
-
-document.querySelector('#pa5').id = "pb5";
-
-document.querySelector('#pa6').id = "pb6";
 
 document.querySelector('#progressBar').style.width = "50%";
 
@@ -137,8 +117,6 @@ document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "Tok.webp";
 document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Zu.jpg";
-document.querySelector('#pic5').src = "Tg.webp";
-document.querySelector('#pic6').src = "Wz.webp";
 
 document.querySelector('#pb1').id = "pc1";
 
@@ -147,10 +125,6 @@ document.querySelector('#pb2').id = "pc2";
 document.querySelector('#pb3').id = "pc3";
 
 document.querySelector('#pb4').id = "pc4";
-
-document.querySelector('#pb5').id = "pc5";
-
-document.querySelector('#pb6').id = "pc6";
 
 document.querySelector('#progressBar').style.width = "66.6%";
 
@@ -173,8 +147,6 @@ document.querySelector('#pic1').src = "Zw.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Xg.webp";
 document.querySelector('#pic4').src = "Ku.webp";
-document.querySelector('#pic5').src = "Mv.webp";
-document.querySelector('#pic6').src = "Qn.webp";
 
 document.querySelector('#pc1').id = "pd1";
 
@@ -183,10 +155,6 @@ document.querySelector('#pc2').id = "pd2";
 document.querySelector('#pc3').id = "pd3";
 
 document.querySelector('#pc4').id = "pd4";
-
-document.querySelector('#pc5').id = "pd5";
-
-document.querySelector('#pc6').id = "pd6";
 
 document.querySelector('#progressBar').style.width = "83.3%";
 
@@ -209,8 +177,6 @@ document.querySelector('#pic1').src = "Zp.webp";
 document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Mz.webp";
-document.querySelector('#pic5').src = "Xp.webp";
-document.querySelector('#pic6').src = "Vj.webp";
 
 document.querySelector('#pd1').id = "pe1";
 
@@ -219,10 +185,6 @@ document.querySelector('#pd2').id = "pe2";
 document.querySelector('#pd3').id = "pe3";
 
 document.querySelector('#pd4').id = "pe4";
-
-document.querySelector('#pd5').id = "pe5";
-
-document.querySelector('#pd6').id = "pe6";
 
 document.querySelector('#progressBar').style.width = "100%";
 
@@ -674,16 +636,6 @@ window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2F
 document.title = "Question 2 of 6";
 skipToTwo();
 break;
-case "p5":
-window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DHermes%2520birkin", '_blank');
-document.title = "Question 2 of 6";
-skipToTwo();
-break;
-case "p6":
-window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fsearch%3DChanel%2520classic", '_blank');
-document.title = "Question 2 of 6";
-skipToTwo();
-break;
 case "pa1":
 win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dveneta%2520slide", '_blank');
 document.title = "Question 3 of 6";
@@ -701,16 +653,6 @@ skipToThree();
 break;
 case "pa4":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520silk", '_blank');
-document.title = "Question 3 of 6";
-skipToThree();
-break;
-case "pa5":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
-document.title = "Question 3 of 6";
-skipToThree();
-break;
-case "pa6":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520ear", '_blank');
 document.title = "Question 3 of 6";
 skipToThree();
 break;
@@ -734,16 +676,6 @@ win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A
 document.title = "Question 4 of 6";
 skipToFour();
 break;
-case "pb5":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dvan%2520cleef%2520alhambra", '_blank');
-document.title = "Question 4 of 6";
-skipToFour();
-break;
-case "pb6":
-win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DJuste%2520un%2520clou", '_blank');
-document.title = "Question 4 of 6";
-skipToFour();
-break;
 case "pc1":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DLouis%2520pochette", '_blank');
 document.title = "Question 5 of 6";
@@ -761,16 +693,6 @@ skipToFive();
 break;
 case "pc4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_blank');
-document.title = "Question 5 of 6";
-skipToFive();
-break;
-case "pc5":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dhermes%2520clic%2520clac", '_blank');
-document.title = "Question 5 of 6";
-skipToFive();
-break;
-case "pc6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fgucci%2F112%2Fwomen%2F%3Fcategories%3D121", '_blank');
 document.title = "Question 5 of 6";
 skipToFive();
 break;
@@ -794,16 +716,6 @@ win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A
 document.title = "Question 6 of 6";
 skipToSix();
 break;
-case "pd5":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520deauville", '_blank');
-document.title = "Question 6 of 6";
-skipToSix();
-break;
-case "pd6":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DNeverfull", '_blank');
-document.title = "Question 6 of 6";
-skipToSix();
-break;
 case "pe1":
 win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
 window.focus();
@@ -823,28 +735,6 @@ case "pe4":
 win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D121", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
-break;
-case "pe5":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dlouis%2520wallet", '_blank');
-window.focus();
-        window.location.href = 'https://www.looksforwomen.com/results';
-break;
-case "pe6":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2F%3Fq%3DSaeda", '_blank');
-window.focus();
-        window.location.href = 'https://www.looksforwomen.com/results';
-break;
-case "popup1P1":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fsandals%2Fopyum-sandals%2F13655926%2F13823617%2Fsaint-laurent%2F", '_top');
-break;
-case "popup1P2":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fhigh-heeled-shoes%2Fdecollete-kate-85%2F13728573%2F13896264%2Fchristian-louboutin%2F", '_top');
-break;
-case "popup2P1":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-brown-monogram-canvas-roses-speedy-30-bag-p963167", '_top');
-break;
-case "popup2P2":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchanel-pink-lambskin-mini-flap-bag-p968236", '_top');
 break;
 } ;
 
