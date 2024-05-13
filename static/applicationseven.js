@@ -116,7 +116,7 @@ document.querySelector('#firstPromptText').innerText = "Pick something to go wit
 document.querySelector('#pic1').src = "Bj.webp";
 document.querySelector('#pic2').src = "1r.webp";
 document.querySelector('#pic3').src = "Hz.webp";
-document.querySelector('#pic4').src = "Zu.jpg";
+document.querySelector('#pic4').src = "1t.webp";
 
 document.querySelector('#pb1').id = "pc1";
 
