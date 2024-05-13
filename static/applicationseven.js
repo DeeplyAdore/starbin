@@ -146,7 +146,7 @@ document.querySelector('#firstPromptText').innerText = "You are going on a trip.
 document.querySelector('#pic1').src = "1u.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Xg.webp";
-document.querySelector('#pic4').src = "Ku.webp";
+document.querySelector('#pic4').src = "1o.webp";
 
 document.querySelector('#pc1').id = "pd1";
 
