@@ -50,8 +50,8 @@ document.querySelector('#firstPromptText').innerText = "What will you wear with 
 
 document.querySelector('#pic1').src = "On.webp";
 document.querySelector('#pic2').src = "By.webp";
-document.querySelector('#pic3').src = "Qo.webp";
-document.querySelector('#pic4').src = "Wi.webp";
+document.querySelector('#pic3').src = "Vp.jpg";
+document.querySelector('#pic4').src = "Vag.webp";
 
 document.querySelector('#p1').id = "pa1";
 
@@ -173,7 +173,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#a585e0";
 
 document.querySelector('#firstPromptText').innerText = "What will you wear with your bag?";
 
-document.querySelector('#pic1').src = "Zp.webp";
+document.querySelector('#pic1').src = "Xp.webp";
 document.querySelector('#pic2').src = "Vx.webp";
 document.querySelector('#pic3').src = "Aa.webp";
 document.querySelector('#pic4').src = "Mz.webp";
@@ -647,12 +647,12 @@ document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa3":
-win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fbrands%2Fsaint-laurent%2F76%2Fwomen%2F%3Fcategories%3D120", '_blank');
+win2 = window.open("https://click.linksynergy.com/deeplink?id=GKWXuxtdd2E&mid=41132&murl=https%3A%2F%2Fwww.italist.com%2Fus%2Fwomen%2Fshoes%2Fboots%2Fopyum-logo-plaque-pointed-toe-boots%2F14064571%2F14232262%2Fsaint-laurent%2F", '_blank');
 document.title = "Question 3 of 6";
 skipToThree();
 break;
 case "pa4":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DDior%2520silk", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DChanel%2520ear", '_blank');
 document.title = "Question 3 of 6";
 skipToThree();
 break;
@@ -717,7 +717,7 @@ document.title = "Question 6 of 6";
 skipToSix();
 break;
 case "pe1":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3DHermes%2520pendant", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Ffilter%3Fsearch%3Dlouis%2520wallet", '_blank');
 window.focus();
         window.location.href = 'https://www.looksforwomen.com/results';
 break;
