@@ -80,7 +80,7 @@ document.querySelector('#firstPromptText').innerText = "Pick jewelry to wear to 
 
 document.querySelector('#pic1').src = "Xo.webp";
 document.querySelector('#pic2').src = "Ww.webp";
-document.querySelector('#pic3').src = "Ff.webp";
+document.querySelector('#pic3').src = "1i.webp";
 document.querySelector('#pic4').src = "1y.webp";
 
 document.querySelector('#pa1').id = "pb1";
