@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="X-UA-Compatible" http-equiv="X-UA-Compatible" content="IE=edge,chrom=1"/><meta name="msapplication-tap-highlight" content="no"/><link rel="manifest" href="site.webmanifest"><link rel="stylesheet" type="text/css" href="s.css" /><meta name="keywords" content/><meta property="og:type" content="website"/><meta name="theme-color" content="#000000"/><link href="/i.png" rel="shortcut icon" sizes="196x196" /><meta property="og:site_name" content="Your Results"/><meta name="robots" content="max-image-preview:large,max-snippet:-1,max-video-preview:30"/><link rel="apple-touch-icon" href=""/><meta property="og:image" content="/t.png"/>
+
+    <link rel="canonical" href="https://www.looksforwomen.com/"/><title>Your Results</title><meta name="title" content="Your Results"/><meta name="description" content="Discover your look."/><meta property="og:title" content="Your Results"/><meta property="og:description" content="Discover your look."/><meta content="https://www.looksforwomen.com/" property="og:url"/>
+
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="applicationtwo.js"></script>
+
+    <script type="text/javascript">
+      var app = null;
+      // Handle pops
+      var handlePop = function (evt) {
+        var path = evt.target.location.pathname;
+        if (path === "/") {
+          app.newDocument(true);
+        } else {
+          app.loadDocument(path.substring(1, path.length));
+        }
+      };
+      // Set up the pop state to handle loads, skipping the first load
+      // to make chrome behave like others:
+      // http://code.google.com/p/chromium/issues/detail?id=63040
+      setTimeout(function () {
+        window.onpopstate = function (evt) {
+          try {
+            handlePop(evt);
+          } catch (err) {
+            /* not loaded yet */
+          }
+        };
+      }, 1000);
+      // Construct app and load initial path
+      $(function () {
+        app = new haste("Your Results", { twitter: false });
+        handlePop({ target: window });
+      });
+
+      function toggle2() {
+
+var element = document.querySelector('#mRequest');
+
+element.style.display = "block";
+
+        element = document.querySelector('#hhh');
+
+element.style.display = "none";
+
+        element = document.querySelector('#hh');
+
+element.style.display = "none";
+        
+      };
+
+      function requested() {
+
+var emailInputVar = document.getElementById('emailInput');
+
+var element = document.querySelector('#requested');
+
+console.log(emailInputVar.value);
+
+if (emailInputVar.value == "" || !emailInputVar.value.includes("@")) {
+element.innerText = "Please enter your email.";
+element.style.display = "block";
+} else {
+document.getElementById('previewText').style.display = "none";
+document.getElementById('wholeText').style.display = "block";
+element.style.display = "none";
+document.getElementById('emailPart').style.display = "none";
+}
+
+      };
+
+            function login() {
+
+var element = document.querySelector('#loginIncorrect');
+
+element.style.display = "block";
+
+      };
+
+    </script>
+  </head>
+
+  <body>
+
+<video playsinline src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/CBQ4hJooAQ_HD.mp4" muted="muted" loop="loop" tabindex="-1" aria-hidden="true" style="display:;bottom:0;height:100%;-o-object-fit:cover;object-fit:cover;opacity:0;position:absolute;top:0;width:100%"></video>
+
+</body>
+</html>
