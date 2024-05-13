@@ -143,7 +143,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#46cecb";
 
 document.querySelector('#firstPromptText').innerText = "You are going on a trip. Choose wisely:";
 
-document.querySelector('#pic1').src = "Zw.webp";
+document.querySelector('#pic1').src = "1u.webp";
 document.querySelector('#pic2').src = "Gv.webp";
 document.querySelector('#pic3').src = "Xg.webp";
 document.querySelector('#pic4').src = "Ku.webp";
