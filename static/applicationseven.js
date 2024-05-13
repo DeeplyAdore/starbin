@@ -114,7 +114,7 @@ document.querySelector('#firstPromptSection').style.backgroundColor = "#ddad46";
 document.querySelector('#firstPromptText').innerText = "Pick something to go with your jewelry:";
 
 document.querySelector('#pic1').src = "Bj.webp";
-document.querySelector('#pic2').src = "Tok.webp";
+document.querySelector('#pic2').src = "1r.webp";
 document.querySelector('#pic3').src = "Hz.webp";
 document.querySelector('#pic4').src = "Zu.jpg";
 
