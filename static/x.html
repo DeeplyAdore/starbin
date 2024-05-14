@@ -149,15 +149,15 @@ LOOKS FOR WOMEN
 <script>
 function openNav() {
 document.getElementById("backdrop").style.display = "block";
-setTimeout(() => { document.getElementById("backdrop").style.opacity = 1; }, 300);
+document.getElementById("backdrop").style.opacity = 1;
   document.getElementById("mySidepanel").style.width = "50%";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
 function closeNav() {
 document.getElementById("mySidepanel").style.width = "0";
-setTimeout(() => { document.getElementById("backdrop").style.opacity = 0; }, 300);
- document.getElementById("backdrop").style.display = "none";
+document.getElementById("backdrop").style.opacity = 0;
+setTimeout(() => { document.getElementById("backdrop").style.display = "none"; }, 300);
 } 
 </script>
 
