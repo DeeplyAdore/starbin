@@ -127,7 +127,7 @@ LOOKS FOR WOMEN
 <style>.dot{height:.75rem;width:.75rem;border-radius:50%;display:inline-block;margin:auto 0 auto 0;}</style>
 
 <div>
-<div onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
+<div id="colors"onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
 <div onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
@@ -180,9 +180,15 @@ document.getElementById("backdrop").style.opacity = 0;
 setTimeout(() => { document.getElementById("backdrop").style.visibility = "hidden"; }, 300);
 }
 
+function colorsChange() {
+document.getElementById("sidepanelHeader").innerText = "Colors";
+}
+
 function otherSizesChange() {
 document.getElementById("sidepanelHeader").innerText = "Other sizes";
 }
+
+var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
 
 var el = document.getElementById("otherSizes"); el.addEventListener("click", function(){otherSizesChange();openNav();}, false);
 </script>
