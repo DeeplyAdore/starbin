@@ -134,7 +134,7 @@ LOOKS FOR WOMEN
 
 .sidepanel .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
 
-#backdrop {position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 1;background: rgba(0, 0, 0, 0.8);}
+#backdrop {display:none;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 1;background: rgba(0, 0, 0, 0.8);}
 </style>
 
 <div id="backdrop"></div>
@@ -148,7 +148,7 @@ LOOKS FOR WOMEN
 
 <script>
 function openNav() {
-document.getElementById("backdrop").style.display = "visible";
+document.getElementById("backdrop").style.display = "block";
   document.getElementById("mySidepanel").style.width = "250px";
 }
 
