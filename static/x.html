@@ -107,9 +107,9 @@ LOOKS FOR WOMEN
 <div>
 <div onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
-<div style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
+<div onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
-<div style="display:flex;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Other sizes</h2><span style="margin:auto 0 auto auto;font-size:.875rem;">Neverfull MM</span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
+<div onclick="openNav()"style="display:flex;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Other sizes</h2><span style="margin:auto 0 auto auto;font-size:.875rem;">Neverfull MM</span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 </div>
 
 <style>#primaryButton{margin-top:2rem;margin-bottom:1rem;width:100%;background-color:#000000;border:1px solid #000000;border-radius:100vmax;min-height:3rem;min-width:13rem;display:block;text-align:center;color:#ffffff;line-height:3rem;font-size:1rem;font-weight:400;cursor:pointer;transition:border .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1),color .3s cubic-bezier(.39,.575,.565,1),background .3s cubic-bezier(.39,.575,.565,1);}#primaryButton:hover{background-color:white;transition:border .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1),color .3s cubic-bezier(.39,.575,.565,1),background .3s cubic-bezier(.39,.575,.565,1);color:black;text-decoration:none;}#details:hover{text-decoration:underline;}</style>
@@ -126,7 +126,7 @@ LOOKS FOR WOMEN
 </div>
 
 <style>
-.sidepanel {height: 100%;width: 50%;position: fixed;z-index: 2;top: 0;right: 0;background-color: white;overflow-x: hidden;padding-top: 60px;transition: 0.5s;}
+.sidepanel {height: 100%;width: 0;position: fixed;z-index: 2;top: 0;right: 0;background-color: white;overflow-x: hidden;padding-top: 60px;transition: 0.5s;}
 
 .sidepanel a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
 
@@ -149,7 +149,7 @@ LOOKS FOR WOMEN
 <script>
 function openNav() {
 document.getElementById("backdrop").style.display = "block";
-  document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementById("mySidepanel").style.width = "50%";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
