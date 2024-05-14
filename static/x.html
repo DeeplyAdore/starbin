@@ -105,7 +105,7 @@ LOOKS FOR WOMEN
 <style>.dot{height:.75rem;width:.75rem;border-radius:50%;display:inline-block;margin:auto 0 auto 0;}</style>
 
 <div>
-<div style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
+<div onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
 <div style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
@@ -126,17 +126,13 @@ LOOKS FOR WOMEN
 </div>
 
 <style>
-.sidepanel {height: 250px;width: 0;position: fixed;z-index: 1;top: 0;left: 0;background-color: #111;overflow-x: hidden;padding-top: 60px;transition: 0.5s;}
+.sidepanel {height: 250px;width: 0;position: fixed;z-index: 1;top: 0;right: 0;background-color: #111;overflow-x: hidden;padding-top: 60px;transition: 0.5s;}
 
 .sidepanel a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
 
 .sidepanel a:hover {color: #f1f1f1;}
 
 .sidepanel .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
-
-.openbtn {font-size: 20px;cursor: pointer;background-color: #111;color: white;padding: 10px 15px;border: none;}
-
-.openbtn:hover {background-color: #444;}
 </style>
 
 <div id="mySidepanel" class="sidepanel">
@@ -146,8 +142,6 @@ LOOKS FOR WOMEN
   <a href="#">Clients</a>
   <a href="#">Contact</a>
 </div>
-
-<button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button>
 
 <script>
 function openNav() {
