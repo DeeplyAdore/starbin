@@ -183,14 +183,14 @@ function colorsChange() {
 document.getElementById("sidepanelHeader").innerText = "Colors";
 document.getElementById("firstTitle").innerText = "Beige";
 document.getElementById("secondTitle").innerText = "Red";
-document.getElementById("thirdChoice").style.visibility = "visible";
+document.getElementById("thirdChoice").style.visibility = "hidden";
 }
 
 function materialChange() {
 document.getElementById("sidepanelHeader").innerText = "Material";
 document.getElementById("firstTitle").innerText = "Monogram";
 document.getElementById("secondTitle").innerText = "Damier Ebene";
-document.getElementById("thirdChoice").style.visibility = "hidden";
+document.getElementById("thirdChoice").style.visibility = "visible";
 }
 
 var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
