@@ -131,7 +131,6 @@ LOOKS FOR WOMEN
 
 <div id="material"onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
-<div id="otherSizes"onclick="openNav()"style="display:flex;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Other sizes</h2><span style="margin:auto 0 auto auto;font-size:.875rem;">Neverfull MM</span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 </div>
 
 <style>#primaryButton{margin-top:2rem;margin-bottom:1rem;width:100%;background-color:#000000;border:1px solid #000000;border-radius:0;min-height:3rem;min-width:13rem;display:block;text-align:center;color:#ffffff;line-height:3rem;font-size:1rem;font-weight:400;cursor:pointer;transition:border .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1),color .3s cubic-bezier(.39,.575,.565,1),background .3s cubic-bezier(.39,.575,.565,1);}#primaryButton:hover{background-color:white;transition:border .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1),color .3s cubic-bezier(.39,.575,.565,1),background .3s cubic-bezier(.39,.575,.565,1);color:black;text-decoration:none;}#details:hover{text-decoration:underline;}</style>
@@ -188,15 +187,10 @@ function materialChange() {
 document.getElementById("sidepanelHeader").innerText = "Material";
 }
 
-function otherSizesChange() {
-document.getElementById("sidepanelHeader").innerText = "Other sizes";
-}
-
 var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
 
 var el = document.getElementById("material"); el.addEventListener("click", function(){materialChange();openNav();}, false);
 
-var el = document.getElementById("otherSizes"); el.addEventListener("click", function(){otherSizesChange();openNav();}, false);
 </script>
 
 </body>
