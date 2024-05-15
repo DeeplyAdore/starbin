@@ -159,7 +159,7 @@ LOOKS FOR WOMEN
 <div id="backdrop"></div>
 <div id="mySidepanel" class="sidepanel"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><h2 id="sidepanelHeader"style="margin-left:15%;margin-bottom:3rem;font-size:1.125rem;font-weight:400;font-family:CSans,sans-serif;">Material</h2>
 <div class="grid">
-<div class="module"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="firstTitle"class="sidepanelTitle">Monogram</h2></div>
+<div class="module"><img id="firstImage"style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="firstTitle"class="sidepanelTitle">Monogram</h2></div>
 <div class="module"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="secondTitle"class="sidepanelTitle">Damier Ebene</h2></div>
 <div class="module"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40603_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 class="sidepanelTitle">Damier Azur</h2></div>
 </div> 
@@ -182,12 +182,14 @@ setTimeout(() => { document.getElementById("backdrop").style.visibility = "hidde
 function colorsChange() {
 document.getElementById("sidepanelHeader").innerText = "Colors";
 document.getElementById("firstTitle").innerText = "Beige";
+document.getElementById("firstImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Interior%20view.png?wid=1090&amp;hei=1090";
 document.getElementById("secondTitle").innerText = "Red";
 }
 
 function materialChange() {
 document.getElementById("sidepanelHeader").innerText = "Material";
 document.getElementById("firstTitle").innerText = "Monogram";
+document.getElementById("firstImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&amp;hei=490";
 document.getElementById("secondTitle").innerText = "Damier Ebene";
 }
 
