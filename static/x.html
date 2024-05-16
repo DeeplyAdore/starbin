@@ -171,7 +171,7 @@ LOOKS FOR WOMEN
 <div id="backdrop"onclick="closeNav()"></div>
 <div id="mySidepanel" class="sidepanel"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><h2 id="sidepanelHeader"style="margin-left:15%;margin-bottom:3rem;font-size:1.125rem;font-weight:400;font-family:CSans,sans-serif;">Material</h2>
 <div class="grid">
-<div id="firstMaterialModule"class="module"style="border:3px solid black;"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="firstTitle"class="sidepanelTitle">Monogram</h2></div>
+<div id="firstMaterialModule"class="module"style="border:3px solid black;"><img id="firstSidepanelImage"style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&hei=490"><h2 id="firstTitle"class="sidepanelTitle">Monogram</h2></div>
 <div id="redChoice"class="module"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="firstTitle"class="sidepanelTitle">Red</h2></div>
 <div id="otherChoice"class="module"><img id="secondImage"style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 id="secondTitle"class="sidepanelTitle">Damier Ebene</h2></div>
 <div id="thirdChoice"class="module"><img style="width:100%;"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40603_PM2_Front%20view.png?wid=490&amp;hei=490"><h2 class="sidepanelTitle">Damier Azur</h2></div>
@@ -202,6 +202,7 @@ document.getElementById("mySidepanel").style.width = "0";
 document.getElementById("backdrop").style.opacity = 0;
 setTimeout(() => { document.getElementById("backdrop").style.visibility = "hidden"; }, 300);
 document.getElementById("firstMaterialModule").style.border = "none";
+document.getElementById("firstSidepanelImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&hei=490";
 }
 
 function colorsChange() {
@@ -209,11 +210,14 @@ document.getElementById("sidepanelHeader").innerText = "Colors";
 
 switch (document.getElementById("currentColors").innerText) {
 case "Beige":
+document.getElementById("firstSidepanelImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM2_Front%20view.png?wid=490&hei=490";
+document.getElementById("firstMaterialModule").style.border = "3px solid black";
 document.getElementById("firstTitle").innerText = "Beige";
 document.getElementById("redChoice").style.display = "flex";
 document.getElementById("secondTitle").innerText = "Red";
 break;
 case "Cherry":
+document.getElementById("firstSidepanelImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=490&hei=490";
 document.getElementById("firstMaterialModule").style.border = "3px solid black";
 document.getElementById("firstTitle").innerText = "Cherry";
 break;
