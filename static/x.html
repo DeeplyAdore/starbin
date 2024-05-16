@@ -132,7 +132,7 @@ LOOKS FOR WOMEN
 <style>.dot{height:.75rem;width:.75rem;border-radius:50%;display:inline-block;margin:auto 0 auto 0;}</style>
 
 <div>
-<div id="colors"onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
+<div id="colors"onclick="openNav()"style="display:flex;border-bottom:1px solid #e1e1e1;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Colors</h2><span id="currentColors"style="margin:auto .5rem auto auto;font-size:.875rem;">Beige</span><span id="colorsDot"class="dot"style="background-color:#bd9f7d;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
 <div id="material"onclick="openNav()"style="display:flex;cursor:pointer;"><h2 style="font-size:.875rem;font-weight:400;height:3.25rem;align-items:center;display:flex;">Material</h2><span id="currentMaterial"style="margin:auto .5rem auto auto;font-size:.875rem;">Monogram</span><span class="dot"style="background-color:#3b2924;"></span><img style="margin:auto 0 auto .5rem;"src="https://upload.wikimedia.org/wikipedia/commons/5/57/Feather-arrows-chevron-right.svg"></div>
 
@@ -214,6 +214,8 @@ document.getElementById("thirdChoice").style.visibility = "visible";
 function changeToDamierEbene() {
 document.getElementById("firstMaterialModule").style.border = "none";
 document.getElementById("otherChoice").style.border = "3px solid black";
+document.getElementById("currentColors").innerText = "Cherry";
+document.getElementById("colorsDot").style.backgroundColor = "#960b20";
 document.getElementById("currentMaterial").innerText = "Damier Ebene";
 document.getElementById("secondMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=1090&hei=1090";
 document.getElementById("thirdMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Side%20view.png?wid=1090hei=1090";
