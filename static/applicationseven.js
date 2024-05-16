@@ -616,6 +616,9 @@ console.log("Y2");
   });
 
 switch(event.target.id) {
+case "primaryButton1":
+win2 = window.open("https://www.ddg.gg", '_blank');
+break;
 case "p1":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fconditions%3D3%252C2%26search%3DChanel%2520Classic", '_blank');
 document.title = "Question 2 of 6";
