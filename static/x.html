@@ -232,6 +232,11 @@ document.getElementById("thirdChoice").style.visibility = "hidden";
 }
 
 function materialChange() {
+switch (document.getElementById("currentColors").innerText) {
+case "Beige":
+document.getElementById("firstMaterialModule").style.border = "3px solid black";
+break;
+}
 document.getElementById("sidepanelHeader").innerText = "Material";
 document.getElementById("firstTitle").innerText = "Monogram";
 document.getElementById("redChoice").style.display = "none";
