@@ -205,7 +205,13 @@ setTimeout(() => { document.getElementById("backdrop").style.visibility = "hidde
 
 function colorsChange() {
 document.getElementById("sidepanelHeader").innerText = "Colors";
+
+if (document.getElementById("currentColors").innerText === "Rose Beige") {
+document.getElementById("firstTitle").innerText = "Rose Beige";
+} else {
 document.getElementById("firstTitle").innerText = "Beige";
+}
+
 document.getElementById("redChoice").style.display = "flex";
 document.getElementById("otherChoice").style.display = "none";
 document.getElementById("secondTitle").innerText = "Red";
