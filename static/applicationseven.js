@@ -622,6 +622,12 @@ break;
 case "LVmonogram":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-007653/M40995", '_blank');
 break;
+case "LVdamierEbene":
+win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-ebene-nvprod5350102v/N40599", '_blank');
+break;
+case "LVdamierAzur":
+win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-azur-canvas-nvprod5350103v/N40603", '_blank');
+break;
 case "p1":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fconditions%3D3%252C2%26search%3DChanel%2520Classic", '_blank');
 document.title = "Question 2 of 6";
