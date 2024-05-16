@@ -96,7 +96,9 @@ LOOKS FOR WOMEN
 
 <div style="background: linear-gradient(#efefef, #f1f1f1, #ededed, #e4e4e4);">
 
-<video autoplay playsinline src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/CBQ4hJooAQ_HD.mp4" muted="muted" loop="loop" tabindex="-1" aria-hidden="true" style="display:block;top:0;width:50%;margin: 4.15rem 0 0 9.5%;border-bottom:1px solid #e1e1e1;"></video>
+<video autoplay playsinline id="heroVideo"src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/CBQ4hJooAQ_HD.mp4" muted="muted" loop="loop" tabindex="-1" aria-hidden="true" style="display:block;top:0;width:50%;margin: 4.15rem 0 0 9.5%;border-bottom:1px solid #e1e1e1;"></video>
+
+<img id="heroImage"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Worn%20view.png?wid=1090&hei=1090" style="display:none;top:0;max-height:none;width:50%;margin: 4.15rem 0 0 9.5%;border-bottom:1px solid #e1e1e1;"></img>
 
 </div>
 
@@ -125,7 +127,7 @@ LOOKS FOR WOMEN
 
 <div style="width:50%;right:0;position:absolute;">
 
-<div style="font-family:CSans,sans-serif;top:0;right:0;width:19.5%;margin-right:19%;padding-top:28vh;position:fixed;">
+<div style="font-family:CSans,sans-serif;top:0;right:0;width:20%;margin-right:18.5%;padding-top:28vh;position:fixed;">
 <h2 style="font-size:.875rem;font-weight:400;margin-bottom:.5rem;color:#767676;">LOUIS VUITTON</h2>
 <h2 style="font-size:1.125rem;font-weight:400;margin-top:.5rem;">Neverfull MM</h2>
 
@@ -217,6 +219,9 @@ document.getElementById("otherChoice").style.border = "3px solid black";
 document.getElementById("currentColors").innerText = "Cherry";
 document.getElementById("colorsDot").style.backgroundColor = "#960b20";
 document.getElementById("currentMaterial").innerText = "Damier Ebene";
+document.getElementById("heroImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Worn%20view.png?wid=1090&hei=1090";
+document.getElementById("heroVideo").style.display = "none";
+document.getElementById("heroImage").style.display = "block";
 document.getElementById("secondMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=1090&hei=1090";
 document.getElementById("thirdMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Side%20view.png?wid=1090hei=1090";
 document.getElementById("fourthMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Interior%20view.png?wid=1090&hei=1090";
