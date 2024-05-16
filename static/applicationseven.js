@@ -746,7 +746,7 @@ break;
 haste.prototype.fillCountTexts = function() {
   var _this = this;
 
-var elems = document.querySelectorAll('.p');
+var elems = document.querySelectorAll('.item');
 
 var index = 0, length = elems.length;
 
