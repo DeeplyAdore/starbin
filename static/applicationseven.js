@@ -616,8 +616,14 @@ console.log("Y2");
   });
 
 switch(event.target.id) {
-case "primaryButton1":
-win2 = window.open("https://www.ddg.gg", '_blank');
+case "TLCmonogram":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
+case "TLCdamierEbene":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
+case "TLCdamierAzur":
+win2 = window.open("https://ddg.gg", '_blank');
 break;
 case "LVmonogram":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-007653/M40995", '_blank');
