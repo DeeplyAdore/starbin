@@ -215,7 +215,32 @@ document.getElementById("thirdChoice").style.visibility = "visible";
 
 function changeToDamierEbene() {
 document.getElementById("firstMaterialModule").style.border = "none";
+document.getElementById("thirdChoice").style.border = "none";
 document.getElementById("otherChoice").style.border = "3px solid black";
+document.getElementById("currentColors").innerText = "Cherry";
+document.getElementById("colorsDot").style.backgroundColor = "#960b20";
+document.getElementById("currentMaterial").innerText = "Damier Ebene";
+document.getElementById("heroImage").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Worn%20view.png?wid=1090&hei=1090";
+document.getElementById("heroVideo").style.display = "none";
+document.getElementById("heroImage").style.display = "block";
+document.getElementById("heroBackground").style.background = "linear-gradient(#fafcfc, #e8e8e8)";
+document.getElementById("secondMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM2_Front%20view.png?wid=1090&hei=1090";
+document.getElementById("thirdMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Side%20view.png?wid=1090hei=1090";
+document.getElementById("fourthMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Interior%20view.png?wid=1090&hei=1090";
+document.getElementById("fifthMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Detail%20view.png?wid=1090&hei=1090";
+document.getElementById("sixthMedia").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--N40599_PM1_Cropped%20worn%20view.png?wid=1090&hei=1090";
+document.getElementById("seventhMedia").style.display = "none";
+document.getElementById("eighthMedia").style.display = "none";
+document.getElementById("ninthMedia").style.display = "none";
+document.getElementById("tenthMedia").style.display = "none";
+document.getElementById("eleventhMedia").style.display = "none";
+closeNav();
+}
+
+function changeToDamierAzur() {
+document.getElementById("firstMaterialModule").style.border = "none";
+document.getElementById("otherChoice").style.border = "none";
+document.getElementById("thirdChoice").style.border = "3px solid black";
 document.getElementById("currentColors").innerText = "Cherry";
 document.getElementById("colorsDot").style.backgroundColor = "#960b20";
 document.getElementById("currentMaterial").innerText = "Damier Ebene";
@@ -241,6 +266,8 @@ var el = document.getElementById("colors"); el.addEventListener("click", functio
 var col = document.getElementById("material"); col.addEventListener("click", function(){materialChange();openNav();}, false);
 
 var othCho = document.getElementById("otherChoice"); othCho.addEventListener("click", function(){changeToDamierEbene();}, false);
+
+var thiCho = document.getElementById("thirdChoice"); thiCho.addEventListener("click", function(){changeToDamierAzur();}, false);
 
 </script>
 
