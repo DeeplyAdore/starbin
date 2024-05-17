@@ -183,6 +183,7 @@ LOOKS FOR WOMEN
 </style>
 
 <div id="zoomBackdrop"onclick="closeZoom()"></div>
+<img id="secondMediaZoom"class="productImage"style="display:none;width:100%;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
 
 <div id="backdrop"onclick="closeNav()"></div>
 <div id="mySidepanel" class="sidepanel"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><h2 id="sidepanelHeader"style="margin-left:15%;margin-bottom:3rem;font-size:1.125rem;font-weight:400;font-family:CSans,sans-serif;">Material</h2>
@@ -214,6 +215,7 @@ document.getElementById("zoomBackdrop").style.visibility = "visible";
 }
 
 function closeZoom() {
+document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 }
 
@@ -442,7 +444,11 @@ var firMatMod = document.getElementById("firstMaterialModule"); firMatMod.addEve
 var redCho = document.getElementById("redChoice"); redCho.addEventListener("click", function(){changeToRed();}, false);
 
 
-var herIma = document.getElementById("heroImage"); herIma.addEventListener("click", function(){openZoom();}, false);
+var herIma = document.getElementById("heroImage"); herIma.addEventListener("click", function(){openZoom();openSecondMediaZoom();}, false);
+
+function openSecondMediaZoom() {
+document.getElementById("secondMediaZoom").style.display = "block";
+}
 
 var secMed = document.getElementById("secondMedia"); secMed.addEventListener("click", function(){openZoom();}, false);
 
