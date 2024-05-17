@@ -620,13 +620,13 @@ case "TLCmonogram":
 win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-monogram-neverfull-nm-mm-handbag-p965405", '_blank');
 break;
 case "TLCmonogramRed":
-win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-monogram-canvas-neverfull-mm-bag-p971919", '_blank');
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-monogram-canvas-neverfull-mm-bag-p971919", '_blank');
 break;
 case "TLCdamierEbene":
-win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-damier-neverfull-mm-tote-bag-p938519", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-damier-neverfull-mm-tote-bag-p938519", '_blank');
 break;
 case "TLCdamierAzur":
-win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-damier-azur-neverfull-mm-p966607", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-damier-azur-neverfull-mm-p966607", '_blank');
 break;
 case "LVmonogram":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-007653/M40995", '_blank');
