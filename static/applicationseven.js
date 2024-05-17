@@ -620,7 +620,7 @@ case "TLCmonogram":
 win2 = window.open("https://ddg.gg", '_blank');
 break;
 case "TLCdamierEbene":
-win2 = window.open("https://ddg.gg", '_blank');
+win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-damier-neverfull-mm-tote-bag-p938519", '_blank');
 break;
 case "TLCdamierAzur":
 win2 = window.open("https://ddg.gg", '_blank');
