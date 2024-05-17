@@ -201,6 +201,7 @@ function openNav() {
 document.getElementById("backdrop").style.visibility = "visible";
 document.getElementById("backdrop").style.opacity = 1;
   document.getElementById("mySidepanel").style.width = "50%";
+document.getElementById("heroVideo").pause();
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
@@ -209,6 +210,7 @@ document.getElementById("mySidepanel").style.width = "0";
 document.getElementById("backdrop").style.opacity = 0;
 setTimeout(() => { document.getElementById("backdrop").style.visibility = "hidden"; }, 300);
 document.getElementById("firstMaterialModule").style.border = "none";
+document.getElementById("heroVideo").play();
 }
 
 function colorsChange() {
