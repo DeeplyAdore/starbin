@@ -619,20 +619,26 @@ switch(event.target.id) {
 case "TLCmonogram":
 win2 = window.open("https://ddg.gg", '_blank');
 break;
+case "TLCmonogramRed":
+win2 = window.open("https://ddg.gg", '_blank');
+break;
 case "TLCdamierEbene":
 win2 = window.open("https://www.anrdoezrs.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-damier-neverfull-mm-tote-bag-p938519", '_blank');
 break;
 case "TLCdamierAzur":
-win2 = window.open("https://ddg.gg", '_blank');
+win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-damier-azur-neverfull-mm-p966607", '_blank');
 break;
 case "LVmonogram":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-007653/M40995", '_blank');
+break;
+case "LVmonogramRed":
+win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350101v/M46987", '_blank');
 break;
 case "LVdamierEbene":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-ebene-nvprod5350102v/N40599", '_blank');
 break;
 case "LVdamierAzur":
-win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-azur-canvas-nvprod5350103v/N40603", '_blank');
+win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-azur-canvas-nvprod5350103v/N40604", '_blank');
 break;
 case "p1":
 window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Ffilter%3Fconditions%3D3%252C2%26search%3DChanel%2520Classic", '_blank');
