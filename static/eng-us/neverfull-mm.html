@@ -171,7 +171,7 @@ LOOKS FOR WOMEN
 </div>
 
 <style>
-#zoomBackdrop {visibility:hidden;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 1;background:white;opacity:0;}
+#zoomBackdrop {visibility:hidden;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 1;background:white;}
 
 .sidepanel {height: 100%;width: 0;position: fixed;z-index: 2;top: 0;right: 0;background-color: white;overflow-x: hidden;padding-top:3rem;transition: 0.3s cubic-bezier(.39,.575,.565,1);}
 
@@ -211,12 +211,10 @@ LOOKS FOR WOMEN
 <script>
 function openZoom() {
 document.getElementById("zoomBackdrop").style.visibility = "visible";
-document.getElementById("zoomBackdrop").style.opacity = 1;
 }
 
 function closeZoom() {
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
-document.getElementById("zoomBackdrop").style.opacity = 0;
 }
 
 
@@ -444,9 +442,27 @@ var firMatMod = document.getElementById("firstMaterialModule"); firMatMod.addEve
 var redCho = document.getElementById("redChoice"); redCho.addEventListener("click", function(){changeToRed();}, false);
 
 
+var herIma = document.getElementById("heroImage"); herIma.addEventListener("click", function(){openZoom();}, false);
+
 var secMed = document.getElementById("secondMedia"); secMed.addEventListener("click", function(){openZoom();}, false);
 
 var thiMed = document.getElementById("thirdMedia"); thiMed.addEventListener("click", function(){openZoom();}, false);
+
+var fouMed = document.getElementById("fourthMedia"); fouMed.addEventListener("click", function(){openZoom();}, false);
+
+var fifMed = document.getElementById("fifthMedia"); fifMed.addEventListener("click", function(){openZoom();}, false);
+
+var sixMed = document.getElementById("sixthMedia"); sixMed.addEventListener("click", function(){openZoom();}, false);
+
+var sevMed = document.getElementById("seventhMedia"); sevMed.addEventListener("click", function(){openZoom();}, false);
+
+var eigMed = document.getElementById("eighthMedia"); eigMed.addEventListener("click", function(){openZoom();}, false);
+
+var ninMed = document.getElementById("ninthMedia"); ninMed.addEventListener("click", function(){openZoom();}, false);
+
+var tenMed = document.getElementById("tenthMedia"); tenMed.addEventListener("click", function(){openZoom();}, false);
+
+var eleMed = document.getElementById("eleventhMedia"); eleMed.addEventListener("click", function(){openZoom();}, false);
 
 </script>
 
