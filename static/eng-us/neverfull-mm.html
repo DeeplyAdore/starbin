@@ -440,6 +440,8 @@ var redCho = document.getElementById("redChoice"); redCho.addEventListener("clic
 
 var proIma = documents.getElementsByClassName("productImage");
 
+console.log("proIma.length")
+
 for (var i = 0; i < proIma.length; i++) {
 proIma[i].addEventListener("click", function(){openZoom();console.log("G");}, false);
 }
