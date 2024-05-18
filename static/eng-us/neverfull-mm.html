@@ -88,7 +88,7 @@ element.style.display = "block";
 
 <style>.defaultZoomedImage{pointer-events:auto;cursor:zoom-in;height:100%;}.fullyZoomedImage{pointer-events:auto;cursor:grab;height:150%;}</style>
 
-<img id="secondMediaZoom"class="defaultZoomedImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:9;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
+<img id="mediaZoom"class="defaultZoomedImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:9;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
 
 <div style="position:fixed;width:100%;z-index:1;height:1.2rem;text-align:center;padding:.6rem 0;background:white;">
 <span style="font-size:.7rem;font-family:CSans,sans-serif;color:#3F3F3F;">Disclosure: We may earn a commission if you buy something.</span>
@@ -222,7 +222,12 @@ scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.o
 function enableScroll(){window.onscroll = function () { };}
 
 function openZoom() {
-document.getElementById("secondMediaZoom").style.display = "block";
+switch (document.getElementById("currentColors").innerText) {
+case "Beige":
+document.getElementById("mediaZoom").style.display = "block";
+break;
+}
+
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
 disableScroll();
@@ -231,11 +236,11 @@ document.documentElement.style.overflowY = 'hidden';
 }
 
 function secondMediaZoomZoom() {
-document.getElementById("secondMediaZoom").classList.remove('defaultZoomedImage');
-document.getElementById("secondMediaZoom").classList.add('fullyZoomedImage');
+document.getElementById("mediaZoom").classList.remove('defaultZoomedImage');
+document.getElementById("mediaZoom").classList.add('fullyZoomedImage');
 
 	var offset = [0,0];
-var divOverlay = document.getElementById("secondMediaZoom");
+var divOverlay = document.getElementById("mediaZoom");
 var isDown = false;
 divOverlay.addEventListener('mousedown', function(e) {
     isDown = true;
@@ -260,14 +265,14 @@ document.addEventListener('mousemove', function(e) {
 
 function closeZoom() {
 document.documentElement.style.overflowY = 'auto';
-document.getElementById("secondMediaZoom").style.display = "none";
-document.getElementById("secondMediaZoom").style.top = "50%";
-document.getElementById("secondMediaZoom").style.left = "50%";
+document.getElementById("mediaZoom").style.display = "none";
+document.getElementById("mediaZoom").style.top = "50%";
+document.getElementById("mediaZoom").style.left = "50%";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
 enableScroll();
-document.getElementById("secondMediaZoom").classList.add('defaultZoomedImage');
-document.getElementById("secondMediaZoom").classList.remove('fullyZoomedImage');
+document.getElementById("mediaZoom").classList.add('defaultZoomedImage');
+document.getElementById("mediaZoom").classList.remove('fullyZoomedImage');
 }
 
 function openNav() {
