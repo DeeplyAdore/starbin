@@ -227,16 +227,24 @@ disableScroll();
 document.documentElement.style.overflowY = 'hidden';
 }
 
+function secondMediaZoomZoom() {
+document.getElementById("secondMediaZoom").style.height = "150%";
+document.getElementById("secondMediaZoom").style.cursor = "auto";
+}
+
 function closeZoom() {
 document.documentElement.style.overflowY = 'auto';
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
 enableScroll();
+document.getElementById("secondMediaZoom").style.height = "100%";
+document.getElementById("secondMediaZoom").style.cursor = "pointer";
 }
 
 function secondMediaZoomZoom() {
-document.getElementById("secondMediaZoom").style.display = "150%";
+document.getElementById("secondMediaZoom").style.height = "150%";
+document.getElementById("secondMediaZoom").style.cursor = "auto";
 }
 
 function openNav() {
