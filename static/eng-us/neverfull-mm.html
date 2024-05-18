@@ -378,6 +378,29 @@ enableScroll();
 document.getElementById("mediaZoom").classList.add('defaultZoomedImage');
 document.getElementById("mediaZoom").classList.remove('fullyZoomedImage');
 document.getElementById("mediaZoom").src = "";
+
+	var offset = [0,0];
+var divOverlay = document.getElementById("mediaZoom");
+var isDown = false;
+divOverlay.removeEventListener('mousedown', function(e) {
+    isDown = true;
+    offset = [
+        divOverlay.offsetLeft - e.clientX,
+        divOverlay.offsetTop - e.clientY
+    ];
+}, true);
+document.removeEventListener('mouseup', function() {
+    isDown = false;
+}, true);
+
+document.removeEventListener('mousemove', function(e) {
+    event.preventDefault();
+    if (isDown) {
+        divOverlay.style.left = (e.clientX + offset[0]) + 'px';
+        divOverlay.style.top  = (e.clientY + offset[1]) + 'px';
+    }
+}, true);
+
 }
 
 function openNav() {
