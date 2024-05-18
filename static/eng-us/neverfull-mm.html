@@ -497,11 +497,9 @@ var redCho = document.getElementById("redChoice"); redCho.addEventListener("clic
 
 var herIma = document.getElementById("heroImage"); herIma.addEventListener("click", function(){openZoom();}, false);
 
-function openSecondMediaZoom() {
-document.getElementById("secondMediaZoom").style.display = "block";
-}
 
-var secMed = document.getElementById("secondMedia"); secMed.addEventListener("click", function(){openZoom();openSecondMediaZoom();}, false);
+
+var secMed = document.getElementById("secondMedia"); secMed.addEventListener("click", function(){openZoom();}, false);
 
 var thiMed = document.getElementById("thirdMedia"); thiMed.addEventListener("click", function(){openZoom();}, false);
 
