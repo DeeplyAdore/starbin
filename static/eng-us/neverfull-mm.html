@@ -213,6 +213,12 @@ LOOKS FOR WOMEN
 </a>
 
 <script>
+function disableScroll(){
+scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.onscroll = function () {window.scrollTo(scrollLeft, scrollTop);};document.body.style.overflow = 'hidden';}
+
+function enableScroll(){window.onscroll = function () { };document.body.style.overflow = 'visible';}
+
 function openZoom() {
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
@@ -223,14 +229,8 @@ function closeZoom() {
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
-enabledScroll();
+enableScroll();
 }
-
-function disableScroll() {
-scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.onscroll = function () {window.scrollTo(scrollLeft, scrollTop);};}
-
-function enableScroll(){window.onscroll = function () { };}
 
 function openNav() {
 document.getElementById("backdrop").style.visibility = "visible";
