@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-US">
+<!DOCTYPE html><html lang="en-US"id="html">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="X-UA-Compatible" http-equiv="X-UA-Compatible" content="IE=edge,chrom=1"/><meta name="msapplication-tap-highlight" content="no"/><link rel="manifest" href="https://www.looksforwomen.com/site.webmanifest"><link rel="stylesheet" type="text/css" href="https://www.looksforwomen.com/s.css" /><meta name="keywords" content/><meta property="og:type" content="website"/><meta name="theme-color" content="#000000"/><link href="https://www.looksforwomen.com/i.png" rel="shortcut icon" sizes="196x196" /><meta property="og:site_name" content="LOOKS FOR WOMEN"/><meta name="robots" content="max-image-preview:large,max-snippet:-1,max-video-preview:30"/><link rel="apple-touch-icon" href=""/><meta property="og:image" content="https://www.looksforwomen.com/t.png"/>
@@ -232,12 +232,12 @@ document.documentElement.style.overflowY = 'hidden';
 function secondMediaZoomZoom() {
 document.getElementById("secondMediaZoom").classList.remove('defaultZoomedImage');
 document.getElementById("secondMediaZoom").classList.add('fullyZoomedImage');
-var root = document.getElementByTagName('html')[0];
+var root = document.getElementById('html');
 root.classList.add('zoomFreeze');
 }
 
 function closeZoom() {
-var root = document.getElementByTagName('html')[0];
+var root = document.getElementById('html');
 root.classList.remove('zoomFreeze');
 document.documentElement.style.overflowY = 'auto';
 document.getElementById("secondMediaZoom").style.display = "none";
