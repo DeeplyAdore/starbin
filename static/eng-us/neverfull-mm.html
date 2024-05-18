@@ -86,7 +86,7 @@ element.style.display = "block";
 
   <body>
 
-<img id="secondMediaZoom"onclick="secondMediaZoomZoom()"class="productImage"style="display:none;cursor:zoom-in;z-index:999;height:100%;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
+<img id="secondMediaZoom"onclick="secondMediaZoomZoom()"class="productImage dragme"style="display:none;cursor:zoom-in;z-index:999;height:100%;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
 
 <div style="position:fixed;width:100%;z-index:1;height:1.2rem;text-align:center;padding:.6rem 0;background:white;">
 <span style="font-size:.7rem;font-family:CSans,sans-serif;color:#3F3F3F;">Disclosure: We may earn a commission if you buy something.</span>
@@ -452,6 +452,53 @@ document.getElementById("TLCmonogramRed").style.display = "none";
 document.getElementById("TLCmonogram").style.display = "block";
 closeNav();
 }
+
+
+	function startDrag(e) {
+				// determine event object
+				if (!e) {
+					var e = window.event;
+				}
+
+				// IE uses srcElement, others use target
+				var targ = e.target ? e.target : e.srcElement;
+
+				if (targ.className != 'dragme') {return};
+				// calculate event X, Y coordinates
+					offsetX = e.clientX;
+					offsetY = e.clientY;
+
+				// assign default values for top and left properties
+				if(!targ.style.left) { targ.style.left='0px'};
+				if (!targ.style.top) { targ.style.top='0px'};
+
+				// calculate integer values for top and left 
+				// properties
+				coordX = parseInt(targ.style.left);
+				coordY = parseInt(targ.style.top);
+				drag = true;
+
+				// move div element
+					document.onmousemove=dragDiv;
+				
+			}
+			function dragDiv(e) {
+				if (!drag) {return};
+				if (!e) { var e= window.event};
+				var targ=e.target?e.target:e.srcElement;
+				// move div element
+				targ.style.left=coordX+e.clientX-offsetX+'px';
+				targ.style.top=coordY+e.clientY-offsetY+'px';
+				return false;
+			}
+			function stopDrag() {
+				drag=false;
+			}
+			window.onload = function() {
+				document.onmousedown = startDrag;
+				document.onmouseup = stopDrag;
+			}
+
 
 var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
 
