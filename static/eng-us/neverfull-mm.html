@@ -235,7 +235,7 @@ document.getElementById("secondMediaZoom").classList.remove('defaultZoomedImage'
 document.getElementById("secondMediaZoom").classList.add('fullyZoomedImage');
 
 	var offset = [0,0];
-var divOverlay = document.getElementByClass ("fullyZoomedImage");
+var divOverlay = document.getElementsByClassName("fullyZoomedImage");
 var isDown = false;
 divOverlay.addEventListener('mousedown', function(e) {
     isDown = true;
