@@ -233,11 +233,12 @@ function secondMediaZoomZoom() {
 document.getElementById("secondMediaZoom").classList.remove('defaultZoomedImage');
 document.getElementById("secondMediaZoom").classList.add('fullyZoomedImage');
 var root = document.getElementByTagName('html')[0];
-root.className += 'zoomFreeze';
+root.classList.add('zoomFreeze');
 }
 
 function closeZoom() {
-root.className -= 'zoomFreeze';
+var root = document.getElementByTagName('html')[0];
+root.classList.remove('zoomFreeze');
 document.documentElement.style.overflowY = 'auto';
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
