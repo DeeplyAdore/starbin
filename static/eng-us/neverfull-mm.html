@@ -224,11 +224,11 @@ document.getElementById("secondMediaZoom").style.display = "block";
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
 disableScroll();
-document.html.style.overflow = 'hidden';
+document.documentElement.style.overflowY = 'hidden';
 }
 
 function closeZoom() {
-document.html.style.overflow = 'visible';
+document.documentElement.style.overflowY = 'auto';
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
