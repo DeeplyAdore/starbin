@@ -215,18 +215,20 @@ LOOKS FOR WOMEN
 <script>
 function disableScroll(){
 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.onscroll = function () {window.scrollTo(scrollLeft, scrollTop);};document.html.style.overflow = 'hidden';}
+scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.onscroll = function () {window.scrollTo(scrollLeft, scrollTop);};}
 
-function enableScroll(){window.onscroll = function () { };document.html.style.overflow = 'visible';}
+function enableScroll(){window.onscroll = function () { };}
 
 function openZoom() {
 document.getElementById("secondMediaZoom").style.display = "block";
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
 disableScroll();
+document.html.style.overflow = 'hidden';
 }
 
 function closeZoom() {
+document.html.style.overflow = 'visible';
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
