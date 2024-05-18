@@ -186,6 +186,8 @@ LOOKS FOR WOMEN
 
 <div id="zoomBackdrop"onclick="closeZoom()"></div>
 
+<div id="topX"style="top:1vh;right:1vw;position:fixed;color:black;z-index:9;font-size:2rem;display:none;">&times;</div>
+
 <div id="backdrop"onclick="closeNav()"></div>
 <div id="mySidepanel" class="sidepanel"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><h2 id="sidepanelHeader"style="margin-left:15%;margin-bottom:3rem;font-size:1.125rem;font-weight:400;font-family:CSans,sans-serif;">Material</h2>
 <div class="grid">
@@ -213,11 +215,13 @@ LOOKS FOR WOMEN
 <script>
 function openZoom() {
 document.getElementById("zoomBackdrop").style.visibility = "visible";
+document.getElementById("topX").style.display = "block";
 }
 
 function closeZoom() {
 document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
+document.getElementById("topX").style.display = "none";
 }
 
 
