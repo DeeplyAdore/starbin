@@ -86,9 +86,9 @@ element.style.display = "block";
 
   <body>
 
-<style>.fullyZoomedImage{pointer-events:auto;cursor:grab;height:150%;}</style>
+<style>.defaultZoomedImage{pointer-events:auto;cursor:zoom-in;height:100%;}.fullyZoomedImage{pointer-events:auto;cursor:grab;height:150%;}</style>
 
-<img id="secondMediaZoom"class="productImage"onclick="secondMediaZoomZoom()"style="display:none;cursor:zoom-in;z-index:999;height:100%;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
+<img id="secondMediaZoom"class="productImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:999;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm--M40995_PM1_Worn%20view.png?wid=4096&hei=4096">
 
 <div style="position:fixed;width:100%;z-index:1;height:1.2rem;text-align:center;padding:.6rem 0;background:white;">
 <span style="font-size:.7rem;font-family:CSans,sans-serif;color:#3F3F3F;">Disclosure: We may earn a commission if you buy something.</span>
@@ -230,7 +230,7 @@ document.documentElement.style.overflowY = 'hidden';
 }
 
 function secondMediaZoomZoom() {
-document.getElementById("secondMediaZoom").classList.remove('productImage');
+document.getElementById("secondMediaZoom").classList.remove('defaultZoomedImage');
 document.getElementById("secondMediaZoom").classList.add('fullyZoomedImage');
 }
 
@@ -240,10 +240,8 @@ document.getElementById("secondMediaZoom").style.display = "none";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
 enableScroll();
-document.getElementById("secondMediaZoom").style.height = "100%";
-document.getElementById("secondMediaZoom").style.cursor = "zoom-in";
-document.getElementById("secondMediaZoom").classList.add('productImage');
-document.getElementById("secondMediaZoom").classList.remove('fullyZoomImage');
+document.getElementById("secondMediaZoom").classList.add('defaultZoomedImage');
+document.getElementById("secondMediaZoom").classList.remove('fullyZoomedImage');
 }
 
 function openNav() {
