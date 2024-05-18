@@ -221,12 +221,15 @@ scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.o
 
 function enableScroll(){window.onscroll = function () { };}
 
-function openZoom() {
+function openZoom(event) {
 switch (document.getElementById("currentColors").innerText) {
 case "Beige":
-document.getElementById("mediaZoom").style.display = "block";
 break;
 }
+
+console.log("event.target.id");
+
+document.getElementById("mediaZoom").style.display = "block";
 
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
