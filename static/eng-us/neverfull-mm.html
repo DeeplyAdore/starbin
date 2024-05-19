@@ -86,7 +86,7 @@ element.style.display = "block";
 
   <body>
 
-<style>.defaultZoomedImage{pointer-events:auto;cursor:zoom-in;height:100%;transition: height .8s ease;}.fullyZoomedImage{pointer-events:auto;cursor:grab;height:155%;transition: height .8s ease;}</style>
+<style>.defaultZoomedImage{pointer-events:auto;cursor:zoom-in;height:100%;transition: height .8s cubic-bezier(.39,.575,.565,1);}.fullyZoomedImage{pointer-events:auto;cursor:grab;height:155%;transition: height .8s cubic-bezier(.39,.575,.565,1);}</style>
 
 <img id="mediaZoom"class="defaultZoomedImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:9;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="">
 
@@ -177,7 +177,7 @@ LOOKS FOR WOMEN
 </div>
 
 <style>
-#zoomBackdrop {visibility:hidden;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 2;background:white;pointer-events:none;}
+#zoomBackdrop {visibility:hidden;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 2;background:white;pointer-events:auto;}
 
 .sidepanel {height: 100%;width: 0;position: fixed;z-index: 2;top: 0;right: 0;background-color: white;overflow-x: hidden;padding-top:3rem;transition: 0.3s cubic-bezier(.39,.575,.565,1);}
 
