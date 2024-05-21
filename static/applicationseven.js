@@ -640,6 +640,12 @@ break;
 case "LVdamierAzur":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-azur-canvas-nvprod5350103v/N40604", '_blank');
 break;
+case "DiorlargeDiorBookTote":
+win2 = window.open("https://www.dior.com/en_us/fashion/products/M1286ZRIW_M828_TU-large-dior-book-tote", '_blank');
+break;
+case "TLClargeDiorBookTote":
+win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fdior-navy-blue-oblique-embroidered-canvas-large-book-tote-p936151", '_blank');
+break;
 case "TLCpochetteMetis":
 win2 = window.open("https://www.dpbolvw.net/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-monogram-canvas-pochette-metis-bag-p972146", '_blank');
 break;
