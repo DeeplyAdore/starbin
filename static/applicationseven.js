@@ -640,7 +640,13 @@ break;
 case "LVdamierAzur":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-azur-canvas-nvprod5350103v/N40604", '_blank');
 break;
-case "DiorlargeDiorBookTote":
+case "DiorMiniLadyDiorBag":
+win2 = window.open("https://www.dior.com/en_us/fashion/products/M0505OWCB_M900-mini-lady-dior-bag-black-patent-cannage-calfskin", '_blank');
+break;
+case "TLCminiLadyDiorBag":
+win2 = window.open("https://www.dior.com/en_us/fashion/products/M1286ZRIW_M828_TU-large-dior-book-tote", '_blank');
+break;
+case "DiorLargeDiorBookTote":
 win2 = window.open("https://www.dior.com/en_us/fashion/products/M1286ZRIW_M828_TU-large-dior-book-tote", '_blank');
 break;
 case "TLClargeDiorBookTote":
