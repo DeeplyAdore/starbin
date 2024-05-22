@@ -622,6 +622,12 @@ break;
 case "LVloop":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/loop-monogram-nvprod3190103v/M81098", '_blank');
 break;
+case "TLCminiSaddleBag":
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fdior-black-leather-mini-saddle-bag-p975374", '_blank');
+break;
+case "DiorMiniSaddleBag":
+win2 = window.open("https://www.dior.com/en_us/fashion/products/M0456CBAA_M900-mini-saddle-bag-with-strap-black-grained-calfskin", '_blank');
+break;
 case "TLCmonogram":
 win2 = window.open("https://www.jdoqocy.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-monogram-neverfull-nm-mm-handbag-p965405", '_blank');
 break;
