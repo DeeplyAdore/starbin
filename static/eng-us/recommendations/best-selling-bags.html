@@ -159,14 +159,13 @@ LOOKS FOR WOMEN
 
 <script>
 var wrapper = document.getElementById('noticeBar');
+var logoTop = document.getElementById('logoTop');
 
 window.onscroll = function() {
 if (wrapper.style.display = "block") {
 if (!checkVisible(wrapper)){
 wrapper.style.display = 'none';
-document.getElementById('logoTop').style.position = "fixed";
-} else {
-document.getElementById('logoTop').style.position = "position";
+logoTop.style.position = "fixed";
 };
 };
 };
