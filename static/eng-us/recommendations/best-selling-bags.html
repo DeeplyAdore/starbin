@@ -168,11 +168,8 @@ function checkVisible(elm) {
   var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
   return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 }
+</script>
 
-
-
-
-var lastScrollTop = 1000; var headerBar = document.getElementById("headerBar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset; if (scrollTop > lastScrollTop) { headerBar.style.display="none"; } else { headerBar.style.display="block"; } lastScrollTop = scrollTop; }); </script>
 <script>
 function disableScroll(){
 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
