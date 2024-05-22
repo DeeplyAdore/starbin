@@ -156,7 +156,23 @@ LOOKS FOR WOMEN
 LOOKS FOR WOMEN
 </a>
 
-<script> var lastScrollTop = 1000; var noticeBar = document.getElementById("noticeBar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset; if (scrollTop > lastScrollTop) { noticeBar.style.display="none"; } else { noticeBar.style.display="block"; } lastScrollTop = scrollTop; }); </script>
+<script>
+var wrapper = document.getElementById('noticeBar');
+
+window.onscroll = function() {
+  wrapper.style.display = checkVisible(wrapper) ? 'none' : 'block';
+};
+
+function checkVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+}
+
+
+
+
+var lastScrollTop = 1000; var noticeBar = document.getElementById("noticeBar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset; if (scrollTop > lastScrollTop) { noticeBar.style.display="none"; } else { noticeBar.style.display="block"; } lastScrollTop = scrollTop; }); </script>
 <script>
 function disableScroll(){
 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
