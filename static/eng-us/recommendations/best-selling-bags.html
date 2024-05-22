@@ -159,9 +159,10 @@ LOOKS FOR WOMEN
 <script>
 var wrapper = document.getElementById('noticeBar');
 
-if (wrapper.style.display = "block") {
 window.onscroll = function() {
+if (wrapper.style.display = "block") {
   wrapper.style.display = checkVisible(wrapper) ? 'block' : 'none';
+};
 };
 
 function checkVisible(elm) {
@@ -169,7 +170,6 @@ function checkVisible(elm) {
   var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
   return !(rect.bottom < 0);
 }
-};
 </script>
 
 <script>
