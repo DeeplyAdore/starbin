@@ -157,10 +157,10 @@ LOOKS FOR WOMEN
 
 window.onscroll = function() {
 if (!checkVisible(document.getElementById('noticeBar'))){
-document.getElementById('noticeBar').style.display = 'none';
+document.getElementById('noticeBar').style.visibility = 'hidden';
 document.getElementById('logoTop').style.position = 'fixed';
 } else {
-document.getElementById('noticeBar').style.display = 'block';
+document.getElementById('noticeBar').style.visibility = 'visible';
 document.getElementById('logoTop').style.position = 'relative';
 };
 };
