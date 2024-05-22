@@ -92,11 +92,15 @@ element.style.display = "block";
 
 <style>.topIcon{width:1.3rem;cursor:pointer;pointer-events:auto;}.productImage{cursor:pointer;pointer-events:auto;}</style>
 
-<div id="navbar">
+<div id="noticeBar">
 
 <div style="background:#F7F7F7;text-align:center;font-size:.71rem;padding:.625rem;color:#3F3F3F;font-family:CSans,sans-serif;">
 Disclosure: We may earn a commission if you buy something.
 </div>
+
+</div>
+
+<div id="navbar">
 
 <div style="color:black;z-index:1;position:fixed;width:100%;text-align:center;font-family:Domine,serif;font-size:1.9rem;padding:1.6rem 0;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;border-bottom:1px solid #e1e1e1;">
 <a href="https://www.looksforwomen.com"style="color:black;z-index:1;width:100%;text-align:center;font-family:Domine,serif;font-size:1.9rem;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;">
@@ -152,7 +156,7 @@ LOOKS FOR WOMEN
 LOOKS FOR WOMEN
 </a>
 
-<script> var lastScrollTop = 0; var navbar = document.getElementById("navbar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset || document.documentElement.scrollTop; if (scrollTop > lastScrollTop) { navbar.style.display="none"; } else { navbar.style.display="block"; } lastScrollTop = scrollTop; }); </script>
+<script> var lastScrollTop = 5; var noticeBar = document.getElementById("noticeBar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset || document.documentElement.scrollTop; if (scrollTop > lastScrollTop) { noticeBar.style.display="none"; } else { noticeBar.style.display="block"; } lastScrollTop = scrollTop; }); </script>
 <script>
 function disableScroll(){
 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
