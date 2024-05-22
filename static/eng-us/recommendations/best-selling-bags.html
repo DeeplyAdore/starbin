@@ -164,7 +164,10 @@ var logoTop = document.getElementById('logoTop');
 window.onscroll = function() {
 if (!checkVisible(wrapper)){
 wrapper.style.display = 'none';
-logoTop.style.position = "fixed";
+logoTop.style.position = 'fixed';
+} else {
+wrapper.style.display = 'block';
+logoTop.style.position = 'relative';
 };
 };
 
