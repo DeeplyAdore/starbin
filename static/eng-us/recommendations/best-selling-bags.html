@@ -154,16 +154,14 @@ LOOKS FOR WOMEN
 </a>
 
 <script>
-var wrapper = document.getElementById('noticeBar');
-var logoTop = document.getElementById('logoTop');
 
 window.onscroll = function() {
-if (!checkVisible(wrapper)){
-wrapper.style.display = 'none';
-logoTop.style.position = 'fixed';
+if (!checkVisible(document.getElementById('noticeBar'))){
+document.getElementById('noticeBar').style.display = 'none';
+document.getElementById('logoTop').style.position = 'fixed';
 } else {
-wrapper.style.display = 'block';
-logoTop.style.position = 'relative';
+document.getElementById('noticeBar').style.display = 'block';
+document.getElementById('logoTop').style.position = 'relative';
 };
 };
 
