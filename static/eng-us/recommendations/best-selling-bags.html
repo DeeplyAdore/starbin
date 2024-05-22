@@ -162,7 +162,7 @@ var wrapper = document.getElementById('noticeBar');
 
 window.onscroll = function() {
 if (wrapper.style.display = "block") {
-if !(checkVisible(wrapper)){
+if (checkVisible(wrapper)){
 wrapper.style.display = 'none';
 document.getElementById('logoTop').style.position = "fixed";
 };
