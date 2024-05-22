@@ -158,9 +158,13 @@ LOOKS FOR WOMEN
 window.onscroll = function() {
 if (!checkVisible(document.getElementById('noticeBar'))){
 document.getElementById('noticeBar').style.visibility = 'hidden';
+document.getElementById('noticeBar').style.padding = '0';
+document.getElementById('noticeBar').style.height = '0';
 document.getElementById('logoTop').style.position = 'fixed';
 } else {
 document.getElementById('noticeBar').style.visibility = 'visible';
+document.getElementById('noticeBar').style.padding = '.625rem';
+document.getElementById('noticeBar').style.height = 'initial';
 document.getElementById('logoTop').style.position = 'relative';
 };
 };
