@@ -90,6 +90,8 @@ element.style.display = "block";
 
 <img id="mediaZoom"class="defaultZoomedImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:9;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Neverfull MM by Louis Vuitton (Product zoom)" src="">
 
+<div id="navbar">
+
 <div style="position:fixed;width:100%;z-index:1;height:1.2rem;text-align:center;padding:.6rem 0;background:white;">
 <span style="font-size:.7rem;font-family:CSans,sans-serif;color:#3F3F3F;">Disclosure: We may earn a commission if you buy something.</span>
 </div>
@@ -104,6 +106,8 @@ LOOKS FOR WOMEN
 <img class="topIcon" src="/magnifying-glass.svg">
 <img class="topIcon" src="/person.svg">
 <img class="topIcon" src="/heart.svg">
+</div>
+
 </div>
 
 <style>.fontFix{font-weight:400;font-family:CSans,sans-serif;}.productSquare{width:25%;background-image: linear-gradient( 335deg, hsl(60deg 7% 97%) 0%, hsl(55deg 6% 96%) 7%, hsl(51deg 6% 96%) 13%, hsl(47deg 6% 95%) 20%, hsl(44deg 6% 95%) 27%, hsl(41deg 6% 94%) 33%, hsl(38deg 6% 93%) 40%, hsl(36deg 6% 93%) 47%, hsl(33deg 5% 92%) 53%, hsl(31deg 5% 92%) 60%, hsl(29deg 5% 91%) 67%, hsl(27deg 5% 90%) 73%, hsl(25deg 5% 90%) 80%, hsl(24deg 5% 89%) 87%, hsl(22deg 5% 89%) 93%, hsl(20deg 5% 88%) 100% );cursor:pointer;}</style>
@@ -578,6 +582,7 @@ var tenMed = document.getElementById("tenthMedia"); tenMed.addEventListener("cli
 var eleMed = document.getElementById("eleventhMedia"); eleMed.addEventListener("click", function(){openZoom();}, false);
 
 </script>
+<script> var lastScrollTop = 0; var navbar = document.getElementById("navbar"); window.addEventListener("scroll",function() { var scrollTop = window.pageYOffset || document.documentElement.scrollTop; if (scrollTop > lastScrollTop) { navbar.style.top="-80px"; } else { navbar.style.top="0px"; } lasScrollTop = scrollTop; }); </script>
 
 </body>
 </html>
