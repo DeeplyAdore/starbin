@@ -162,8 +162,8 @@ var wrapper = document.getElementById('noticeBar');
 
 window.onscroll = function() {
 if (wrapper.style.display = "block") {
-  wrapper.style.display = checkVisible(wrapper) ? 'block' : 'none';
-if (wrapper.style.display ="none") {
+if !(checkVisible(wrapper)){
+wrapper.style.display = 'none';
 document.getElementById('logoTop').style.position = "fixed";
 };
 };
