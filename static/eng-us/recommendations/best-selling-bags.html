@@ -92,7 +92,7 @@ element.style.display = "block";
 
 <style>.topIcon{width:1.3rem;cursor:pointer;pointer-events:auto;}.productImage{cursor:pointer;pointer-events:auto;}</style>
 
-<div id="noticeBar"style="display:block;height:2.03rem;background:#F7F7F7;text-align:center;font-size:.71rem;padding:.625rem;color:#3F3F3F;font-family:CSans,sans-serif;">
+<div id="noticeBar"style="display:block;background:#F7F7F7;text-align:center;font-size:.71rem;padding:.625rem;color:#3F3F3F;font-family:CSans,sans-serif;">
 Disclosure: We may earn a commission if you buy something.
 </div>
 
@@ -159,10 +159,10 @@ var logoTop = document.getElementById('logoTop');
 
 window.onscroll = function() {
 if (!checkVisible(wrapper)){
-wrapper.style.background = '#00FF00';
+wrapper.style.display = 'none';
 logoTop.style.position = 'fixed';
 } else {
-wrapper.style.background = '#FFFFFF';
+wrapper.style.display = 'block';
 logoTop.style.position = 'relative';
 };
 };
