@@ -207,6 +207,33 @@ LOOKS FOR WOMEN
 </a>
 
 <script>
+
+window.onscroll = function() {
+if (!checkVisible(document.getElementById('noticeBar'))){
+document.getElementById('someWhitespace').style.display = 'block';
+document.getElementById('moreWhitespace').style.display = 'block';
+document.getElementById('noticeBar').style.visibility = 'hidden';
+document.getElementById('noticeBar').style.padding = '0';
+document.getElementById('noticeBar').style.height = '0';
+document.getElementById('logoTop').style.position = 'fixed';
+} else {
+document.getElementById('someWhitespace').style.display = 'none';
+document.getElementById('moreWhitespace').style.display = 'none';
+document.getElementById('noticeBar').style.visibility = 'visible';
+document.getElementById('noticeBar').style.padding = '.625rem';
+document.getElementById('noticeBar').style.height = 'initial';
+document.getElementById('logoTop').style.position = 'relative';
+};
+};
+
+function checkVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0);
+}
+</script>
+
+<script>
 function disableScroll(){
 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, window.onscroll = function () {window.scrollTo(scrollLeft, scrollTop);};}
