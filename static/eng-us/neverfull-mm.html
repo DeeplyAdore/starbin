@@ -233,6 +233,16 @@ LOOKS FOR WOMEN
 
 <script>
 
+url = new URL(window.location.href);
+
+if (url.searchParams.has('cherry')) {
+changeToDamierEbene();
+};
+
+</script>
+
+<script>
+
 window.onscroll = function() {
 if (!checkVisible(document.getElementById('noticeBar'))){
 document.getElementById('someWhitespace').style.display = 'block';
