@@ -233,17 +233,6 @@ LOOKS FOR WOMEN
 
 <script>
 
-url = new URL(window.location.href);
-console.log('cherry');
-if (url.searchParams.has('cherry')) {
-console.log('cherrycherry');
-changeToDamierEbene();
-};
-
-</script>
-
-<script>
-
 window.onscroll = function() {
 if (!checkVisible(document.getElementById('noticeBar'))){
 document.getElementById('someWhitespace').style.display = 'block';
@@ -643,6 +632,15 @@ document.getElementById("TLCmonogramRed").style.display = "none";
 document.getElementById("TLCmonogram").style.display = "block";
 closeNav();
 }
+
+
+
+currentUrl = new URL(window.location.href);
+
+if (currentUrl.searchParams.has('cherry')) {
+changeToDamierEbene();
+};
+
 
 
 var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
