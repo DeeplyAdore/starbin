@@ -90,22 +90,37 @@ element.style.display = "block";
 
 <img id="mediaZoom"class="defaultZoomedImage"onclick="secondMediaZoomZoom()"style="display:none;z-index:9;top:50%;left:50%;transform:translate(-50%, -50%);position:fixed;background: linear-gradient(#e1e0df, #f6f5f3);max-height:none;"sizes="(min-width: 64rem) 50vw, (min-width: 0rem) 100vw" alt="Pochette Métis by Louis Vuitton (Product zoom)" src="">
 
-<div style="position:fixed;width:100%;z-index:1;height:1.2rem;text-align:center;padding:.6rem 0;background:white;">
-<span style="font-size:.7rem;font-family:CSans,sans-serif;color:#3F3F3F;">Disclosure: We may earn a commission if you buy something.</span>
+<style>.topIcon{width:1.3rem;cursor:pointer;pointer-events:auto;}.productImage{cursor:pointer;pointer-events:auto;}</style>
+
+<div id="noticeBar"style="display:block;background:#F7F7F7;text-align:center;font-size:.71rem;padding:.625rem;color:#3F3F3F;font-family:CSans,sans-serif;">
+Disclosure: We may earn a commission if you buy something.
 </div>
 
-<div style="color:black;z-index:1;position:fixed;width:100%;text-align:center;margin-top:2.1rem;font-family:Domine,serif;font-size:1.9rem;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;padding-bottom:.6rem;border-bottom:1px solid #e1e1e1;">
-<a href="https://www.looksforwomen.com/eng-us/recommendations/best-selling-bags"style="color:black;z-index:1;width:100%;text-align:center;margin-top:2.1rem;font-family:Domine,serif;font-size:1.9rem;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;">
-LOOKS FOR WOMEN
-</a>
-</div>
-<style>.topIcon{width:1.3rem;cursor:pointer;pointer-events:auto;}.productImage{cursor:pointer;pointer-events:auto;}</style>
-<div>
-<div style="display:flex;position:fixed;z-index:1;margin:1.77rem auto auto 90.5vw;gap:1.16rem;">
+<div id="headerBar">
+
+<div id="logoTop"style="display:flex;color:black;z-index:1;position:relative;width:100%;text-align:center;font-family:Domine,serif;font-size:1.9rem;padding:1.6rem 0;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;border-bottom:1px solid #e1e1e1;">
+<div style="visibility:hidden;display:flex;position:relative;z-index:1;margin:.37rem 5rem auto auto;gap:1.16rem;">
 <img class="topIcon" src="/magnifying-glass.svg">
 <img class="topIcon" src="/person.svg">
 <img class="topIcon" src="/heart.svg">
 </div>
+<a href="https://www.looksforwomen.com"style="margin:auto;color:black;z-index:1;text-align:center;font-family:Domine,serif;font-size:1.9rem;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;">
+LOOKS FOR WOMEN
+</a>
+<div style="display:flex;position:relative;z-index:1;margin:.37rem 5rem auto auto;gap:1.16rem;">
+<img class="topIcon" src="/magnifying-glass.svg">
+<img class="topIcon" src="/person.svg">
+<img class="topIcon" src="/heart.svg">
+</div>
+
+</div>
+
+</div>
+
+<div id="someWhitespace"style="display:none;visibility:hidden;color:black;z-index:1;position:relative;width:100%;text-align:center;font-family:Domine,serif;font-size:1.9rem;padding:1.6rem 0;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;border-bottom:1px solid #e1e1e1;">
+<a href="https://www.looksforwomen.com"id="moreWhitespace"style="display:none;margin:auto;color:black;z-index:1;text-align:center;font-family:Domine,serif;font-size:1.9rem;word-spacing:0.090rem;letter-spacing:0.044rem;text-decoration:none;background:white;">
+LOOKS FOR WOMEN
+</a>
 </div>
 
 <div id="heroBackground"style="background: linear-gradient(#f5f5f5, #fcfcfc, #eeeeee);">
@@ -192,6 +207,33 @@ LOOKS FOR WOMEN
 <a href="https://www.looksforwomen.com/eng-us/recommendations/best-selling-bags"style="color:white;z-index:1;width:100%;text-align:center;font-family:Domine,serif;font-size:1.52rem;word-spacing:0.072rem;letter-spacing:0.0352rem;text-decoration:none;background:black;padding-bottom:2.75rem;">
 LOOKS FOR WOMEN
 </a>
+
+<script>
+
+window.onscroll = function() {
+if (!checkVisible(document.getElementById('noticeBar'))){
+document.getElementById('someWhitespace').style.display = 'block';
+document.getElementById('moreWhitespace').style.display = 'block';
+document.getElementById('noticeBar').style.visibility = 'hidden';
+document.getElementById('noticeBar').style.padding = '0';
+document.getElementById('noticeBar').style.height = '0';
+document.getElementById('logoTop').style.position = 'fixed';
+} else {
+document.getElementById('someWhitespace').style.display = 'none';
+document.getElementById('moreWhitespace').style.display = 'none';
+document.getElementById('noticeBar').style.visibility = 'visible';
+document.getElementById('noticeBar').style.padding = '.625rem';
+document.getElementById('noticeBar').style.height = 'initial';
+document.getElementById('logoTop').style.position = 'relative';
+};
+};
+
+function checkVisible(elm) {
+  var rect = elm.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0);
+}
+</script>
 
 <script>
 function disableScroll(){
