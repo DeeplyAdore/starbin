@@ -637,8 +637,12 @@ closeNav();
 
 currentUrl = new URL(window.location.href);
 
-if (currentUrl.searchParams.has('cherry')) {
+if (currentUrl.searchParams.has("v", "1")) {
 changeToDamierEbene();
+};
+
+if (currentUrl.searchParams.has("v", "2")) {
+changeToDamierAzur();
 };
 
 
