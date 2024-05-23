@@ -567,16 +567,21 @@ closeNav();
 }
 
 
-var nevMon = document.getElementById("nevMon"); nevMon.addEventListener("click", function(){
+var nevEbe = document.getElementById("nevEbe"); nevEbe.addEventListener("click", function(){
 
 const urlParams = new URLSearchParams(window.location.search);
-urlParams.set('cherry', 1);
+urlParams.set('v', 1);
 
 window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
 
-var nevEbe = document.getElementById("nevEbe"); nevEbe.addEventListener("click", function(){window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + window.location.search;}, false);
+var nevMon = document.getElementById("nevMon"); nevMon.addEventListener("click", function(){window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + window.location.search;}, false);
 
-var nevAzu = document.getElementById("nevAzu"); nevAzu.addEventListener("click", function(){window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + window.location.search;}, false);
+var nevAzu = document.getElementById("nevAzu"); nevAzu.addEventListener("click", function(){
+
+const urlParams = new URLSearchParams(window.location.search);
+urlParams.set('v', 2);
+
+window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
 
 var pochetteMetis = document.getElementById("pochetteMetis"); pochetteMetis.addEventListener("click", function(){window.location.href = "https://www.looksforwomen.com/eng-us/pochette-metis" + window.location.search;}, false);
 
