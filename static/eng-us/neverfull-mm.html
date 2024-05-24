@@ -645,7 +645,7 @@ var col = document.getElementById("material"); col.addEventListener("click", fun
 var othCho = document.getElementById("otherChoice");
 othCho.addEventListener("click", function(){
 
-const urlParams = new URLSearchParams(window.location.search);
+var urlParams = new URLSearchParams(window.location.search);
 urlParams.set('v', 1);
 
 window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
@@ -653,9 +653,25 @@ window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?'
 
 
 
-var thiCho = document.getElementById("thirdChoice"); thiCho.addEventListener("click", function(){changeToDamierAzur();}, false);
+var thiCho = document.getElementById("thirdChoice"); thiCho.addEventListener("click", function(){
 
-var firMatMod = document.getElementById("firstMaterialModule"); firMatMod.addEventListener("click", function(){changeToMonogram();}, false);
+var urlParams = new URLSearchParams(window.location.search);
+urlParams.set('v', 2);
+
+window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
+
+
+
+
+var firMatMod = document.getElementById("firstMaterialModule"); firMatMod.addEventListener("click", function(){
+
+var urlParams = new URLSearchParams(window.location.search);
+urlParams.set('v', 3);
+
+window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
+
+
+
 
 var redCho = document.getElementById("redChoice"); redCho.addEventListener("click", function(){changeToRed();}, false);
 
@@ -696,6 +712,10 @@ materialChange();changeToDamierEbene();
 else if(url.indexOf('?' + field + '=2') != -1){materialChange();changeToDamierAzur();}
 
 else if(url.indexOf('&' + field + '=2') != -1){materialChange();changeToDamierAzur();}
+
+else if(url.indexOf('?' + field + '=3') != -1){materialChange();changeToMonogram();}
+
+else if(url.indexOf('&' + field + '=3') != -1){materialChange();changeToMonogram();}
 
 </script>
 
