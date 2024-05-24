@@ -677,18 +677,18 @@ var tenMed = document.getElementById("tenthMedia"); tenMed.addEventListener("cli
 
 var eleMed = document.getElementById("eleventhMedia"); eleMed.addEventListener("click", function(){openZoom();}, false);
 
-var currentUrl = new URL(window.location.href);
 
-if (currentUrl.searchParams.has("v", "1")) {
-changeToDamierEbene();
-} else {
 
-if (currentUrl.searchParams.has("v", "2")) {
-changeToDamierAzur();
-}
+var field = 'v';
+var url = window.location.href;
 
-}
+if(url.indexOf('?' + field + '=1') != -1) changeToDamierEbene();
 
+else if(url.indexOf('&' + field + '=1') != -1) changeToDamierEbene();
+
+else if(url.indexOf('?' + field + '=2') != -1) changeToDamierAzur();
+
+else if(url.indexOf('&' + field + '=2') != -1) changeToDamierAzur();
 
 </script>
 
