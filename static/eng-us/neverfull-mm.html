@@ -635,6 +635,19 @@ closeNav();
 
 
 
+
+var currentUrl = new URL(window.location.href);
+
+if (currentUrl.searchParams.has("v", "1")) {
+changeToDamierEbene();
+}
+
+if (currentUrl.searchParams.has("v", "2")) {
+changeToDamierAzur();
+}
+
+
+
 var el = document.getElementById("colors"); el.addEventListener("click", function(){colorsChange();openNav();}, false);
 
 var col = document.getElementById("material"); col.addEventListener("click", function(){materialChange();openNav();}, false);
