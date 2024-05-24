@@ -682,13 +682,13 @@ var eleMed = document.getElementById("eleventhMedia"); eleMed.addEventListener("
 var field = 'v';
 var url = window.location.href;
 
-if(url.indexOf('?' + field + '=1') != -1) materialChange();changeToDamierEbene();
+if (url.indexOf('?' + field + '=1') != -1) {
+materialChange();changeToDamierEbene();
+}else if(url.indexOf('&' + field + '=1') != -1){materialChange();changeToDamierEbene();}
 
-else if(url.indexOf('&' + field + '=1') != -1) materialChange();changeToDamierEbene();
+else if(url.indexOf('?' + field + '=2') != -1){materialChange();changeToDamierAzur();}
 
-else if(url.indexOf('?' + field + '=2') != -1) materialChange();changeToDamierAzur();
-
-else if(url.indexOf('&' + field + '=2') != -1) materialChange();changeToDamierAzur();
+else if(url.indexOf('&' + field + '=2') != -1){materialChange();changeToDamierAzur();}
 
 </script>
 
