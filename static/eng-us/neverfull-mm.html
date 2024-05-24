@@ -673,7 +673,14 @@ window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?'
 
 
 
-var redCho = document.getElementById("redChoice"); redCho.addEventListener("click", function(){changeToRed();}, false);
+var redCho = document.getElementById("redChoice"); redCho.addEventListener("click", function(){
+
+var urlParams = new URLSearchParams(window.location.search);
+urlParams.set('v', 4);
+
+window.location.href = "https://www.looksforwomen.com/eng-us/neverfull-mm" + '?' + urlParams;}, false);
+
+
 
 
 var herIma = document.getElementById("heroImage"); herIma.addEventListener("click", function(){openZoom();}, false);
@@ -716,6 +723,10 @@ else if(url.indexOf('&' + field + '=2') != -1){materialChange();changeToDamierAz
 else if(url.indexOf('?' + field + '=3') != -1){materialChange();changeToMonogram();}
 
 else if(url.indexOf('&' + field + '=3') != -1){materialChange();changeToMonogram();}
+
+else if(url.indexOf('?' + field + '=4') != -1){materialChange();changeToMonogram();colorsChange();changeToRed();}
+
+else if(url.indexOf('&' + field + '=4') != -1){materialChange();changeToMonogram();colorsChange();changeToRed();}
 
 </script>
 
