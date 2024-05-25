@@ -127,18 +127,16 @@ LOOKS FOR WOMEN
 #heroBackground:before{
 content: "";
 position: absolute;
-/*set 'child' to be absolute*/
 z-index: -1;
-/*Make this lower so text appears in front*/ /*You can choose to align it left, right, top or bottom here*/
 top: 0;
-right: 0;
+right: 60;
 bottom: 0;
-left: 60%;
-background: red;
+left: 0;
+background: blue;
 }
 </style>
 
-<div id="heroBackground"style="background: linear-gradient(#ececec, #f1f1f1, #efefef);">
+<div id="heroBackground"style="position: relative;z-index: 0;background: linear-gradient(#ececec, #f1f1f1, #efefef);">
 
 <img id="heroImage"src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Worn%20view.png?wid=1090&hei=1090" style="top:0;max-height:none;width:50%;margin:0 0 0 9.5%;border-bottom:1px solid #e1e1e1;cursor:pointer;pointer-events:auto;"></img>
 
