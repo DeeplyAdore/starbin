@@ -193,6 +193,10 @@ background: linear-gradient(#f0f0f0, #f4f4f4, #f4f4f4, #ececec, #ececec);
 #backdrop {visibility:hidden;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 1;background: rgba(0, 0, 0, 0.8);opacity:0;transition: opacity 0.3s cubic-bezier(.39,.575,.565,1);}.grid {display: grid; grid-template-columns: repeat(2, 1fr); grid-auto-rows: minmax(150px, auto);margin-right:15%;margin-left:15%;} .module {background: linear-gradient(#e1e0df, #f6f5f3);display: flex; align-items: center; justify-content: center;flex-direction:column;width:15.5vw;margin:.55vw;cursor:pointer;}.sidepanelTitle{font-family:DomineReg,serif;font-size:1rem;font-weight:400;}
 </style>
 
+<img id="zoomArrowRight"style="display:none;margin:23.91% 0 auto 95.6%;z-index:9;position:fixed;cursor:pointer;pointer-events:initial;padding:.9rem;"src="/chevron-right.svg">
+
+<img id="zoomArrowLeft"style="display:none;margin:23.91% 0 auto 1.64%;z-index:9;position:fixed;transform:scale(-1, -1);cursor:pointer;pointer-events:initial;padding:.9rem;"src="/chevron-right.svg">
+
 <div id="zoomBackdrop"></div>
 
 <div id="topX"onclick="closeZoom()"style="top:1vh;right:1vw;position:fixed;color:black;z-index:10;font-size:2rem;padding:.5rem;display:none;cursor:pointer;">&times;</div>
@@ -288,6 +292,8 @@ document.getElementById("mediaZoom").style.display = "block";
 
 document.getElementById("zoomBackdrop").style.visibility = "visible";
 document.getElementById("topX").style.display = "block";
+document.getElementById("zoomArrowRight").style.display = "block";
+document.getElementById("zoomArrowLeft").style.display = "block";
 disableScroll();
 document.documentElement.style.overflowY = 'hidden';
 
@@ -328,6 +334,8 @@ document.getElementById("mediaZoom").style.top = "50%";
 document.getElementById("mediaZoom").style.left = "50%";
 document.getElementById("zoomBackdrop").style.visibility = "hidden";
 document.getElementById("topX").style.display = "none";
+document.getElementById("zoomArrowRight").style.display = "none";
+document.getElementById("zoomArrowLeft").style.display = "none";
 enableScroll();
 document.getElementById("mediaZoom").classList.add('defaultZoomedImage');
 document.getElementById("mediaZoom").classList.remove('fullyZoomedImage');
@@ -356,6 +364,75 @@ var ninMed = document.getElementById("ninthMedia"); ninMed.addEventListener("cli
 var tenMed = document.getElementById("tenthMedia"); tenMed.addEventListener("click", function(){openZoom();}, false);
 
 var eleMed = document.getElementById("eleventhMedia"); eleMed.addEventListener("click", function(){openZoom();}, false);
+
+var zooArrRig = document.getElementById("zoomArrowRight"); zooArrRig.addEventListener("click", function(){
+
+switch(document.getElementById("mediaZoom").src){
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44875_PM1_Worn%20view.png?wid=2400&hei=2400":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM2_Front%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM2_Front%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Closeup%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Closeup%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Side%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Side%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior2%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior2%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Detail%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Detail%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Back%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Back%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Cropped%20worn%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Cropped%20worn%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Worn%20view.png?wid=4096&hei=4096";
+break;
+}
+
+}, false);
+
+
+var zooArrLef = document.getElementById("zoomArrowLeft"); zooArrLef.addEventListener("click", function(){
+
+switch(document.getElementById("mediaZoom").src){
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-metis--M44875_PM1_Worn%20view.png?wid=2400&hei=2400":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Cropped%20worn%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Cropped%20worn%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Back%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Back%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Detail%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Detail%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior2%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior2%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Interior%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Side%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Side%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Closeup%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Closeup%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM2_Front%20view.png?wid=4096&hei=4096";
+break;
+case "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM2_Front%20view.png?wid=4096&hei=4096":
+document.getElementById("mediaZoom").src = "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-loop--M81098_PM1_Worn%20view.png?wid=4096&hei=4096";
+break;
+}
+
+}, false);
 
 </script>
 
