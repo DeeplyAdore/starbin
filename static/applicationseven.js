@@ -656,7 +656,7 @@ case "DiorMiniLadyDiorBag":
 win2 = window.open("https://www.dior.com/en_us/fashion/products/M0505OWCB_M900-mini-lady-dior-bag-black-patent-cannage-calfskin", '_blank');
 break;
 case "TLCminiLadyDiorBag":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Fchristian-dior-black-patent-leather-mini-lady-dior-top-handle-bag-p926988", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Fchristian-dior-black-patent-leather-mini-lady-dior-top-handle-bag-p926988", '_blank');
 break;
 case "DiorLargeDiorBookTote":
 win2 = window.open("https://www.dior.com/en_us/fashion/products/M1286ZRIW_M828_TU-large-dior-book-tote", '_blank');
