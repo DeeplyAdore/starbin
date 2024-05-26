@@ -617,7 +617,7 @@ console.log("Y2");
 
 switch(event.target.id) {
 case "TLCloop":
-win2 = window.open("https://www.tkqlhce.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fwomen%2Flouis-vuitton-monogram-canvas-loop-bag-5-p971492", '_blank');
+win2 = window.open("https://www.kqzyfj.com/click-101050243-13920803?url=https%3A%2F%2Ftheluxurycloset.com%2Fus-en%2Fwomen%2Flouis-vuitton-monogram-canvas-loop-bag-5-p971492", '_blank');
 break;
 case "LVloop":
 win2 = window.open("https://us.louisvuitton.com/eng-us/products/loop-monogram-nvprod3190103v/M81098", '_blank');
